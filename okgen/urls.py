@@ -5,8 +5,8 @@ from django.contrib import admin
 
 admin.autodiscover()
 
-handler404 = 'errors.error404'
-handler500 = 'errors.error500'
+#handler404 = 'errors.error404'
+#handler500 = 'errors.error500'
 
 urlpatterns = patterns('',
                        (r'^admin/', include(admin.site.urls)),
