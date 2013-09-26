@@ -56,12 +56,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/okgen/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="323" selection-end="323" vertical-scroll-proportion="0.24793388">
+            <state line="12" column="17" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="154" column="18" selection-start="11464" selection-end="11464" vertical-scroll-proportion="2.3280115">
+              <folding>
+                <element signature="e#3062#3114#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,6 +103,7 @@
         <option value="$PROJECT_DIR$/okgen/okgen/okgen_cms/admin.py" />
         <option value="$PROJECT_DIR$/okgen/settings_local.py" />
         <option value="$PROJECT_DIR$/okgen/urls.py" />
+        <option value="$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html" />
       </list>
     </option>
   </component>
@@ -155,6 +167,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="okgen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okgen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okgen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okgen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okgen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okgen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okgen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="okgen_cms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,9 +517,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="323" selection-end="323" vertical-scroll-proportion="0.24793388">
+        <state line="12" column="17" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="18" selection-start="11464" selection-end="11464" vertical-scroll-proportion="2.3280115">
+          <folding>
+            <element signature="e#3062#3114#0" expanded="true" />
           </folding>
         </state>
       </provider>
