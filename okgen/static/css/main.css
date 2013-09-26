@@ -81,3 +81,8 @@ body {
     margin-top: 5px;
     margin-right: 5px;
 }
+
+.list-group li{
+    margin:0;
+    padding:0;
+}
