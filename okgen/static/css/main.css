@@ -1,0 +1,83 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.container .row li{
+    background: #ffffff;
+}
+
+.ya-site-form__search-precise{
+    display: none;
+    visibility: hidden;
+}
+
+.ya-site-form table tr td {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ya-site-form input {
+    height: 26px;
+    margin: auto;
+}
+
+.links ul{
+    min-width: 236px;
+    float:left;
+}
+
+
+.links li{
+    list-style-type: none;
+}
+
+.links li:hover{
+    background-color: #f2f2f2;
+}
+
+.links li{
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.links a:hover{
+    color: #ff0000;
+}
+
+.links li:first-child{
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.links li a:hover{
+    text-decoration: none;
+}
+
+.links ul{
+    margin-top: 5px;
+}
+
+.span-most-downloaded li{
+    overflow-x: hidden;
+    text-transform: lowercase;
+}
+
+.span-last-downloaded li{
+    overflow-x: hidden;
+    text-transform: lowercase;
+}
+
+.centerarea{
+    overflow-x: hidden;
+    max-width: 740px;
+}
+
+.searchbar{
+    max-width: 720px;
+}
+
+.nav .label{
+    float:left;
+    margin-top: 5px;
+    margin-right: 5px;
+}

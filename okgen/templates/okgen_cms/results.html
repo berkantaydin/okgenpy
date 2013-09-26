@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block container %}
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-lg-2">
+            <h6>ADVERTISEMENTS</h6>
+            <ul class="nav nav-pills nav-stacked span-most-downloaded">
+                <script language="javascript" src="http://www.cpmfun.com/getad.php?45768;79816;160x600"></script>
+            </ul>
+        </div>
+        <div class="col-lg-8 centerarea">
+            <h5>Web Arama</h5>
+
+            <div class="searchbar">
+                <div class="ya-site-form ya-site-form_inited_no"
+                     onclick="return {'bg': 'transparent', 'publicname': 'Ara okgen.com', 'target': '_self', 'language': '{{ lang }}', 'suggest': true, 'tld': 'com.tr', 'site_suggest': true, 'action': 'http://okgen.com/', 'webopt': true, 'fontsize': 16, 'arrow': false, 'fg': '#000000', 'searchid': '2068377', 'logo': 'rb', 'websearch': true, 'type': 2}">
+                    <form action="http://yandex.com.tr/sitesearch" method="get" target="_self"><input type="hidden"
+                                                                                                      name="searchid"
+                                                                                                      value="2068377"/><input
+                            type="hidden" name="l10n" value="tr"/><input type="hidden" name="reqenc" value=""/><input
+                            type="text" name="text" value=""/><input type="submit" value="Bul"/></form>
+                </div>
+                <style type="text/css">.ya-page_js_yes .ya-site-form_inited_no {
+                    display: none;
+                }</style>
+                <script type="text/javascript">(function (w, d, c) {
+                    var s = d.createElement('script'), h = d.getElementsByTagName('script')[0], e = d.documentElement;
+                    (' ' + e.className + ' ').indexOf(' ya-page_js_yes ') === -1 && (e.className += ' ya-page_js_yes');
+                    s.type = 'text/javascript';
+                    s.async = true;
+                    s.charset = 'utf-8';
+                    s.src = (d.location.protocol === 'https:' ? 'https:' : 'http:') + '//site.yandex.net/v2.0/js/all.js';
+                    h.parentNode.insertBefore(s, h);
+                    (w[c] || (w[c] = [])).push(function () {
+                        Ya.Site.Form.init()
+                    })
+                })(window, document, 'yandex_site_callbacks');</script>
+            </div>
+            <div class="searchresults">
+                <div id="ya-site-results"
+                     onclick="return {'tld': 'com.tr', 'language': '{{ lang }}', 'encoding': '', 'htmlcss': '1.x', 'updatehash': true}"></div>
+                <script type="text/javascript">(function (w, d, c) {
+                    var s = d.createElement('script'), h = d.getElementsByTagName('script')[0];
+                    s.type = 'text/javascript';
+                    s.async = true;
+                    s.charset = 'utf-8';
+                    s.src = 'http://site.yandex.net/v2.0/js/all.js';
+                    h.parentNode.insertBefore(s, h);
+                    (w[c] || (w[c] = [])).push(function () {
+                        Ya.Site.Results.init()
+                    })
+                })(window, document, 'yandex_site_callbacks');</script>
+            </div>
+            <br/>
+
+            <div class="btn-group btn-group-justified buttonads">
+                <a class="btn btn-info" href="http://www.filmistan.org">Film İzle</a>
+                <a class="btn btn-danger" href="http://www.muzik-dinle.gen.tr">Müzik Dinle</a>
+                <a class="btn btn-warning" href="http://www.tr-radyodinle.com">Radyo Dinle</a>
+                <a class="btn btn-success" href="http://www.youtubemp3donusturucu.com">Youtube MP3 Dönüştürücü</a>
+            </div>
+
+        </div>
+        <div class="col-lg-2">
+            <h6>ADVERSITEMENTS</h6>
+            <ul class="nav nav-pills nav-stacked span-most-downloaded">
+                <script language="javascript" src="http://www.cpmfun.com/getad.php?45768;79816;160x600"></script>
+            </ul>
+
+        </div>
+    </div>
+
+{% endblock container %}
