@@ -121,7 +121,7 @@ ROOT_URLCONF = 'okgen.urls'
 WSGI_APPLICATION = 'okgen.wsgi.application'
 
 AUTHENTICATION_BACKENDS = (
-    'okgen_libs.backends.EmailAuthBackend',
+    'okgen.okgen.okgen_libs.backends.EmailAuthBackend',
 )
 
 LOGIN_URL = '/'
