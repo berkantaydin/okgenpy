@@ -28,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings_default.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings_default.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/okgen/settings_default.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="17" selection-start="4367" selection-end="4367" vertical-scroll-proportion="0.22123894">
+            <state line="123" column="17" selection-start="4367" selection-end="4367" vertical-scroll-proportion="-73.8">
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -88,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="landing.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="18" selection-start="11464" selection-end="11464" vertical-scroll-proportion="-66.833336">
+            <state line="172" column="128" selection-start="12198" selection-end="12198" vertical-scroll-proportion="0.7747748">
               <folding>
                 <element signature="e#3062#3114#0" expanded="true" />
               </folding>
@@ -132,9 +132,9 @@
         <option value="$PROJECT_DIR$/okgen/okgen/okgen_cms/admin.py" />
         <option value="$PROJECT_DIR$/okgen/settings_local.py" />
         <option value="$PROJECT_DIR$/okgen/urls.py" />
-        <option value="$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html" />
         <option value="$PROJECT_DIR$/okgen/static/css/main.css" />
         <option value="$PROJECT_DIR$/okgen/settings_default.py" />
+        <option value="$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html" />
       </list>
     </option>
   </component>
@@ -482,14 +482,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6706349" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6706349" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -601,15 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="18" selection-start="11464" selection-end="11464" vertical-scroll-proportion="-66.833336">
-          <folding>
-            <element signature="e#3062#3114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/okgen/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="0" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0">
@@ -642,9 +633,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/settings_default.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="17" selection-start="4367" selection-end="4367" vertical-scroll-proportion="0.22123894">
+        <state line="123" column="17" selection-start="4367" selection-end="4367" vertical-scroll-proportion="-73.8">
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="128" selection-start="12198" selection-end="12198" vertical-scroll-proportion="0.7747748">
+          <folding>
+            <element signature="e#3062#3114#0" expanded="true" />
           </folding>
         </state>
       </provider>
