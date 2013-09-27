@@ -31,17 +31,10 @@ def landing(request):
 
         return render(request, 'okgen_cms/results.html', dict(lang=lang));
     else:
-        links = Links.objects.filter(hidden=False).all()
-        max_clicked = 1
-        min_clicked = 1000000
-        for link in links:
-            max_clicked = link.clicked > max_clicked if link.clicked else max_clicked
-            min_clicked = link.clicked < min_clicked if link.clicked else min_clicked
-
         counts, taglist, tagcloud = [], [], []
         tags = Links.objects.filter(hidden=False).all()
         for tag in tags:
-            count = tag.clicked
+            count = tag.clicked + 1
             count >= 0 and (counts.append(count), taglist.append(tag))
         maxcount = max(counts)
         mincount = min(counts)
