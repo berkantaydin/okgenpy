@@ -16,8 +16,8 @@ urlpatterns = patterns('',
                        url(r'link_clicked/(?P<id>\d+)/$', 'okgen_cms.views.link_clicked', name='cms_link_clicked'),
 
                        # okgen_banks
-                       url(r'bankalar/$', 'okgen_banks.views.banks', name='banks_banks'),
-                       url(r'banka/(?P<id>\d+)/$', 'okgen_banks.views.bank', name='banks_bank'),
+                       # url(r'bankalar/$', 'okgen_banks.views.banks', name='banks_banks'),
+                       # url(r'banka/(?P<id>\d+)/$', 'okgen_banks.views.bank', name='banks_bank'),
 )
 
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
