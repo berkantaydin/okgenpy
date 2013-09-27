@@ -30,11 +30,11 @@ def landing(request):
                 count >= 0 and (counts.append(count), taglist.append(tag))
             maxcount = max(counts)
             mincount = min(counts)
-            constant = log(maxcount - (mincount - 1))/(22 - 10 or 1)
+            constant = log(maxcount - (mincount - 1))/(22 - 16 or 1)
             tagcount = zip(taglist, counts)
             for tag, count in tagcount:
                 try:
-                    size = log(count - (mincount - 1))/constant + 10
+                    size = log(count - (mincount - 1))/constant + 16
                 except ZeroDivisionError:
                     size = 7
                     pass

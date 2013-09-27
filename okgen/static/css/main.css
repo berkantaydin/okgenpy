@@ -89,6 +89,7 @@ body {
 
 .tagcloud a{
     color: #101010;
+    margin: 5px;
 }
 
 .tagcloud a:hover{
