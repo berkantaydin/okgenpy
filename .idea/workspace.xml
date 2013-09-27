@@ -5,7 +5,7 @@
     <ignored path="okgen.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/manage.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380207519433" ignored="false" />
-    <file path="/admin.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380298277929" ignored="false" />
+    <file path="/admin.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380306414393" ignored="false" />
     <file path="/urls.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380304470679" ignored="false" />
     <file path="/settings_local.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380291240684" ignored="false" />
     <file path="/settings_default.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380302147247" ignored="false" />
@@ -32,46 +32,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings_default.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/okgen/settings_default.py">
+      <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="170" column="27" selection-start="5913" selection-end="5913" vertical-scroll-proportion="0.0">
+            <state line="5" column="36" selection-start="161" selection-end="161" vertical-scroll-proportion="0.10330579">
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="landing.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="11" selection-start="4290" selection-end="4292" vertical-scroll-proportion="-10.183674">
-              <folding>
-                <element signature="e#391#444#0" expanded="true" />
-                <element signature="e#3518#3554#0" expanded="true" />
-                <element signature="e#3949#4002#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="68" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.59343797">
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="84" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -80,24 +47,6 @@
         <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/okgen/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/okgen/static/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="1" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +65,6 @@
         <option value="$PROJECT_DIR$/okgen/manage.py" />
         <option value="$PROJECT_DIR$/okgen/settings_local.py" />
         <option value="$PROJECT_DIR$/okgen/okgen/okgen_cms/models.py" />
-        <option value="$PROJECT_DIR$/okgen/okgen/okgen_cms/admin.py" />
         <option value="$PROJECT_DIR$/okgen/settings_default.py" />
         <option value="$PROJECT_DIR$/okgen/okgen/okgen_cms/urls.py" />
         <option value="$PROJECT_DIR$/okgen/urls.py" />
@@ -124,6 +72,7 @@
         <option value="$PROJECT_DIR$/okgen/static/css/main.css" />
         <option value="$PROJECT_DIR$/okgen/templates/base.html" />
         <option value="$PROJECT_DIR$/okgen/okgen/okgen_cms/views.py" />
+        <option value="$PROJECT_DIR$/okgen/okgen/okgen_cms/admin.py" />
       </list>
     </option>
   </component>
@@ -599,15 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="54" selection-start="265" selection-end="265" vertical-scroll-proportion="0.20661157">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/TrainingArea/lib/python2.7/site-packages/django/conf/urls/defaults.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="4" selection-start="305" selection-end="305" vertical-scroll-proportion="0.1446281">
@@ -618,13 +558,6 @@
     <entry file="file://$PROJECT_DIR$/okgen/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="29" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -672,9 +605,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="68" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.59343797">
+        <state line="42" column="68" selection-start="1562" selection-end="1562" vertical-scroll-proportion="-16.64">
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="36" selection-start="161" selection-end="161" vertical-scroll-proportion="0.10330579">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
