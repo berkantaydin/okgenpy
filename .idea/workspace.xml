@@ -10,7 +10,7 @@
     <file path="/settings_local.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380291240684" ignored="false" />
     <file path="/settings_default.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380210079721" ignored="false" />
     <file path="/models.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380291485554" ignored="false" />
-    <file path="/views.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380295540747" ignored="false" />
+    <file path="/views.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380296076409" ignored="false" />
     <file path="/landing.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380295558175" ignored="false" />
     <file path="/main.css" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380295509428" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,7 +35,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="35" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.6280992">
+            <state line="45" column="85" selection-start="1169" selection-end="1672" vertical-scroll-proportion="0.8140496">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -642,7 +642,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="35" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.6280992">
+        <state line="45" column="85" selection-start="1169" selection-end="1672" vertical-scroll-proportion="0.8140496">
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
