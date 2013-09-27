@@ -10,5 +10,5 @@ class Words(models.Model):
 class Links(models.Model):
     text = models.CharField(max_length=255)
     link = models.CharField(max_length=255)
-    clicked = models.IntegerField(default=0)
+    clicked = models.IntegerField(default=1)
     hidden = models.BooleanField(default=False)
