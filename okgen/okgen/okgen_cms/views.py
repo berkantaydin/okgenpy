@@ -1,18 +1,7 @@
-from django.shortcuts import render
-from .models import Links, Words
-
 from math import log
-def tagcloud(threshold=0, maxsize=1.75, minsize=.75):
-    """usage:
-        -threshold: Tag usage less than the threshold is excluded from
-            being displayed.  A value of 0 displays all tags.
-        -maxsize: max desired CSS font-size in em units
-        -minsize: min desired CSS font-size in em units
-    Returns a list of dictionaries of the tag, its count and
-    calculated font-size.
-    """
-
-    return tagcloud
+from django.shortcuts import render, get_object_or_404
+from .models import Links, Words
+from django.core.urlresolvers import reverse
 
 def landing(request):
     lang = (request.GET.get('lang',request.LANGUAGE_CODE))
@@ -54,4 +43,9 @@ def landing(request):
 
         words = Words.objects.filter(hidden=False).order_by('-viewed').all()[:50]
         return render(request, 'okgen_cms/landing.html', dict(
-            lang=lang, tagcloud=tagcloud, words=words))
+            lang=lang, tagcloud=tagcloud, mostly_searched=words))
+
+
+def link_clicked(request):
+    print "--------------------------------------"
+    #link = Links.objects.get_object_or_404(pk=id)
