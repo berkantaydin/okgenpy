@@ -8,5 +8,6 @@ admin.site.register(Words, WordsAdmin)
 
 
 class LinksAdmin(admin.ModelAdmin):
+    list_display = ('text', 'link', 'clicked', 'hidden')
     pass
 admin.site.register(Links, LinksAdmin)
