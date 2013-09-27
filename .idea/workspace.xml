@@ -46,10 +46,10 @@
       <file leaf-file-name="landing.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="16" selection-start="3442" selection-end="3442" vertical-scroll-proportion="0.33734939">
+            <state line="147" column="18" selection-start="10987" selection-end="10987" vertical-scroll-proportion="0.95481926">
               <folding>
                 <element signature="e#365#418#0" expanded="true" />
-                <element signature="e#3735#3788#0" expanded="true" />
+                <element signature="e#11317#11370#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -639,10 +639,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="16" selection-start="3442" selection-end="3442" vertical-scroll-proportion="0.33734939">
+        <state line="147" column="18" selection-start="10987" selection-end="10987" vertical-scroll-proportion="0.95481926">
           <folding>
             <element signature="e#365#418#0" expanded="true" />
-            <element signature="e#3735#3788#0" expanded="true" />
+            <element signature="e#11317#11370#0" expanded="true" />
           </folding>
         </state>
       </provider>
