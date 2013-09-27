@@ -45,7 +45,7 @@ def landing(request):
                     size = 7
                     pass
 
-                tagcloud.append({'tag': tag, 'count': count, 'size': round(size, 7)})
+                tagcloud.append({'tag': tag, 'count': count, 'size': int(round(size, 7))})
 
         words = Words.objects.filter(hidden=False).order_by('-viewed').all()[:50]
         return render(request, 'okgen_cms/landing.html', dict(
