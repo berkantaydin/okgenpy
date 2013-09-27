@@ -10,8 +10,14 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
                        (r'^admin/', include(admin.site.urls)),
+
+                       # okgen_cms
                        (r'^$', include('okgen.okgen.okgen_cms.urls')),
                        url(r'link_clicked/(?P<id>\d+)/$', 'okgen_cms.views.link_clicked', name='cms_link_clicked'),
+
+                       # okgen_banks
+                       url(r'bankalar/$', 'okgen_banks.views.banks', name='banks_banks'),
+                       url(r'banka/(?P<id>\d+)/$', 'okgen_banks.views.bank', name='banks_bank'),
 )
 
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns

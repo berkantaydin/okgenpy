@@ -86,3 +86,11 @@ body {
     margin:0;
     padding:0;
 }
+
+.tagcloud a{
+    color: #101010;
+}
+
+.tagcloud a:hover{
+    color: #ff0000;
+}

@@ -159,6 +159,7 @@ INSTALLED_APPS = (
     'django_extensions',
     'gunicorn',
     'okgen_cms',
+    # 'okgen_banks',
 )
 
 # A sample logging configuration. The only tangible logging
