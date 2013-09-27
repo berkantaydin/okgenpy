@@ -1,5 +1,5 @@
 from math import log
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from .models import Links, Words
 from django.core.urlresolvers import reverse
 
@@ -18,7 +18,7 @@ def landing(request):
         except Exception as e:
             Words(word=word, viewed=1).save()
 
-        return render(request, 'okgen_cms/results.html', dict(lang=lang));
+        return render(request, 'okgen_cms/results.html', dict(lang=lang))
     else:
         links = Links.objects.filter(hidden=False).all()
         max_clicked = 1
@@ -29,6 +29,7 @@ def landing(request):
 
         counts, taglist, tagcloud = [], [], []
         tags = Links.objects.filter(hidden=False).all()
+
         if len(tags) > 1:
             for tag in tags:
                 count = tag.clicked
@@ -38,7 +39,12 @@ def landing(request):
             constant = log(maxcount - (mincount - 1))/(22 - 8 or 1)
             tagcount = zip(taglist, counts)
             for tag, count in tagcount:
-                size = log(count - (mincount - 1))/constant + 8
+                try:
+                    size = log(count - (mincount - 1))/constant + 8
+                except ZeroDivisionError:
+                    size = 7
+                    pass
+
                 tagcloud.append({'tag': tag, 'count': count, 'size': round(size, 7)})
 
         words = Words.objects.filter(hidden=False).order_by('-viewed').all()[:50]
@@ -46,6 +52,8 @@ def landing(request):
             lang=lang, tagcloud=tagcloud, mostly_searched=words))
 
 
-def link_clicked(request):
-    print "--------------------------------------"
-    #link = Links.objects.get_object_or_404(pk=id)
+def link_clicked(request, id):
+    link = get_object_or_404(Links, pk=id)
+    link.clicked += 1
+    link.save()
+    return redirect(link.link)

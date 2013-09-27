@@ -164,7 +164,7 @@
 
             <div class="tagcloud">
                 {% for link in tagcloud %}
-                    <a style="font-size:{{ link.size }}px;" href="{{ link.tag.link }}">{{ link.tag.text }}</a>
+                    <a style="font-size:{{ link.size }}px;" href="{%  url 'cms_link_clicked' link.tag.id %}">{{ link.tag.text }}</a>
                 {% endfor %}
             </div>
         </div>
