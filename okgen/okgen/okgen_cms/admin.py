@@ -4,6 +4,7 @@ from okgen.okgen.okgen_cms.models import Words, Links
 
 class WordsAdmin(admin.ModelAdmin):
     list_display = ('word', 'viewed', 'hidden')
+    search_fields = ['word']
     pass
 admin.site.register(Words, WordsAdmin)
 

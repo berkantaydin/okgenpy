@@ -5,7 +5,7 @@
     <ignored path="okgen.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/manage.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380207519433" ignored="false" />
-    <file path="/admin.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380306414393" ignored="false" />
+    <file path="/admin.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380306561698" ignored="false" />
     <file path="/urls.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380304470679" ignored="false" />
     <file path="/settings_local.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380291240684" ignored="false" />
     <file path="/settings_default.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380302147247" ignored="false" />
@@ -35,7 +35,7 @@
       <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="36" selection-start="161" selection-end="161" vertical-scroll-proportion="0.10330579">
+            <state line="6" column="26" selection-start="199" selection-end="199" vertical-scroll-proportion="0.12396694">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -621,7 +621,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="161" selection-end="161" vertical-scroll-proportion="0.10330579">
+        <state line="6" column="26" selection-start="199" selection-end="199" vertical-scroll-proportion="0.12396694">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
