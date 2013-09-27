@@ -86,3 +86,7 @@ body {
     margin:0;
     padding:0;
 }
+
+.tagcloud li{
+    list-style: none;
+}

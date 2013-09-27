@@ -120,11 +120,9 @@ ROOT_URLCONF = 'okgen.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'okgen.wsgi.application'
 
-"""
 AUTHENTICATION_BACKENDS = (
     'okgen.okgen.okgen_libs.backends.EmailAuthBackend',
 )
-"""
 
 LOGIN_URL = '/'
 LOGIN_REDIRECT_URL = '/'
