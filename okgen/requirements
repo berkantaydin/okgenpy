@@ -3,3 +3,4 @@ Django==1.4.6
 PIL==1.1.7
 gunicorn
 south
+django-suit
