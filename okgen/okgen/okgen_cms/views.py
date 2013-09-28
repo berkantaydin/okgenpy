@@ -5,6 +5,9 @@ from .models import Links, Words
 
 
 def landing(request):
+    TAG_CLOUD_MAX_FONT_SIZE = '22'
+    TAG_CLOUD_MIN_FONT_SIZE = '12'
+
     lang = (request.GET.get('lang',request.LANGUAGE_CODE))
 
     word = request.GET.get('text', None)
@@ -30,11 +33,11 @@ def landing(request):
                 count >= 0 and (counts.append(count), taglist.append(tag))
             maxcount = max(counts)
             mincount = min(counts)
-            constant = log(maxcount - (mincount - 1))/(22 - 16 or 1)
+            constant = log(maxcount - (mincount - 1))/(TAG_CLOUD_MAX_FONT_SIZE - TAG_CLOUD_MIN_FONT_SIZE or 1)
             tagcount = zip(taglist, counts)
             for tag, count in tagcount:
                 try:
-                    size = log(count - (mincount - 1))/constant + 16
+                    size = log(count - (mincount - 1))/constant + TAG_CLOUD_MIN_FONT_SIZE
                 except ZeroDivisionError:
                     size = 7
                     pass
