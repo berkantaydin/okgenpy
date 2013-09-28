@@ -195,3 +195,7 @@ LANGUAGES = (
   ('tr', _('Turkish')),
   ('en', _('English')),
 )
+
+# okgen_cms
+TAG_CLOUD_MAX_FONT_SIZE = 22
+TAG_CLOUD_MIN_FONT_SIZE = 12
