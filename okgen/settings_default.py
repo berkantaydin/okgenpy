@@ -76,14 +76,18 @@ MEDIA_URL = "/uploads/"
 # Example: "http://media.lawrence.com/static/"
 STATIC_URL = "/static/"
 
+STATICFILES_DIRS = (
+    os.path.join(PROJECT_DIR, 'static'),
+)
+
 ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-# Put strings here, like "/home/html/static" or "C:/www/django/static".
-# Always use forward slashes, even on Windows.
-# Don't forget to use absolute paths, not relative paths.
-    os.path.join(PROJECT_DIR,'static'),
+    # Put strings here, like "/home/html/static" or "C:/www/django/static".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+    os.path.join(PROJECT_DIR, 'static'),
 )
 
 # List of finder classes that know how to find static files in
@@ -179,12 +183,17 @@ LOGGING = {
             '()': 'django.utils.log.RequireDebugFalse'
         }
     },
+
     'handlers': {
         'mail_admins': {
             'level': 'ERROR',
             'filters': ['require_debug_false'],
             'class': 'django.utils.log.AdminEmailHandler'
-        }
+        },
+     'console':{
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+        },
     },
     'loggers': {
         'django.request': {
@@ -195,9 +204,11 @@ LOGGING = {
     }
 }
 
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+
 LANGUAGES = (
-  ('tr', _('Turkish')),
-  ('en', _('English')),
+    ('tr', _('Turkish')),
+    ('en', _('English')),
 )
 
 # okgen_cms
