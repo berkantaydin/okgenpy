@@ -9,6 +9,15 @@
         }
     }, 
     {
+        "pk": 11, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "flatpage", 
+            "name": "flat page", 
+            "app_label": "flatpages"
+        }
+    }, 
+    {
         "pk": 2, 
         "model": "contenttypes.contenttype", 
         "fields": {
@@ -33,6 +42,15 @@
             "model": "logentry", 
             "name": "log entry", 
             "app_label": "admin"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "migrationhistory", 
+            "name": "migration history", 
+            "app_label": "south"
         }
     }, 
     {
@@ -113,11 +131,19 @@
         }
     }, 
     {
+        "pk": "3f94e40e45141026b456bd8a8c6f87fe", 
+        "model": "sessions.session", 
+        "fields": {
+            "expire_date": "2013-10-12T21:43:03.015Z", 
+            "session_data": "Zjg2MWY5ZjZlZjI5OThmZDI1ZmE5Yzk2MWI3MjQyMDUxYjAyZDA1ZjqAAn1xAS4=\n"
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "sites.site", 
         "fields": {
-            "domain": "example.com", 
-            "name": "example.com"
+            "domain": "okgen.com", 
+            "name": "okgen.com"
         }
     }, 
     {
@@ -135,7 +161,7 @@
         "fields": {
             "hidden": false, 
             "word": "google", 
-            "viewed": 344
+            "viewed": 626
         }
     }, 
     {
@@ -144,7 +170,7 @@
         "fields": {
             "hidden": false, 
             "word": "facebook", 
-            "viewed": 209
+            "viewed": 354
         }
     }, 
     {
@@ -180,7 +206,7 @@
         "fields": {
             "hidden": true, 
             "word": "facebook giri\u015f", 
-            "viewed": 44
+            "viewed": 87
         }
     }, 
     {
@@ -234,7 +260,7 @@
         "fields": {
             "hidden": false, 
             "word": "smarty kabarc\u0131klar", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -243,7 +269,7 @@
         "fields": {
             "hidden": false, 
             "word": "mp3 d\u00f6n\u00fc\u015ft\u00fcr\u00fcc\u00fc", 
-            "viewed": 12
+            "viewed": 14
         }
     }, 
     {
@@ -261,7 +287,7 @@
         "fields": {
             "hidden": false, 
             "word": "youtube", 
-            "viewed": 101
+            "viewed": 190
         }
     }, 
     {
@@ -288,7 +314,7 @@
         "fields": {
             "hidden": false, 
             "word": "google.com.tr", 
-            "viewed": 19
+            "viewed": 29
         }
     }, 
     {
@@ -315,7 +341,7 @@
         "fields": {
             "hidden": false, 
             "word": "unutma beni 27 eyl\u00fcl cuma g\u00fcn\u00fc full hd izle", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -333,7 +359,7 @@
         "fields": {
             "hidden": false, 
             "word": "face", 
-            "viewed": 19
+            "viewed": 34
         }
     }, 
     {
@@ -342,7 +368,7 @@
         "fields": {
             "hidden": false, 
             "word": "msn", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -369,7 +395,7 @@
         "fields": {
             "hidden": false, 
             "word": "deneme", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -378,7 +404,7 @@
         "fields": {
             "hidden": false, 
             "word": "ma\u00e7kolik", 
-            "viewed": 3
+            "viewed": 7
         }
     }, 
     {
@@ -396,7 +422,7 @@
         "fields": {
             "hidden": false, 
             "word": "oyunlar", 
-            "viewed": 9
+            "viewed": 18
         }
     }, 
     {
@@ -405,7 +431,7 @@
         "fields": {
             "hidden": false, 
             "word": "hespres", 
-            "viewed": 5
+            "viewed": 6
         }
     }, 
     {
@@ -414,7 +440,7 @@
         "fields": {
             "hidden": false, 
             "word": "www.google.com", 
-            "viewed": 6
+            "viewed": 14
         }
     }, 
     {
@@ -432,7 +458,7 @@
         "fields": {
             "hidden": false, 
             "word": "google.com", 
-            "viewed": 58
+            "viewed": 97
         }
     }, 
     {
@@ -495,7 +521,7 @@
         "fields": {
             "hidden": false, 
             "word": "101 oyna", 
-            "viewed": 5
+            "viewed": 6
         }
     }, 
     {
@@ -567,7 +593,7 @@
         "fields": {
             "hidden": false, 
             "word": "badoo giri\u015f", 
-            "viewed": 4
+            "viewed": 9
         }
     }, 
     {
@@ -576,7 +602,7 @@
         "fields": {
             "hidden": false, 
             "word": "sahibinden", 
-            "viewed": 17
+            "viewed": 23
         }
     }, 
     {
@@ -603,7 +629,7 @@
         "fields": {
             "hidden": false, 
             "word": "pepe \u015fark\u0131lar\u0131", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -612,7 +638,7 @@
         "fields": {
             "hidden": false, 
             "word": "arabam", 
-            "viewed": 5
+            "viewed": 6
         }
     }, 
     {
@@ -639,7 +665,7 @@
         "fields": {
             "hidden": false, 
             "word": "ma\u00e7kolik canl\u0131 sonu\u00e7lar", 
-            "viewed": 3
+            "viewed": 4
         }
     }, 
     {
@@ -666,7 +692,7 @@
         "fields": {
             "hidden": true, 
             "word": "facebook giri\u015f yap", 
-            "viewed": 3
+            "viewed": 5
         }
     }, 
     {
@@ -736,9 +762,9 @@
         "pk": 69, 
         "model": "okgen_cms.words", 
         "fields": {
-            "hidden": false, 
+            "hidden": true, 
             "word": "\u015fiki\u015f", 
-            "viewed": 5
+            "viewed": 7
         }
     }, 
     {
@@ -765,7 +791,7 @@
         "fields": {
             "hidden": false, 
             "word": "mynet haber", 
-            "viewed": 2
+            "viewed": 6
         }
     }, 
     {
@@ -774,7 +800,7 @@
         "fields": {
             "hidden": false, 
             "word": "bilyoner", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -792,7 +818,7 @@
         "fields": {
             "hidden": false, 
             "word": "twitter", 
-            "viewed": 7
+            "viewed": 9
         }
     }, 
     {
@@ -801,7 +827,7 @@
         "fields": {
             "hidden": true, 
             "word": "porno", 
-            "viewed": 17
+            "viewed": 31
         }
     }, 
     {
@@ -810,7 +836,7 @@
         "fields": {
             "hidden": false, 
             "word": "yotube", 
-            "viewed": 5
+            "viewed": 7
         }
     }, 
     {
@@ -918,7 +944,7 @@
         "fields": {
             "hidden": false, 
             "word": "oyunlar1", 
-            "viewed": 3
+            "viewed": 4
         }
     }, 
     {
@@ -936,7 +962,7 @@
         "fields": {
             "hidden": false, 
             "word": "odnoklassniki", 
-            "viewed": 7
+            "viewed": 15
         }
     }, 
     {
@@ -945,7 +971,7 @@
         "fields": {
             "hidden": false, 
             "word": "hotmail.com", 
-            "viewed": 7
+            "viewed": 10
         }
     }, 
     {
@@ -954,7 +980,7 @@
         "fields": {
             "hidden": false, 
             "word": "hotmail", 
-            "viewed": 11
+            "viewed": 13
         }
     }, 
     {
@@ -1026,7 +1052,7 @@
         "fields": {
             "hidden": false, 
             "word": "posta", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -1071,7 +1097,7 @@
         "fields": {
             "hidden": false, 
             "word": "ayk\u00fc testi yap", 
-            "viewed": 5
+            "viewed": 6
         }
     }, 
     {
@@ -1089,7 +1115,7 @@
         "fields": {
             "hidden": false, 
             "word": "iddaa", 
-            "viewed": 6
+            "viewed": 7
         }
     }, 
     {
@@ -1116,7 +1142,7 @@
         "fields": {
             "hidden": false, 
             "word": "gogle", 
-            "viewed": 8
+            "viewed": 21
         }
     }, 
     {
@@ -1143,7 +1169,7 @@
         "fields": {
             "hidden": false, 
             "word": "antalya istanbul u\u00e7ak bileti", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -1188,7 +1214,7 @@
         "fields": {
             "hidden": true, 
             "word": "porno izle", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -1197,7 +1223,7 @@
         "fields": {
             "hidden": false, 
             "word": "ask.fm", 
-            "viewed": 9
+            "viewed": 17
         }
     }, 
     {
@@ -1206,7 +1232,7 @@
         "fields": {
             "hidden": false, 
             "word": "onur air", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -1287,7 +1313,7 @@
         "fields": {
             "hidden": false, 
             "word": "oyuncini", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -1305,7 +1331,7 @@
         "fields": {
             "hidden": false, 
             "word": "etkin hevesmi sand\u0131n", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -1323,7 +1349,7 @@
         "fields": {
             "hidden": false, 
             "word": "fotoma\u00e7", 
-            "viewed": 5
+            "viewed": 9
         }
     }, 
     {
@@ -1458,7 +1484,7 @@
         "fields": {
             "hidden": false, 
             "word": "fa", 
-            "viewed": 4
+            "viewed": 7
         }
     }, 
     {
@@ -1476,7 +1502,7 @@
         "fields": {
             "hidden": false, 
             "word": "e okul", 
-            "viewed": 1
+            "viewed": 4
         }
     }, 
     {
@@ -1494,7 +1520,7 @@
         "fields": {
             "hidden": false, 
             "word": "friv", 
-            "viewed": 5
+            "viewed": 12
         }
     }, 
     {
@@ -1512,7 +1538,7 @@
         "fields": {
             "hidden": false, 
             "word": "kontv haber", 
-            "viewed": 5
+            "viewed": 6
         }
     }, 
     {
@@ -1566,7 +1592,7 @@
         "fields": {
             "hidden": false, 
             "word": "kontv sa\u011fl\u0131k haberleri", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -1611,7 +1637,7 @@
         "fields": {
             "hidden": false, 
             "word": "mynet", 
-            "viewed": 3
+            "viewed": 4
         }
     }, 
     {
@@ -1629,7 +1655,7 @@
         "fields": {
             "hidden": false, 
             "word": "yeppuda", 
-            "viewed": 1
+            "viewed": 3
         }
     }, 
     {
@@ -1638,7 +1664,7 @@
         "fields": {
             "hidden": false, 
             "word": "sahadan canl\u0131 sonu\u00e7lar", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -1692,7 +1718,7 @@
         "fields": {
             "hidden": false, 
             "word": "seks", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -1719,7 +1745,7 @@
         "fields": {
             "hidden": false, 
             "word": "youtube mp3 d\u00f6n\u00fc\u015ft\u00fcr\u00fcc\u00fc", 
-            "viewed": 12
+            "viewed": 25
         }
     }, 
     {
@@ -1809,7 +1835,7 @@
         "fields": {
             "hidden": false, 
             "word": "e devlet", 
-            "viewed": 4
+            "viewed": 6
         }
     }, 
     {
@@ -1845,7 +1871,7 @@
         "fields": {
             "hidden": false, 
             "word": "facebok", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -1863,7 +1889,7 @@
         "fields": {
             "hidden": false, 
             "word": "teyzem com", 
-            "viewed": 1
+            "viewed": 4
         }
     }, 
     {
@@ -1926,7 +1952,7 @@
         "fields": {
             "hidden": false, 
             "word": "b\u00fct\u00fcn  ameliyat  oyunlar\u0131", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -1935,7 +1961,7 @@
         "fields": {
             "hidden": true, 
             "word": "alman olgun porno", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -1953,7 +1979,7 @@
         "fields": {
             "hidden": true, 
             "word": "alman olgun pornolar\u0131", 
-            "viewed": 2
+            "viewed": 6
         }
     }, 
     {
@@ -1971,7 +1997,7 @@
         "fields": {
             "hidden": false, 
             "word": "e devlet ssk no sorgulama", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -2007,7 +2033,7 @@
         "fields": {
             "hidden": false, 
             "word": "radyo dinle canl\u0131", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -2034,7 +2060,7 @@
         "fields": {
             "hidden": false, 
             "word": "iki ki\u015filik oyunlar", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -2052,7 +2078,7 @@
         "fields": {
             "hidden": false, 
             "word": "ali \u00e7elik", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -2115,7 +2141,7 @@
         "fields": {
             "hidden": false, 
             "word": "gazeteler", 
-            "viewed": 2
+            "viewed": 5
         }
     }, 
     {
@@ -2196,7 +2222,7 @@
         "fields": {
             "hidden": false, 
             "word": "r\u00fcya tabirleri", 
-            "viewed": 6
+            "viewed": 7
         }
     }, 
     {
@@ -2304,7 +2330,7 @@
         "fields": {
             "hidden": false, 
             "word": "fece", 
-            "viewed": 6
+            "viewed": 7
         }
     }, 
     {
@@ -2353,21 +2379,12 @@
         }
     }, 
     {
-        "pk": 250, 
-        "model": "okgen_cms.words", 
-        "fields": {
-            "hidden": false, 
-            "word": "", 
-            "viewed": 11
-        }
-    }, 
-    {
         "pk": 251, 
         "model": "okgen_cms.words", 
         "fields": {
             "hidden": false, 
             "word": "youtube m\u00fczik", 
-            "viewed": 2
+            "viewed": 5
         }
     }, 
     {
@@ -2376,7 +2393,7 @@
         "fields": {
             "hidden": false, 
             "word": "i\u015f bankas\u0131", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -2394,7 +2411,7 @@
         "fields": {
             "hidden": false, 
             "word": "webcam", 
-            "viewed": 2
+            "viewed": 5
         }
     }, 
     {
@@ -2475,7 +2492,7 @@
         "fields": {
             "hidden": false, 
             "word": "h\u00fcrriyet", 
-            "viewed": 5
+            "viewed": 7
         }
     }, 
     {
@@ -2484,7 +2501,7 @@
         "fields": {
             "hidden": false, 
             "word": "sahadan", 
-            "viewed": 8
+            "viewed": 14
         }
     }, 
     {
@@ -2502,7 +2519,7 @@
         "fields": {
             "hidden": false, 
             "word": "morhipo", 
-            "viewed": 7
+            "viewed": 8
         }
     }, 
     {
@@ -2511,7 +2528,7 @@
         "fields": {
             "hidden": false, 
             "word": "sponge bob games", 
-            "viewed": 5
+            "viewed": 6
         }
     }, 
     {
@@ -2565,7 +2582,7 @@
         "fields": {
             "hidden": false, 
             "word": "samsunspor", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -2574,7 +2591,7 @@
         "fields": {
             "hidden": false, 
             "word": "mackolik", 
-            "viewed": 2
+            "viewed": 6
         }
     }, 
     {
@@ -2637,7 +2654,7 @@
         "fields": {
             "hidden": false, 
             "word": "youtube.com", 
-            "viewed": 1
+            "viewed": 3
         }
     }, 
     {
@@ -2673,7 +2690,7 @@
         "fields": {
             "hidden": true, 
             "word": "t\u00fcrk\u00e7e porno", 
-            "viewed": 6
+            "viewed": 7
         }
     }, 
     {
@@ -2727,7 +2744,7 @@
         "fields": {
             "hidden": false, 
             "word": "google indir", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -2736,7 +2753,7 @@
         "fields": {
             "hidden": false, 
             "word": "koton", 
-            "viewed": 5
+            "viewed": 6
         }
     }, 
     {
@@ -2781,7 +2798,7 @@
         "fields": {
             "hidden": false, 
             "word": "tozlu giyim", 
-            "viewed": 3
+            "viewed": 6
         }
     }, 
     {
@@ -2808,7 +2825,7 @@
         "fields": {
             "hidden": false, 
             "word": "habbo", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -2934,7 +2951,7 @@
         "fields": {
             "hidden": false, 
             "word": "iddaa sonu\u00e7lar\u0131", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -2997,7 +3014,7 @@
         "fields": {
             "hidden": false, 
             "word": "gool", 
-            "viewed": 7
+            "viewed": 8
         }
     }, 
     {
@@ -3105,7 +3122,7 @@
         "fields": {
             "hidden": false, 
             "word": "en komik videolar", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -3141,7 +3158,7 @@
         "fields": {
             "hidden": false, 
             "word": "iso kurslar\u0131", 
-            "viewed": 10
+            "viewed": 12
         }
     }, 
     {
@@ -3222,7 +3239,7 @@
         "fields": {
             "hidden": false, 
             "word": "markafoni", 
-            "viewed": 1
+            "viewed": 6
         }
     }, 
     {
@@ -3258,7 +3275,7 @@
         "fields": {
             "hidden": false, 
             "word": "koreant\u00fcrk", 
-            "viewed": 1
+            "viewed": 3
         }
     }, 
     {
@@ -3285,7 +3302,7 @@
         "fields": {
             "hidden": false, 
             "word": "sahibinden com", 
-            "viewed": 4
+            "viewed": 7
         }
     }, 
     {
@@ -3357,7 +3374,7 @@
         "fields": {
             "hidden": false, 
             "word": "adnaklasnik.ru", 
-            "viewed": 2
+            "viewed": 5
         }
     }, 
     {
@@ -3420,7 +3437,7 @@
         "fields": {
             "hidden": false, 
             "word": "ahmet kaya", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -3492,7 +3509,7 @@
         "fields": {
             "hidden": false, 
             "word": "haber", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -3564,7 +3581,7 @@
         "fields": {
             "hidden": false, 
             "word": "stardoll", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -3645,7 +3662,7 @@
         "fields": {
             "hidden": false, 
             "word": "canl\u0131 ma\u00e7 izle", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -3780,7 +3797,7 @@
         "fields": {
             "hidden": false, 
             "word": "facebook giri\u015f sayfas\u0131", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -3834,7 +3851,7 @@
         "fields": {
             "hidden": false, 
             "word": "likelo", 
-            "viewed": 1
+            "viewed": 3
         }
     }, 
     {
@@ -3942,7 +3959,7 @@
         "fields": {
             "hidden": false, 
             "word": "youtube giri\u015f", 
-            "viewed": 3
+            "viewed": 6
         }
     }, 
     {
@@ -3978,7 +3995,7 @@
         "fields": {
             "hidden": false, 
             "word": "www.google.com.tr", 
-            "viewed": 5
+            "viewed": 7
         }
     }, 
     {
@@ -4023,7 +4040,7 @@
         "fields": {
             "hidden": false, 
             "word": "translate", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -4086,7 +4103,7 @@
         "fields": {
             "hidden": false, 
             "word": "youtube mp3", 
-            "viewed": 3
+            "viewed": 4
         }
     }, 
     {
@@ -4095,7 +4112,7 @@
         "fields": {
             "hidden": false, 
             "word": "10", 
-            "viewed": 3
+            "viewed": 8
         }
     }, 
     {
@@ -4104,7 +4121,7 @@
         "fields": {
             "hidden": false, 
             "word": "goo", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -4122,7 +4139,7 @@
         "fields": {
             "hidden": false, 
             "word": "kara toprak", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -4365,7 +4382,7 @@
         "fields": {
             "hidden": false, 
             "word": "samanyolu tv", 
-            "viewed": 1
+            "viewed": 4
         }
     }, 
     {
@@ -4383,7 +4400,7 @@
         "fields": {
             "hidden": false, 
             "word": "google chrome", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -4417,7 +4434,7 @@
         "pk": 479, 
         "model": "okgen_cms.words", 
         "fields": {
-            "hidden": false, 
+            "hidden": true, 
             "word": "\u015fiki\u015f t\u00fcrk", 
             "viewed": 2
         }
@@ -4498,7 +4515,7 @@
         "pk": 488, 
         "model": "okgen_cms.words", 
         "fields": {
-            "hidden": false, 
+            "hidden": true, 
             "word": "amdan \u015fiki\u015f t\u00fcrk", 
             "viewed": 1
         }
@@ -4572,7 +4589,7 @@
         "fields": {
             "hidden": false, 
             "word": "2 ki\u015filik oyunlar", 
-            "viewed": 1
+            "viewed": 3
         }
     }, 
     {
@@ -4590,7 +4607,7 @@
         "fields": {
             "hidden": false, 
             "word": "beyken satilik daire", 
-            "viewed": 9
+            "viewed": 10
         }
     }, 
     {
@@ -4680,7 +4697,7 @@
         "fields": {
             "hidden": false, 
             "word": "\u00e7eviri", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -4698,7 +4715,7 @@
         "fields": {
             "hidden": false, 
             "word": "gogul", 
-            "viewed": 1
+            "viewed": 3
         }
     }, 
     {
@@ -4707,7 +4724,7 @@
         "fields": {
             "hidden": false, 
             "word": "mp3 d\u00f6n\u00fcst\u00fcr\u00fcc\u00fc", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -4869,7 +4886,7 @@
         "fields": {
             "hidden": false, 
             "word": "araba oyunlar\u0131", 
-            "viewed": 6
+            "viewed": 9
         }
     }, 
     {
@@ -4941,7 +4958,7 @@
         "fields": {
             "hidden": false, 
             "word": "moviestarplanet", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -5031,7 +5048,7 @@
         "fields": {
             "hidden": false, 
             "word": "s\u0131tardoll", 
-            "viewed": 2
+            "viewed": 4
         }
     }, 
     {
@@ -5589,7 +5606,7 @@
         "fields": {
             "hidden": false, 
             "word": "yutube", 
-            "viewed": 1
+            "viewed": 8
         }
     }, 
     {
@@ -6174,7 +6191,7 @@
         "fields": {
             "hidden": false, 
             "word": "u\u015fak haber", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -6219,7 +6236,7 @@
         "fields": {
             "hidden": false, 
             "word": "iphone 5", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -6237,7 +6254,7 @@
         "fields": {
             "hidden": false, 
             "word": "fanatik", 
-            "viewed": 2
+            "viewed": 4
         }
     }, 
     {
@@ -6381,7 +6398,7 @@
         "fields": {
             "hidden": false, 
             "word": "film izle", 
-            "viewed": 1
+            "viewed": 4
         }
     }, 
     {
@@ -6570,7 +6587,7 @@
         "fields": {
             "hidden": false, 
             "word": "vatan bilgisayar", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -6678,7 +6695,7 @@
         "fields": {
             "hidden": false, 
             "word": "personel sa\u011fl\u0131k", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -6687,7 +6704,7 @@
         "fields": {
             "hidden": false, 
             "word": "fesbook", 
-            "viewed": 1
+            "viewed": 4
         }
     }, 
     {
@@ -7155,7 +7172,7 @@
         "fields": {
             "hidden": false, 
             "word": "you", 
-            "viewed": 1
+            "viewed": 6
         }
     }, 
     {
@@ -7200,7 +7217,7 @@
         "fields": {
             "hidden": false, 
             "word": "tjk", 
-            "viewed": 1
+            "viewed": 3
         }
     }, 
     {
@@ -7623,7 +7640,7 @@
         "fields": {
             "hidden": false, 
             "word": "bomberman 4", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -7641,7 +7658,7 @@
         "fields": {
             "hidden": false, 
             "word": "olympus", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -7668,7 +7685,7 @@
         "fields": {
             "hidden": false, 
             "word": "olympus ses kay\u0131t ", 
-            "viewed": 1
+            "viewed": 3
         }
     }, 
     {
@@ -7722,7 +7739,7 @@
         "fields": {
             "hidden": false, 
             "word": "irfancan alg\u00fcr", 
-            "viewed": 1
+            "viewed": 3
         }
     }, 
     {
@@ -7735,13 +7752,5152 @@
         }
     }, 
     {
+        "pk": 848, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "iphone 5s plastik", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 849, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kocam siki ufak diye beni o\u011fluma siktirdi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 850, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "nisanur alg\u00fcr twit\u0131r", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 851, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bursanet", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 852, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "metin akku\u015flu ", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 853, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "nisanur alg\u00fcr fatih ilk\u00f6gretim okulu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 854, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "c\u0131lap penguin", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 855, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "c\u0131lap penguin.com", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 856, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "vatan ekran koruyucu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 857, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "vatan telefon ekran koruyucu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 858, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u00e7al\u0131ku\u015fu konusu", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 859, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u00e7al\u0131ku\u015fu izle", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 860, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u00e7al\u0131ku\u015fu izle 2 b\u00f6l\u00fcm", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 861, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "turkcell", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 862, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "nisanur alg\u00fcr mehmet akif ilk\u00f6gretim okulu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 863, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "g\u00fcl resmi", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 864, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tranquil", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 865, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tranquila youtube", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 866, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "nisanur alg\u00fcr mehmet akif ilk\u00f6gretim okulu tokat turhal", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 867, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "homapage", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 868, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "gog", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 869, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "the porn l\u0131st", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 870, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "n,sa suresi", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 871, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ay\u0131rma duas\u0131i", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 872, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kenevir", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 873, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "psikolojik rehberlik genel m\u00fcd\u00fcrl\u00fc\u011f\u00fc", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 874, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ankaral\u0131 nam\u0131k", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 875, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "movie maker indir", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 876, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "3 ki\u015filik oyunlar", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 877, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "youtube kurtlar vadisi 61 b\u00f6l\u00fcm polat haloyu kurtar\u0131yor", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 878, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kuran 1.c\u00fcz", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 879, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bab\u00fcr imparatorlu\u011fu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 880, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "vodafone sanal", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 881, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "i\u015f makinas\u0131 vergi harclar\u0131  fiatlar\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 882, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "dino dan oyunu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 883, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "arda_leyla_sal\u0131hhotmail,com", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 884, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "a\u015fk \u015fiirleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 885, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tozlu giyim.com", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 886, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "eregli oyun havalari", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 887, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "benim i\u00e7in \u00fcz\u00fclme", 
+            "viewed": 7
+        }
+    }, 
+    {
+        "pk": 888, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "obatamtastar", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 889, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "obatamtastarsak\u0131s\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 890, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "obatamtastarsark\u0131s\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 891, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tofista", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 892, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tofisa", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 893, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "araba yar\u0131\u015f\u0131 oyunlar\u0131", 
+            "viewed": 4
+        }
+    }, 
+    {
+        "pk": 894, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "facebooksark\u0131s\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 895, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "facebooksak\u0131s\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 896, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "porno izle ,", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 897, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "youtube d\u00f6n\u00fc\u015ft\u00fcr\u00fcc\u00fc video", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 898, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "hasretini benimleb\u0131rak", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 899, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "vipd\u00fckkan", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 900, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "din\u00e7 \u00f6zel i\u015f makinlar\u0131 kursu", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 901, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "www.tlmerkezi.net", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 902, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "adanal\u0131sak\u0131s\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 903, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "e okul veli bilgilendirme sistemi", 
+            "viewed": 4
+        }
+    }, 
+    {
+        "pk": 904, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ahmet ka", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 905, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yootube", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 906, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ehliyet sertifikas\u0131n\u0131 ehliyete d\u00f6n\u00fc\u015ft\u00fcr\u00fcrken harcanan \u00fccret ne kadard\u0131r", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 907, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "psy", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 908, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "http://cassegrain-sa.fr/pages/", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 909, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "winxrerilar\u0131oyunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 910, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "oyunlar\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 911, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "u yaka kesimi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 912, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bur\u00e7 uyumu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 913, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "facebbok", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 914, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "k\u0131r\u015fehir kent fm", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 915, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yanks.com", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 916, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bulmaca s\u00f6zl\u00fc\u011f\u00fc", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 917, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "izlesene.com m\u00fczik", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 918, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "patatesli sulu k\u00f6fte", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 919, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ben 23", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 920, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "teknofem", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 921, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "riony", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 922, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ribony", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 923, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ankara oyun havalari", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 924, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kqnu\u015fankedi", 
+            "viewed": 5
+        }
+    }, 
+    {
+        "pk": 925, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ad\u0131n\u0131 feriha koydum son b\u00f6l\u00fcm izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 926, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ingilizce t\u00fcrk\u00e7e \u00e7eviri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 927, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kq", 
+            "viewed": 6
+        }
+    }, 
+    {
+        "pk": 928, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "s\u0131tardoll oyunu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 929, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kayu \u00e7izgi filim izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 930, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bayan arkada\u015f", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 931, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "poker oyna", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 932, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "efect", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 933, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "efect programlar\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 934, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "oyun gemisi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 935, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "inci", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 936, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "vosvos resimleri", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 937, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "okey biz genel salon", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 938, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "oya modelleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 939, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "oya \u00f6rnekleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 940, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "araba oyunu oyna", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 941, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "silah oyunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 942, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "fanat\u0131k", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 943, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "izlesene m\u00fczik", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 944, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yeppudaa", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 945, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "goole", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 946, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yerli t\u00fcrk pornolar", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 947, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "oyun skor", 
+            "viewed": 6
+        }
+    }, 
+    {
+        "pk": 948, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sahadan.com", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 949, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "pasta yapma oyunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 950, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "haberler", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 951, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "s\u00fctl\u00fc tatl\u0131 tarifleri", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 952, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ars\u0131z bela sevmedi\u011fini bile bile", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 953, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "zenci pornolar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 954, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u00e7elik jant modelleri", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 955, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ya seninle ya sensiz", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 956, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ya seninle ya sensiz s\u00f6zleri", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 957, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "trt 1", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 958, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "numara sorgulama", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 959, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "milliyet", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 960, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "damar dinle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 961, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "e bebek.com", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 962, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "asl\u0131 g\u00fcng\u00f6r s\u00f6ylenmemi\u015f s\u00f6zler", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 963, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ara\u00e7 m\u00fczik sistemleri", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 964, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "diyadinnet", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 965, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "serdar orta\u00e7", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 966, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "komek konya", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 967, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "odam kire\u00e7 tutmuyor t\u00fcrk\u00fcs\u00fc dinle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 968, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "efsane prens 71", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 969, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "netlog", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 970, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "3d", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 971, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "google.com.t", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 972, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ennesil g\u0131da", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 973, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ennesil g\u0131da samsun", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 974, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "mynet okey", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 975, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "eski\u015fehir \u00f6m\u00fcr ssk 17 numaran\u0131n saatleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 976, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kant\u0131r oyna", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 977, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ucuz bebek giyim", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 978, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "k\u00f6br\u00fcfilimleri", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 979, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u00f6p\u00fc\u015fme sahnesi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 980, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "makyaj oyunlar\u0131", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 981, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "gazo", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 982, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bebek giyim", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 983, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "18 oyunlar", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 984, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "final", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 985, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "korkukaban\u01312", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 986, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "en g\u00fczel ou,,,", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 987, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "m\u00fcjde ar filmleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 988, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tay tv izle", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 989, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "simsekmakuyun izle", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 990, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bonbac\u0131 karde\u015fler", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 991, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sign in", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 992, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "porno filim", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 993, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ferhat", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 994, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ars\u0131z bela", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 995, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ars\u0131z bela \u00f6l\u00fcm\u00fcn olsun ilk gecen", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 996, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "anadolu.edu.tr", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 997, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "konut kredisi faiz oranlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 998, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ars\u0131z bela \u00f6l\u00fcm\u00fcn dey\u0131l ayr\u0131r\u0131k", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 999, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ercan akduman", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1000, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "media markt", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1001, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "insanlara ne zaman zam gelecekte kendilerini ucuz satmayacaklar", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1002, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yerli t\u00fcrk porno izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1003, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "pepe \u00e7illi bilili", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1004, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ibretlik s\u00f6zler", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1005, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "motorlu ta\u015f\u0131tlar vergisi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1006, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "insanl\u0131k s\u00f6zler", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1007, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yerli t\u00fcrk porno", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1008, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sen mi yaral\u0131s\u0131n ben mi karal\u0131y\u0131m", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1009, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "naerler fiyatlar\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1010, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u062e\u0627\u0637\u0631\u0642 \u0627\u0644\u062c\u0646\u0647", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1011, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u062e\u0627\u0637\u0631\u0647 \u0639\u0646 \u0627\u0644\u062c\u0646\u0647", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1012, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "nazerfiyatlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1013, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "googlr", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1014, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "profil resimleri", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1015, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "band\u0131rma tapu da\u011f g\u00f6leti", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1016, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bekunis draje", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1017, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "m\u00fczik", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1018, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "m\u00fczik dinle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1019, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "xnxx", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1020, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "orhan \u00f6lmez sana ihtiyac\u0131m var", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1021, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "oyu", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1022, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bursa", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1023, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bursa oyu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1024, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "you mp 3", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1025, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "calma art", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1026, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "4 silindirli farkli motosikletler", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1027, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "garanti", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1028, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "4 silindirli farkli peco  motosikletler", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1029, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bursa net", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1030, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "erkan acar", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 1031, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "z cafe diyarbak\u0131r", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1032, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "erou car", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1033, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u015fansl\u0131 biri filmini izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1034, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "rambo the video game", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1035, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "google chrome indir", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1036, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "rambo izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1037, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "t\u00fcm maymunlar\u0131n vityosu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1038, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "rafet el roman senden sonra dinle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1039, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u00e7izgi fili", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1040, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yumurtadan ku\u015f \u00e7ikma g\u00f6r\u00fcnt\u00fcleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1041, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "facebook login", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1042, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ankara pavyon alemi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1043, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "gurbet \u00f6zdemie edo\u011fan s\u00f6zler", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1044, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bebek oda toplama oyunlar\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1045, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "turktelekom kampanyalar", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1046, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "oda toplama oyunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1047, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "filmler", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1048, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "filmleri t\u00fcrk\u00e7e dublaj yapma program\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1049, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "arap ali", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1050, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "jandarma arabas\u0131  videolar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1051, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "filmleri izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1052, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "y\u0131ld\u0131r\u0131m g\u00fcrses son mektup s\u00f6zleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1053, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bebek oyunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1054, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "googleyi ana sayfam yap", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1055, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "k\u0131z\u0131n\u0131 o\u011flu sikiyor babas\u0131 izliyor", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1056, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "k\u0131z\u0131n\u0131 o\u011flu sikiyor babas\u0131 izliyor  porna", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1057, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "idda", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1058, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "pembe panter", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1059, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "elmali yasemin", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1060, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "radikal", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1061, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "porna", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1062, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "dj  kantik", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1063, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "amcas\u0131 annemi sikiyor ben se yengemi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1064, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ars\u0131z bela 2013 sark\u0131lar", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1065, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "edebiyat\u0131n di\u011fer bilim dallar\u0131yla ili\u015fkisi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1066, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bedava travesti porno izle", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1067, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "huzurumokey.com", 
+            "viewed": 4
+        }
+    }, 
+    {
+        "pk": 1068, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "face book", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1069, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "arapali", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1070, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "heliosmt2", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1071, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "g\u00fcn\u00fcn videosu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1072, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "varis \u00e7oraplar\u0131n\u0131n faydalar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1073, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sinema filmi izle", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1074, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "averemu izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1075, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "4e4ma\u00e7", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1076, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "diziizle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1077, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "varis \u00e7orab\u0131 nedir", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1078, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "t\u0131rakya \u00f6yunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1079, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ak g\u00f6ks\u00fcmde nokta nokta benleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1080, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bebekler", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1081, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "o ses t\u00fcrkiye son b\u00f6l\u00fcm", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1082, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ninjaproxy", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1083, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "wepcaston", 
+            "viewed": 4
+        }
+    }, 
+    {
+        "pk": 1084, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "weptoys", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1085, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "facebook \u015fifre de\u011fi\u015ftirme", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1086, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "efecan \u015fark\u0131lar\u0131", 
+            "viewed": 4
+        }
+    }, 
+    {
+        "pk": 1087, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "abiye elbise modelleri", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 1088, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "trabzonspor ma\u00e7\u0131 ne zaman", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1089, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "zargan", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1090, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "efecan \u015fark\u0131lar\u0131 indir", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1091, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ssk sorgulama", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1092, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "saytdrdoll", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1093, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "d\u00fc\u011f\u00fcn i\u00e7in abiye elbise modelleri", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1094, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "photoshop", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1095, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "efecan g\u00fcneydo\u011fu familya", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1096, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "penguen sald\u0131r\u0131s\u0131 3", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1097, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "at yar\u0131 oyunlar\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1098, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "efcan \u015fark\u0131s\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1099, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "park resimleri", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1100, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "iro \u00e7ar\u011fe\u015fe\u015fark\u0131s\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1101, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "alt\u0131nkaynak", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1102, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u00fc\u00e7 ki\u015fiyi ko\u015fu yar\u0131\u015f\u0131 iple bal\u0131 oyunu", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1103, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "hava durumu ni\u011fde", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1104, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "trendyol", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1105, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "dgrg", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1106, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tuncel kurtiz", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1107, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ebru g\u00fcnde\u015f", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1108, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "iple bal\u0131 ko\u015fu yar\u0131\u015f\u0131 oyunu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1109, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "akg\u00f6gs\u00fcnde nokta nokta ben olayd\u0131m", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1110, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ebru gundes del\u0131y\u0131m", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1111, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "beyler deresi", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1112, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yar\u0131\u015f", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1113, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yar\u0131\u015f oyunlar\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1114, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "mehmet balaban beyler deresi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1115, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "halil kurt", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1116, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "halil kurt ben seninle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1117, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "s\u0131tardll", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1118, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "samanyolu tv canl\u0131 izle", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1119, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tay tv canl\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1120, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "arife dovan", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1121, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "canl\u0131 lig tv izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1122, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "google com tr", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1123, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yaz\u0131m\u0131 kar\u0131\u015ft\u0131r\u0131lan kelimeler", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1124, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ma\u00e7 sonu\u00e7lar\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1125, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "mackolik.com.tr", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1126, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tihame da\u011f\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1127, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "nokia", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1128, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ttnet m\u00fczik", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1129, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "nokia c5", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1130, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kreant\u00fcrk", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1131, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "lh hormonu y\u00fcksekli\u011fi", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1132, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "nokia c5 \u00f6zellikleri", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1133, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "jjjroguejjj", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1134, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ne\u015fet erta\u00e7", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1135, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ne\u015fet erta\u00e7 mp3", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1136, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "nokia lumia 925", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1137, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "dedikoducu cafe", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1138, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "m\u00fcsl\u00fcmanlarla ilgili s\u00f6zler", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1139, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bamuk pirensesin fotoraf\u0131", 
+            "viewed": 4
+        }
+    }, 
+    {
+        "pk": 1140, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bisiklet hareket etmezken devriliyor yol al\u0131rken neden devrilmiyor", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1141, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "zuma oyunu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1142, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yar\u0131\u015f\u00e7\u0131lar", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1143, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "baskf", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1144, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ma\u00e7 \u00f6zetleri", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1145, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "matematik oyunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1146, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ma\u00e7 \u00f6zetleri spor toto s\u00fcper lig", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1147, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "iki ki\u015filik araba yar\u0131\u015f\u0131 oyunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1148, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tehnosa", 
+            "viewed": 6
+        }
+    }, 
+    {
+        "pk": 1149, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "teknosa", 
+            "viewed": 5
+        }
+    }, 
+    {
+        "pk": 1150, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "51 rin 2 \u0131 ka\u00e7t\u0131rfazlas\u0131n\u0131n 2 kat", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1151, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "https://www.facebook.com/contact_importer/api.php?type=1&flow=22&domain_id=4&tracked_params=[]&use_case=1&api_instance=1&login_str=a_dansonrab_gelir%40hotmail.com&ext_sessions=", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1152, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "oyun", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1153, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tatl\u0131 tarifleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1154, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "soruyu sor cevab\u0131n\u0131 bul", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1155, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "imagechef", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1156, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "namaz vakitleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1157, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "matematik soruyu sor cevab\u0131n\u0131 bul", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1158, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "araba oyunu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1159, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ni\u015fan davetiye metinleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1160, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "araba yar\u0131\u015f\u0131 oyunlar\u0131 oyna", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1161, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "canl\u0131 skor", 
+            "viewed": 4
+        }
+    }, 
+    {
+        "pk": 1162, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "damar \u015fark\u0131lar", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1163, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ligtv", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1164, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sivilce patlatma oyunu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1165, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ate\u015f ve su 2", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1166, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yutup d\u00f6n\u00f6\u015ft\u00fcr\u00fcc\u00fc", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1167, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "mustafa y\u0131ld\u0131zdo\u011fan ah o sa\u00e7lar\u0131n s\u00f6zleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1168, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sesiz sava\u015f oyunu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1169, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "picjoke", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1170, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "princess kaerare", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1171, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "jessica alba", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1172, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "princess kraehe", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1173, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "altus 434 y bula\u015f\u0131k makinas\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1174, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "s\u00fcper mario flash", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1175, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "2013 araba oyunlarini oyna gel\u00e7ek", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1176, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "trt spor", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1177, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ger\u00e7ek ofset", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1178, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "al 434 y altus bula\u015f\u0131k makinas\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1179, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "myjest batak", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1180, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ka\u015f alma oyunlar\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1181, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": true, 
+            "word": "am\u00e7\u0131k", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1182, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "you tube", 
+            "viewed": 7
+        }
+    }, 
+    {
+        "pk": 1183, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yo tube", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1184, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "k\u0131rklareli \u00fcniversitesi", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1185, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "faca", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1186, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "h\u00fclya av\u015far berlin berlin", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1187, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sibirya ekispiresi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1188, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kafam 1 milyon", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1189, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sibirya ekispiresi seyret", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 1190, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "gusul abdesi nas\u0131l al\u0131n\u0131r", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1191, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kafam bi milyon", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1192, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "dominos pizza", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1193, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "k\u0131ral efem", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1194, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "cin ali", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1195, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "h\u00fcseyin ka\u011f\u0131t alkol ald\u0131m sallan\u0131yorum", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1196, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sibirya ekisbiresi izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1197, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "a\u015fk\u0131ms\u0131n sen benim dinle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1198, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "stopstream", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1199, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "h\u00fcseyin ka\u011f\u0131t kafam bi  milyon", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1200, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "s\u00fcper loto sonu\u00e7lar\u0131", 
+            "viewed": 7
+        }
+    }, 
+    {
+        "pk": 1201, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ala\u00e7am \u00fcniversitesi", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1202, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sinop \u00fcniversitesi", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1203, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "vestel difriz", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1204, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "vestel difriz 430lt", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1205, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u015fark\u0131 nas\u0131l indirilir", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1206, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bluetooth", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1207, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kurtlar vadisi son b\u00f6l\u00fcm full izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1208, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bluetooth portu ne demek", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1209, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "a\u00f6l \u00f6\u011frenci giri\u015fi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1210, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kurtlar vadisi pusu son b\u00f6l\u00fcm izle", 
+            "viewed": 11
+        }
+    }, 
+    {
+        "pk": 1211, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "dantel modelleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1212, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "k\u0131ral oyunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1213, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kurtlar vadisi pusu son b\u00f6l\u00fcm izle full", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1214, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "h\u00fcseyin ka\u011f\u0131t amma batar amma \u00e7\u0131kar", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1215, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "isbank.com.tr", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1216, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kurtlar vadisi pusu son b\u00f6l\u00fcm izle tek part", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1217, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "h\u0131drorafya", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1218, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kurtlar vadisi pusu son b\u00f6l\u00fcm full  izle", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1219, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "odnoklassn\u0131k\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1220, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "i\u015fkur i\u015f ilanlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1221, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kurtlar vadisi pusu son b\u00f6l\u00fcm full izle 197", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1222, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kaparlar buharl\u0131 \u00fct\u00fc tekstil", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1223, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tiren oyunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1224, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "30 eylul de ac\u0131lak paket", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1225, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "adalet bakanl\u0131g\u0131n\u0131n 30 eylul de ac\u0131lak paket", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1226, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ziraat bankas\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1227, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kurtlar vadisi pusu son b\u00f6l\u00fcm izle full 197", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1228, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "son dakika spor", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1229, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "adalet bakanl\u0131g\u0131n\u0131n 5 yarg\u0131 paket", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1230, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "www.google", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1231, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kurtlar vadisi pusu son b\u00f6l\u00fcm izle full 199", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1232, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "babie peri gizemi", 
+            "viewed": 4
+        }
+    }, 
+    {
+        "pk": 1233, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "lc waikiki", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1234, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "laleg\u00fcl fm", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1235, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "adalet bakanl\u0131g\u0131n\u0131n 5 yarg\u0131 paketi aff\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1236, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kurtlar vadisi pusu son b\u00f6l\u00fcm izle full 198", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1237, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "eminem", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1238, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "barbie peri gizemi \u00e7izgi film t\u00fcrk\u00e7e", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1239, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "atv canl\u0131 izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1240, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "atak\u00f6y,", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1241, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "atak\u00f6y ayakkab\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1242, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "gmail giri\u015f", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1243, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kocaeli g\u00fcvenlik g\u00f6revlisi olarak i\u015f ar\u0131yorum emekli polis memuruyum", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1244, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sahabedo \u00e7avre\u015fam\u0131n", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1245, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "trakt\u00f6r oyunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1246, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "antep oyun havalar\u0131 dinle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1247, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "youtube m\u00fczik dinle", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1248, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "mp 3", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1249, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "5 yarg\u0131 pakete denet\u0131m selbesl\u0131g\u0131 varm\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1250, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "2000 internet", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1251, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "g\u00fcvenlik i\u015f ilanlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1252, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bo\u015falt\u0131m sistemi hastalk\u0131lar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1253, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "5 yarg\u0131 pakete denet\u0131m  2selbesl\u0131g\u0131 varm\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1254, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "imei sorgulama", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1255, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "interpals", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1256, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "u\u015fakta sat\u0131l\u0131k transporter tdi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1257, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "son dakika magazin haberleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1258, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "onur ko\u00e7 ayr\u0131ld\u0131k i\u015fte", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1259, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "babi peri okulu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1260, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "adidas kefen", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1261, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "msn oturum a\u00e7", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1262, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "babi peri okulu \u00e7izgi film t\u00fcrk\u00e7e", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1263, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "dizi izle", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 1264, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "alkol\u00fc iken g\u00fcsul apdesti al\u0131n\u0131rm\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1265, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "galatasaray\u0131n \u00f6zeti", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1266, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "at yar\u0131\u015f\u0131 canl\u0131 sonu\u00e7lar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1267, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": true, 
+            "word": "terli pornolar", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1268, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "canik da\u011flar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1269, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "canik 100 y\u0131l", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1270, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kurabiye yapma oyunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1271, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "f;", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1272, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "emekli polis memuru g\u00fcvenlik g\u00f6revlisi olarak i\u015f ar\u0131yorum", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1273, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ta\u015f\u0131y\u0131c\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1274, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "face kaydol", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1275, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ta\u015f\u0131y\u0131c\u0131 3 izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1276, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sekreterlex", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1277, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "wolfteam", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1278, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "karmete karaduman", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1279, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sekreterlex s", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1280, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "avea", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1281, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sekreterlekx", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1282, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "klasmp3", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1283, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": true, 
+            "word": "eskort bayan istanbul", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1284, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "facebok,", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1285, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "say\u0131salloto", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1286, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "3d oyunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1287, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "g\u00fcvenlik g\u00f6revlisi al\u0131m\u0131", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 1288, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bir fidan olsam toprakta", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1289, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kalamar\u0131n yap\u0131l\u0131\u015f\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1290, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "g\u00fcvenlik g\u00f6revlisi al\u0131m\u0131kocaeli", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1291, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "u\u00e7an adam sabri", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1292, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "u\u00e7an araba", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1293, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "stardoll hileleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1294, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ykb bankas\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1295, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "demet \u00f6zdemir", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1296, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "fatih ye\u015filyurt", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1297, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ozan \u015fervan oyoy  feleke", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1298, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "a\u015f\u0131k kadir", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1299, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "markofoni", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1300, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ate\u015fli hikayeler", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1301, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ayunlar", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1302, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "v9 web siteleri portal\u0131 kald\u0131rma", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1303, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "fox tv", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1304, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ask fm", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1305, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "fars\u00e7a mader", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1306, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "dedektif jelous", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1307, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "geta oyunlar\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1308, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "geta oyunu", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1309, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "geta oyunu oyna", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1310, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "boyabat gazetesi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1311, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "1o.s\u0131n\u0131f edebiyat kitab\u0131 cevaplar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1312, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "gaziantep pamuk elekt\u0131ron\u0131k", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1313, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "xnxx.com", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1314, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u015fark\u0131 dinle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1315, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u00f6yle bir ge\u00e7er zamanki ahmet bebek", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1316, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "polat alemdar", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1317, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "hande yener yaya", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1318, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "araba tutkunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1319, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ons grafik", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1320, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kapak foto\u011fraflar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1321, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "powerturk.com", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1322, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "koca kafalar futbol", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 1323, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "oflu aliden fikralar", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1324, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "han\u0131m bekta\u015f", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1325, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "gsnin teknik direkt\u00f6r\u00fc", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1326, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "mican selami hartamac\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1327, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "linet", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1328, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": true, 
+            "word": "amcuk", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1329, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u00e7ent rulet", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1330, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tahinli incir tatl\u0131s\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1331, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bursada mustakil sat\u0131l\u0131k evler", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1332, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sinaman\u0131n \u00fcl\u00fc oyuncusunun \u00f6len ki\u015finin ismi", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 1333, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "spor d\u00f6n\u00fc\u015f\u00fc \u00f6len  \u00fcnl\u00fc ismi nedir", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1334, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "gs foto\u011fraflar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1335, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u00e7oban ali", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1336, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "iki g\u00fcn \u00f6nce spor d\u00f6n\u00fc\u015f\u00fc \u00f6len sinema sanatc\u0131s\u0131n\u0131n ismi nedir", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1337, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "https://www.facebook.com/photo.php?v=10151620868988446&set=vb.570918445&type=3&theater", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1338, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "modalife", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1339, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "r\u00fcyada sincap g\u00f6rmek", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1340, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "lol", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1341, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "alo minyom afyo anlam\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1342, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "al minyom afyo anlam\u0131", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 1343, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "hgggggggggggggggggggg", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1344, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "al\u00fcminyum anlam\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1345, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "muhte\u015fem y\u00fczy\u0131l filminde kad\u0131 g\u00f6revinde oynuyan oyuncunun ad\u0131 nedir bu insan \u00f6lm\u00fc\u015f ismini \u00f6renmek isdiyorum", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1346, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ptt memur al\u0131m\u01312013", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1347, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "r\u00fcyada kar g\u00f6rmek", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1348, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "safiye soyman istanbul olmaz olsun", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1349, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "gen\u00e7 odalar\u0131", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 1350, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "orman i\u015fletme memur al\u0131m\u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1351, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "medcezir son b\u00f6l\u00fcm", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1352, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "vestel", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1353, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "oriflame", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1354, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u00e7kys giri\u015f", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1355, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "g\u00f6khan \u00f6zen en son alb\u00fcm\u00fc", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1356, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "astroloji uzman\u0131 medyum fevzi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1357, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "astroloji uzman\u0131 medyum fevzi y\u0131ld\u0131r\u0131m", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1358, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "astroloji uzman\u0131 medyum fevzi y\u0131ld\u0131r\u0131m k\u0131rka\u011fa\u00e7", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1359, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kanser", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1360, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "benm babam parababas\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1361, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "galatasaray.org", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1362, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "asi styla sevdim bir g\u00fczeli sevdim", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1363, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "lale devri son b\u00f6l\u00fcm izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1364, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bbw kar\u0131lar", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1365, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bo\u015falarak seks izle.com", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1366, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "samsung galaxy s3", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1367, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "samsung galaxy s4", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1368, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tipeez bal\u0131k  \u0131", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1369, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "k\u0131bar\u0131ye canm\u0131da can \u0131ste", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1370, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "alt\u0131n fiyatlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1371, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "googel", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1372, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "safiye ayla ah", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1373, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "hititbete giremiyorum", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1374, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ajda pekkan arada s\u0131rada", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1375, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "canl\u0131 tv izle", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 1376, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kitabei sengi mezar", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1377, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "fetih suresinin fazileti", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1378, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "g\u00fczel s\u00f6zler", 
+            "viewed": 4
+        }
+    }, 
+    {
+        "pk": 1379, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kenan do\u011fulu haddini bil", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1380, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "g\u00fczel s\u00f6zler porn", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1381, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kenan do\u011fulu haddini bil s\u00f6zleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1382, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kopkop porn", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1383, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "willa holland", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1384, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "g\u00fcnel porn", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1385, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "willa holland res\u0131mleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1386, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "say\u0131sal loto sonu\u00e7lar\u0131 bu hafta", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1387, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "g\u00fczelporn", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1388, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "t\u00fcrkiye", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1389, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bal\u0131k burcu", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 1390, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "benim hala umudum var", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1391, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "roman havas\u0131 selime", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1392, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "murat \u00e7obano\u011flu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1393, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "y\u0131ld\u0131r\u0131m g\u00fcrses sonbahar r\u00fczgarlar\u0131 s\u00f6zleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1394, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "milla trendyol online sat\u0131\u015f", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1395, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "taah\u00fctle aypon be\u015f almak", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1396, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ikizler burcu erke\u011fi", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 1397, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ikizler burcu erke\u011fi \u0131c\u0131n sevg\u0131l\u0131 demek ne demekt\u0131r", 
+            "viewed": 3
+        }
+    }, 
+    {
+        "pk": 1398, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "webaslan", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1399, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "te creo \u00e7eviri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1400, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "s\u0131tardol", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1401, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "indian girls club", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1402, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "porn", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1403, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "enver \u00e7elik", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1404, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "indian girls porn", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1405, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "k\u0131br\u0131si", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1406, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "naz\u0131m k\u0131br\u0131si hazretleri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1407, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ikizler burcu erke\u011fi cinsellik", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1408, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bebek dualar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1409, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "gogl", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1410, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "filim izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1411, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "te creo", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1412, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "k\u0131ll\u0131\u015fiki\u015f", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1413, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "gamgam sty", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1414, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "gamgam sty oyunu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1415, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "bonkwire", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 1416, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "zenci pornola\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1417, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "gamoyu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 1418, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "t\u00fcrk liseli siki\u015f", 
+            "viewed": 1
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "okgen_cms.links", 
         "fields": {
             "text": "film izle", 
             "hidden": false, 
             "link": "http://www.filmistan.org", 
-            "clicked": 26
+            "clicked": 47
         }
     }, 
     {
@@ -7751,7 +12907,7 @@
             "text": "google", 
             "hidden": false, 
             "link": "http://www.google.com.tr", 
-            "clicked": 385
+            "clicked": 816
         }
     }, 
     {
@@ -7761,7 +12917,7 @@
             "text": "skorer", 
             "hidden": false, 
             "link": "http://skorer.milliyet.com.tr/", 
-            "clicked": 5
+            "clicked": 10
         }
     }, 
     {
@@ -7771,7 +12927,7 @@
             "text": "facebook", 
             "hidden": false, 
             "link": "https://facebook.com/askvecikolata", 
-            "clicked": 34
+            "clicked": 172
         }
     }, 
     {
@@ -7781,7 +12937,7 @@
             "text": "twitter", 
             "hidden": false, 
             "link": "https://twitter.com/wwwsrc", 
-            "clicked": 10
+            "clicked": 20
         }
     }, 
     {
@@ -7791,7 +12947,7 @@
             "text": "connect2me", 
             "hidden": false, 
             "link": "http://connected2.me/xba", 
-            "clicked": 8
+            "clicked": 12
         }
     }, 
     {
@@ -7801,7 +12957,7 @@
             "text": "sahadan", 
             "hidden": false, 
             "link": "http://www.sahadan.com/", 
-            "clicked": 5
+            "clicked": 11
         }
     }, 
     {
@@ -7811,7 +12967,7 @@
             "text": "ligtv", 
             "hidden": false, 
             "link": "http://www.ligtv.com.tr/", 
-            "clicked": 5
+            "clicked": 9
         }
     }, 
     {
@@ -7821,7 +12977,7 @@
             "text": "fanatik", 
             "hidden": false, 
             "link": "http://www.fanatik.com.tr/", 
-            "clicked": 5
+            "clicked": 9
         }
     }, 
     {
@@ -7831,7 +12987,7 @@
             "text": "sporx", 
             "hidden": false, 
             "link": "http://www.sporx.com/", 
-            "clicked": 4
+            "clicked": 6
         }
     }, 
     {
@@ -7841,7 +12997,7 @@
             "text": "gittigidiyor", 
             "hidden": false, 
             "link": "http://ad.zanox.com/ppc/?25568673C11593932T", 
-            "clicked": 3
+            "clicked": 6
         }
     }, 
     {
@@ -7851,7 +13007,7 @@
             "text": "sahibinden", 
             "hidden": false, 
             "link": "http://sahibinden.com/", 
-            "clicked": 5
+            "clicked": 8
         }
     }, 
     {
@@ -7861,7 +13017,7 @@
             "text": "f\u0131rsat bu f\u0131rsat", 
             "hidden": false, 
             "link": "http://ad.zanox.com/ppc/?25583908C1155130229T", 
-            "clicked": 3
+            "clicked": 10
         }
     }, 
     {
@@ -7871,7 +13027,7 @@
             "text": "webden al", 
             "hidden": false, 
             "link": "http://ad.zanox.com/ppc/?25583896C81495443T", 
-            "clicked": 3
+            "clicked": 8
         }
     }, 
     {
@@ -7881,7 +13037,7 @@
             "text": "t\u00fcrk ticaret", 
             "hidden": false, 
             "link": "http://ad.zanox.com/ppc/?25843600C444777190T", 
-            "clicked": 4
+            "clicked": 7
         }
     }, 
     {
@@ -7891,7 +13047,7 @@
             "text": "a\u015fk ve ki\u015filik testleri", 
             "hidden": false, 
             "link": "http://ivillagetestivi.mynet.com/default.aspx?tabid=1", 
-            "clicked": 3
+            "clicked": 7
         }
     }, 
     {
@@ -7901,7 +13057,7 @@
             "text": "kad\u0131nlar sitesi", 
             "hidden": false, 
             "link": "http://www.kadinlarsitesi.com/", 
-            "clicked": 3
+            "clicked": 6
         }
     }, 
     {
@@ -7911,7 +13067,7 @@
             "text": "kad\u0131n ve kad\u0131n", 
             "hidden": false, 
             "link": "http://kadinvekadin.net/", 
-            "clicked": 5
+            "clicked": 7
         }
     }, 
     {
@@ -7921,7 +13077,7 @@
             "text": "milliyet kad\u0131n", 
             "hidden": false, 
             "link": "http://kadin.milliyet.com.tr/", 
-            "clicked": 5
+            "clicked": 6
         }
     }, 
     {
@@ -7931,7 +13087,7 @@
             "text": "otel kar\u015f\u0131la\u015ft\u0131rma", 
             "hidden": false, 
             "link": "http://comparison.hotelr.net/", 
-            "clicked": 2
+            "clicked": 5
         }
     }, 
     {
@@ -7941,7 +13097,7 @@
             "text": "en ucuz u\u00e7ak biletleri", 
             "hidden": false, 
             "link": "http://ad.zanox.com/ppc/?25568696C87516653T", 
-            "clicked": 3
+            "clicked": 6
         }
     }, 
     {
@@ -7951,7 +13107,7 @@
             "text": "g\u00fcn\u00fcn tatili %40 indirimli", 
             "hidden": false, 
             "link": "http://ad.zanox.com/ppc/?25843598C205611824T", 
-            "clicked": 20
+            "clicked": 26
         }
     }, 
     {
@@ -7961,7 +13117,7 @@
             "text": "tatil budur", 
             "hidden": false, 
             "link": "http://www.tatilbudur.com/", 
-            "clicked": 3
+            "clicked": 7
         }
     }, 
     {
@@ -7971,7 +13127,7 @@
             "text": "counter strike online", 
             "hidden": false, 
             "link": "http://ad.zanox.com/ppc/?25782215C80451578T", 
-            "clicked": 3
+            "clicked": 7
         }
     }, 
     {
@@ -7981,7 +13137,7 @@
             "text": "oyun kutusu", 
             "hidden": false, 
             "link": "http://oyun-kutusu.com/", 
-            "clicked": 6
+            "clicked": 9
         }
     }, 
     {
@@ -7991,7 +13147,7 @@
             "text": "kral oyun", 
             "hidden": false, 
             "link": "http://www.kraloyun.com/", 
-            "clicked": 2
+            "clicked": 7
         }
     }, 
     {
@@ -8001,7 +13157,7 @@
             "text": "oyun skor", 
             "hidden": false, 
             "link": "http://www.oyunskor.com/", 
-            "clicked": 4
+            "clicked": 10
         }
     }, 
     {
@@ -8011,7 +13167,7 @@
             "text": "oyun kolu", 
             "hidden": false, 
             "link": "http://www.oyunkolu.com/", 
-            "clicked": 14
+            "clicked": 20
         }
     }, 
     {
@@ -8021,7 +13177,7 @@
             "text": "copy sharing", 
             "hidden": false, 
             "link": "https://copy.com/?r=rVjLVB", 
-            "clicked": 3
+            "clicked": 4
         }
     }, 
     {
@@ -8031,7 +13187,7 @@
             "text": "inndir", 
             "hidden": false, 
             "link": "http://inndir.com/", 
-            "clicked": 2
+            "clicked": 4
         }
     }, 
     {
@@ -8041,7 +13197,7 @@
             "text": "dosyatc", 
             "hidden": false, 
             "link": "http://dosya.tc/", 
-            "clicked": 3
+            "clicked": 6
         }
     }, 
     {
@@ -8051,7 +13207,7 @@
             "text": "gezginler", 
             "hidden": false, 
             "link": "http://www.gezginler.net/", 
-            "clicked": 4
+            "clicked": 6
         }
     }, 
     {
@@ -8061,7 +13217,7 @@
             "text": "dropbox", 
             "hidden": false, 
             "link": "http://www.dropbox.com/", 
-            "clicked": 2
+            "clicked": 5
         }
     }, 
     {
@@ -8071,7 +13227,7 @@
             "text": "sgk", 
             "hidden": false, 
             "link": "http://www.sgk.gov.tr/", 
-            "clicked": 3
+            "clicked": 6
         }
     }, 
     {
@@ -8081,7 +13237,7 @@
             "text": "i\u00e7i\u015fleri bakanl\u0131\u011f\u0131", 
             "hidden": false, 
             "link": "https://www.turkiye.gov.tr/", 
-            "clicked": 3
+            "clicked": 6
         }
     }, 
     {
@@ -8091,7 +13247,7 @@
             "text": "iett", 
             "hidden": false, 
             "link": "http://www.iett.gov.tr/", 
-            "clicked": 2
+            "clicked": 5
         }
     }, 
     {
@@ -8101,7 +13257,7 @@
             "text": "e-okul", 
             "hidden": false, 
             "link": "https://e-okul.meb.gov.tr/", 
-            "clicked": 4
+            "clicked": 9
         }
     }, 
     {
@@ -8111,7 +13267,7 @@
             "text": "\u00f6sym", 
             "hidden": false, 
             "link": "http://sonuc.osym.gov.tr/", 
-            "clicked": 2
+            "clicked": 4
         }
     }, 
     {
@@ -8121,7 +13277,7 @@
             "text": "sa\u011fl\u0131k bakanl\u0131\u011f\u0131", 
             "hidden": false, 
             "link": "http://www.saglik.gov.tr/", 
-            "clicked": 3
+            "clicked": 6
         }
     }, 
     {
@@ -8131,7 +13287,7 @@
             "text": "d\u00f6viz,dolar ve euro kurlar\u0131", 
             "hidden": false, 
             "link": "http://doviz.com/", 
-            "clicked": 4
+            "clicked": 8
         }
     }, 
     {
@@ -8141,7 +13297,7 @@
             "text": "anl\u0131k, de\u011fi\u015fken alt\u0131n fiyatlar\u0131", 
             "hidden": false, 
             "link": "http://altin-fiyatlari.com.tr/", 
-            "clicked": 3
+            "clicked": 6
         }
     }, 
     {
@@ -8151,7 +13307,7 @@
             "text": "forex yat\u0131r\u0131m ve de\u011ferlendirme", 
             "hidden": false, 
             "link": "http://www.destekfx.com/", 
-            "clicked": 2
+            "clicked": 5
         }
     }, 
     {
@@ -8161,7 +13317,7 @@
             "text": "bigpara", 
             "hidden": false, 
             "link": "http://www.bigpara.com/", 
-            "clicked": 3
+            "clicked": 8
         }
     }, 
     {
@@ -8171,7 +13327,7 @@
             "text": "para dergi", 
             "hidden": false, 
             "link": "http://www.paradergi.com.tr/", 
-            "clicked": 2
+            "clicked": 6
         }
     }, 
     {
@@ -8181,7 +13337,7 @@
             "text": "t\u00fcrkiye i\u015f bankas\u0131", 
             "hidden": false, 
             "link": "http://www.isbank.com.tr/", 
-            "clicked": 2
+            "clicked": 4
         }
     }, 
     {
@@ -8191,7 +13347,7 @@
             "text": "garanti", 
             "hidden": false, 
             "link": "http://www.garanti.com.tr/", 
-            "clicked": 3
+            "clicked": 6
         }
     }, 
     {
@@ -8201,7 +13357,7 @@
             "text": "t.c ziraat bankas\u0131 a.\u015f.", 
             "hidden": false, 
             "link": "http://www.ziraat.com.tr/", 
-            "clicked": 2
+            "clicked": 7
         }
     }, 
     {
@@ -8211,7 +13367,7 @@
             "text": "t\u00fcrkiye ekonomi bankas\u0131", 
             "hidden": false, 
             "link": "http://www.teb.com.tr/", 
-            "clicked": 2
+            "clicked": 5
         }
     }, 
     {
@@ -8221,7 +13377,7 @@
             "text": "ing bank", 
             "hidden": false, 
             "link": "http://www.ingbank.com.tr/", 
-            "clicked": 2
+            "clicked": 7
         }
     }, 
     {
@@ -8231,7 +13387,7 @@
             "text": "bank pozitif ile an\u0131nda kredi", 
             "hidden": false, 
             "link": "http://ad.zanox.com/ppc/?25623072C1991614067T", 
-            "clicked": 17
+            "clicked": 20
         }
     }, 
     {
@@ -8241,7 +13397,7 @@
             "text": "yap\u0131kredi bireysel ihtiya\u00e7 kredisi ", 
             "hidden": false, 
             "link": "http://www.yapikredi.com.tr/Ihtiyac-Kredisi%E2%80%8E%E2%80%8E", 
-            "clicked": 5
+            "clicked": 10
         }
     }, 
     {
@@ -8251,7 +13407,7 @@
             "text": "i\u015f bankas\u0131 ev kredisi", 
             "hidden": false, 
             "link": "http://www.isteevim.com.tr/Faiz_Hesaplama%E2%80%8E", 
-            "clicked": 2
+            "clicked": 5
         }
     }, 
     {
@@ -8261,7 +13417,7 @@
             "text": "finansbank evlilik kredisi", 
             "hidden": false, 
             "link": "http://www.finansbank.com.tr/Evlilik-Kredisi%E2%80%8E%E2%80%8E%E2%80%8E%E2%80%8E", 
-            "clicked": 3
+            "clicked": 5
         }
     }, 
     {
@@ -8271,7 +13427,7 @@
             "text": "a\u011f\u0131z ve di\u015f hastal\u0131klar\u0131 hastanesi", 
             "hidden": false, 
             "link": "http://www.istanbulagizdis.gov.tr/", 
-            "clicked": 4
+            "clicked": 6
         }
     }, 
     {
@@ -8281,7 +13437,7 @@
             "text": "florya hayvan hastanesi", 
             "hidden": false, 
             "link": "http://www.floryahayvanhastanesi.com/", 
-            "clicked": 2
+            "clicked": 8
         }
     }, 
     {
@@ -8291,7 +13447,152 @@
             "text": "h\u00fcrriyet sa\u011fl\u0131k", 
             "hidden": false, 
             "link": "http://www.hurriyet.com.tr/saglik", 
-            "clicked": 7
+            "clicked": 8
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "text": "\u0130nternet H\u0131z Testi", 
+            "hidden": false, 
+            "link": "http://www.okgen.com/speed_test/", 
+            "clicked": 1017
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "text": "say\u0131sal loto sonu\u00e7lar\u0131", 
+            "hidden": false, 
+            "link": "http://www.millipiyango.gov.tr/sonuclar/_cs_sayisal.php", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 59, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "text": "\u015fans topu sonu\u00e7lar\u0131", 
+            "hidden": false, 
+            "link": "http://www.millipiyango.gov.tr/sonuclar/_cs_sanstopu.php", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 60, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "text": "on numara sonu\u00e7lar\u0131", 
+            "hidden": false, 
+            "link": "http://www.mpi.gov.tr/sonuclar/_cs_onnumara.php", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 61, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "text": "s\u00fcper loto sonu\u00e7lar\u0131", 
+            "hidden": false, 
+            "link": "http://www.mpi.gov.tr/sonuclar/_cs_superloto.php", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 62, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "text": "fizy", 
+            "hidden": false, 
+            "link": "http://fizy.com/", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 63, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "text": "t\u00fcrk\u00e7e anime", 
+            "hidden": false, 
+            "link": "http://www.turkanime.tv/", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 64, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "text": "t\u00fcrk\u00e7e manga", 
+            "hidden": false, 
+            "link": "http://mangalarburada.blogspot.com/", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 65, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "text": "youtube", 
+            "hidden": false, 
+            "link": "http://www.youtube.com/", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 66, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "text": "youtube mp3 d\u00f6n\u00fc\u015ft\u00fcr\u00fcc\u00fc", 
+            "hidden": false, 
+            "link": "http://youtubemp3donusturucu.com/", 
+            "clicked": 1000
+        }
+    }, 
+    {
+        "pk": 67, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "text": "matematik \u00f6\u011fretmeni", 
+            "hidden": false, 
+            "link": "http://www.farukhoca.net/", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 68, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "text": "ekol hoca", 
+            "hidden": false, 
+            "link": "http://www.ekolhoca.com/index1.asp", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 69, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "text": "alemlere rahmet Hz. Muhammed", 
+            "hidden": false, 
+            "link": "http://www.alemlererahmet.net/", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "flatpages.flatpage", 
+        "fields": {
+            "registration_required": false, 
+            "title": "\u0130nternet H\u0131z Testi", 
+            "url": "/speed_test/", 
+            "template_name": "", 
+            "sites": [
+                1
+            ], 
+            "content": "<div id=\"speedtestdiv\"></div>\r\n                <div id=\"speedTestLink\">Powered by: <a id=\"sl\"\r\n                                                       href=\"http://www.broadbandspeedtest.co.uk\">broadbandspeedtest.co.uk</a>\r\n                </div>\r\n                <script src=\"http://www.broadbandspeedtest.co.uk/speedtest.js\"></script>", 
+            "enable_comments": false
         }
     }, 
     {
@@ -8430,6 +13731,33 @@
         }
     }, 
     {
+        "pk": 31, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_flatpage", 
+            "name": "Can add flat page", 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_flatpage", 
+            "name": "Can change flat page", 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_flatpage", 
+            "name": "Can delete flat page", 
+            "content_type": 11
+        }
+    }, 
+    {
         "pk": 25, 
         "model": "auth.permission", 
         "fields": {
@@ -8538,6 +13866,33 @@
         }
     }, 
     {
+        "pk": 28, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_migrationhistory", 
+            "name": "Can add migration history", 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_migrationhistory", 
+            "name": "Can change migration history", 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_migrationhistory", 
+            "name": "Can delete migration history", 
+            "content_type": 10
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "auth.user", 
         "fields": {
@@ -8565,12 +13920,324 @@
             "is_active": true, 
             "is_superuser": true, 
             "is_staff": true, 
-            "last_login": "2013-09-28T08:55:52.024Z", 
+            "last_login": "2013-09-28T20:47:21.748Z", 
             "groups": [], 
             "user_permissions": [], 
             "password": "pbkdf2_sha256$10000$YO20Xtvu0h6P$XN38IlAbcAr7eb09OlhhFghUs9GYbPXGOgGxb2aKfqY=", 
             "email": "alperenpisgin@gmail.com", 
             "date_joined": "2013-09-27T17:49:01Z"
+        }
+    }, 
+    {
+        "pk": 129, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2013-09-28T22:06:04.470Z", 
+            "object_repr": "okgen.com", 
+            "object_id": "1", 
+            "change_message": "domain ve name de\u011fi\u015ftirildi.", 
+            "user": 1, 
+            "content_type": 6
+        }
+    }, 
+    {
+        "pk": 128, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-09-28T22:05:49.950Z", 
+            "object_repr": "/speed_test/ -- \u0130nternet H\u0131z Testi", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 127, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-09-28T21:09:09.093Z", 
+            "object_repr": "Links object", 
+            "object_id": "69", 
+            "change_message": "", 
+            "user": 2, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 126, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-09-28T21:08:21.710Z", 
+            "object_repr": "Links object", 
+            "object_id": "68", 
+            "change_message": "", 
+            "user": 2, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 125, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-09-28T21:06:29.875Z", 
+            "object_repr": "Links object", 
+            "object_id": "67", 
+            "change_message": "", 
+            "user": 2, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 124, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-09-28T20:48:09.109Z", 
+            "object_repr": "Links object", 
+            "object_id": "66", 
+            "change_message": "", 
+            "user": 2, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 123, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-09-28T20:14:17.161Z", 
+            "object_repr": "Links object", 
+            "object_id": "65", 
+            "change_message": "", 
+            "user": 2, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 122, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2013-09-28T20:12:19.510Z", 
+            "object_repr": "Words object", 
+            "object_id": "69", 
+            "change_message": "hidden de\u011fi\u015ftirildi.", 
+            "user": 2, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 121, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2013-09-28T20:12:15.120Z", 
+            "object_repr": "Words object", 
+            "object_id": "479", 
+            "change_message": "hidden de\u011fi\u015ftirildi.", 
+            "user": 2, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 120, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2013-09-28T20:12:09.458Z", 
+            "object_repr": "Words object", 
+            "object_id": "488", 
+            "change_message": "hidden de\u011fi\u015ftirildi.", 
+            "user": 2, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 119, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-09-28T20:10:46.854Z", 
+            "object_repr": "Links object", 
+            "object_id": "64", 
+            "change_message": "", 
+            "user": 2, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 118, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2013-09-28T20:08:52.591Z", 
+            "object_repr": "Links object", 
+            "object_id": "63", 
+            "change_message": "text de\u011fi\u015ftirildi.", 
+            "user": 2, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 117, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-09-28T20:08:14.896Z", 
+            "object_repr": "Links object", 
+            "object_id": "63", 
+            "change_message": "", 
+            "user": 2, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 116, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-09-28T20:07:37.583Z", 
+            "object_repr": "Links object", 
+            "object_id": "62", 
+            "change_message": "", 
+            "user": 2, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 115, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2013-09-28T19:54:49.488Z", 
+            "object_repr": "Words object", 
+            "object_id": "1181", 
+            "change_message": "hidden de\u011fi\u015ftirildi.", 
+            "user": 2, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 114, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2013-09-28T19:53:32.358Z", 
+            "object_repr": "Words object", 
+            "object_id": "1267", 
+            "change_message": "hidden de\u011fi\u015ftirildi.", 
+            "user": 2, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 113, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2013-09-28T19:53:03.461Z", 
+            "object_repr": "Words object", 
+            "object_id": "1283", 
+            "change_message": "hidden de\u011fi\u015ftirildi.", 
+            "user": 2, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 112, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2013-09-28T19:52:19.009Z", 
+            "object_repr": "Words object", 
+            "object_id": "1328", 
+            "change_message": "hidden de\u011fi\u015ftirildi.", 
+            "user": 2, 
+            "content_type": 8
+        }
+    }, 
+    {
+        "pk": 111, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-09-28T19:49:52.913Z", 
+            "object_repr": "Links object", 
+            "object_id": "61", 
+            "change_message": "", 
+            "user": 2, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 110, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-09-28T19:48:16.114Z", 
+            "object_repr": "Links object", 
+            "object_id": "60", 
+            "change_message": "", 
+            "user": 2, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 109, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-09-28T19:47:48.042Z", 
+            "object_repr": "Links object", 
+            "object_id": "59", 
+            "change_message": "", 
+            "user": 2, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 108, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-09-28T19:47:27.874Z", 
+            "object_repr": "Links object", 
+            "object_id": "58", 
+            "change_message": "", 
+            "user": 2, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 107, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-09-28T12:33:40.150Z", 
+            "object_repr": "Links object", 
+            "object_id": "57", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 106, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 3, 
+            "action_time": "2013-09-28T11:49:27.210Z", 
+            "object_repr": "Words object", 
+            "object_id": "250", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 8
         }
     }, 
     {
