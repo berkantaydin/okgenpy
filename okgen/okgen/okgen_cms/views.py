@@ -2,6 +2,7 @@ from math import log
 
 from django.conf import settings
 from django.shortcuts import render, get_object_or_404, redirect
+from django.core.paginator import Paginator, InvalidPage, EmptyPage
 from .models import Links, Words
 
 
@@ -52,6 +53,19 @@ def link_clicked(request, id):
     link.clicked += 1
     link.save()
     return redirect(link.link)
+
+
+def searched_words(request, page):
+    words = Words.objects.filter(hidden=False).order_by('word').order_by('-viewed').all()
+    paginator = Paginator(words, 50)
+
+    try:
+        words = paginator.page(page)
+    except (EmptyPage, InvalidPage):
+        words = paginator.page(paginator.num_pages)
+
+    return render(request,
+                  'okgen_cms/searched_words.html', dict(words=words),)
 
 
 def speed_test(request):

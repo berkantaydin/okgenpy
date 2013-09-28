@@ -14,6 +14,7 @@ urlpatterns = patterns('',
                        # okgen_cms
                        (r'^$', include('okgen.okgen.okgen_cms.urls')),
                        url(r'link_clicked/(?P<id>\d+)/$', 'okgen_cms.views.link_clicked', name='cms_link_clicked'),
+                       url(r'searched_words/(?P<page>\d+)/$', 'okgen_cms.views.searched_words', name='cms_searched_words'),
                        url(r'speed_test/$', 'okgen_cms.views.speed_test', name='cms_speed_test'),
 
                        # okgen_banks

@@ -96,18 +96,7 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#" id="weather">&nbsp;</a></li>
-                <li><a href="https://facebook.com/askvecikolata" target="_blank">Facebook</a></li>
-                <li><a href="https://twitter.com/wwwsrc" target="_blank">Twitter</a></li>
-                <li><a href="http://connected2.me/xba" target="_blank">Connect2me</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dahası <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="http://google.com" target="_blank">Google</a></li>
-                        <li class="divider"></li>
-                        <li><a href="http://youtubemp3donusturucu.com"
-                               target="_blank">Youtube MP3 Dönüştürücü</a></li>
-                    </ul>
-                </li>
+                <li><a href="{% url 'cms_searched_words' 1 %}" target="_blank">En çok aratılanlar</a></li>
                 <li>
                     <div id="google_translate_element"></div>
                     <script type="text/javascript">
