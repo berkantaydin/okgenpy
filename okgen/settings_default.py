@@ -160,6 +160,8 @@ INSTALLED_APPS = (
     'gunicorn',
     'okgen_cms',
     # 'okgen_banks',
+    'south',
+    'django.contrib.flatpages',
 )
 
 # A sample logging configuration. The only tangible logging

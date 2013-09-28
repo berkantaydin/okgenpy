@@ -32,25 +32,26 @@
                 </script>
             </div>
             <br/>
-
-            <div class="tagcloud">
-                {% for link in tagcloud %}
-                    <a style="font-size:{{ link.size }}px;" href="{% url 'banks_banks' %}">{{ link.tag.text }}</a>
+            <ul class="nav nav-pills nav-stacked list-group">
+                {% for banka in bankalar %}
+                    <li class="list-group-item"><a
+                            href="#">{{ banka.name }}</a></li>
                 {% endfor %}
-            </div>
+            </ul>
         </div>
-        <div class="col-lg-2">
-            <h6>ADVERSITEMENTS</h6>
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- okgen.com160x600 -->
-            <ins class="adsbygoogle"
-                 style="display:inline-block;width:160px;height:600px"
-                 data-ad-client="ca-pub-4061725184888939"
-                 data-ad-slot="5565461009"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
+    </div>
+    <div class="col-lg-2">
+        <h6>ADVERSITEMENTS</h6>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- okgen.com160x600 -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:160px;height:600px"
+             data-ad-client="ca-pub-4061725184888939"
+             data-ad-slot="5565461009"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
     </div>
     <hr>
 
