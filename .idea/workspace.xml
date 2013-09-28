@@ -41,7 +41,7 @@
       <file leaf-file-name="settings_default.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/okgen/settings_default.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="23" selection-start="2687" selection-end="2687" vertical-scroll-proportion="0.5103245">
+            <state line="76" column="25" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.53244835">
               <folding />
             </state>
           </provider>
@@ -576,7 +576,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/settings_default.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="23" selection-start="2687" selection-end="2687" vertical-scroll-proportion="0.5103245">
+        <state line="76" column="25" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.53244835">
           <folding />
         </state>
       </provider>

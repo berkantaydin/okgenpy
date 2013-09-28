@@ -76,10 +76,6 @@ STATIC_ROOT = os.path.join(PROJECT_ROOT, "staticus")
 # Example: "http://media.lawrence.com/static/"
 STATIC_URL = "/staticus/"
 
-STATICFILES_DIRS = (
-    os.path.join(PROJECT_DIR, 'static'),
-)
-
 ADMIN_MEDIA_PREFIX = '/static/admin/'
 
 # Additional locations of static files
