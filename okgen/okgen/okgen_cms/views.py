@@ -5,8 +5,8 @@ from .models import Links, Words
 
 
 def landing(request):
-    TAG_CLOUD_MAX_FONT_SIZE = '22'
-    TAG_CLOUD_MIN_FONT_SIZE = '12'
+    TAG_CLOUD_MAX_FONT_SIZE = 22
+    TAG_CLOUD_MIN_FONT_SIZE = 12
 
     lang = (request.GET.get('lang',request.LANGUAGE_CODE))
 
