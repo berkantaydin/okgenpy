@@ -56,7 +56,7 @@ def link_clicked(request, id):
 
 
 def searched_words(request, page):
-    words = Words.objects.filter(hidden=False).order_by('word').order_by('-viewed').all()
+    words = Words.objects.filter(hidden=False).order_by('word').order_by('-viewed') .all()
     paginator = Paginator(words, 50)
 
     try:
