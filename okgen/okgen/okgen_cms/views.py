@@ -52,3 +52,7 @@ def link_clicked(request, id):
     link.clicked += 1
     link.save()
     return redirect(link.link)
+
+
+def speed_test(request):
+    return render(request, 'okgen_cms/speed_test.html')
