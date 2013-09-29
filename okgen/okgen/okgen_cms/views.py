@@ -1,9 +1,9 @@
 from math import log
 
 from django.conf import settings
-from django.shortcuts import render, get_object_or_404, redirect
+from django.shortcuts import render, get_object_or_404, get_list_or_404, redirect
 from django.core.paginator import Paginator, InvalidPage, EmptyPage
-from .models import Links, Words
+from .models import Categories, Links, Words
 
 
 def landing(request):
@@ -23,6 +23,7 @@ def landing(request):
 
         return render(request, 'okgen_cms/results.html', dict(lang=lang))
     else:
+        """
         counts, taglist, tagcloud = [], [], []
         tags = Links.objects.filter(hidden=False).all()
 
@@ -46,6 +47,12 @@ def landing(request):
         words = Words.objects.filter(hidden=False).order_by('-viewed').all()[:50]
         return render(request, 'okgen_cms/landing.html', dict(
             lang=lang, tagcloud=tagcloud, mostly_searched=words))
+        """
+
+        categories = Categories.objects.all()
+        words = Words.objects.filter(hidden=False).order_by('-viewed').all()[:50]
+        return render(request, 'okgen_cms/landing.html', dict(
+            lang=lang, nodes=categories, mostly_searched=words))
 
 
 def link_clicked(request, id):
@@ -55,8 +62,19 @@ def link_clicked(request, id):
     return redirect(link.link)
 
 
+def links(request, id):
+    lang = (request.GET.get('lang', request.LANGUAGE_CODE))
+
+    category = get_object_or_404(Categories, id=id)
+    links = get_list_or_404(Links, category=category)
+    return render(request, 'okgen_cms/links.html',
+                  dict(links=links, category=category, lang=lang))
+
+
 def searched_words(request, page):
-    words = Words.objects.filter(hidden=False).order_by('word').order_by('-viewed') .all()
+    lang = (request.GET.get('lang', request.LANGUAGE_CODE))
+
+    words = Words.objects.filter(hidden=False).order_by('word').order_by('-viewed').all()
     paginator = Paginator(words, 50)
 
     try:
@@ -65,8 +83,10 @@ def searched_words(request, page):
         words = paginator.page(paginator.num_pages)
 
     return render(request,
-                  'okgen_cms/searched_words.html', dict(words=words),)
+                  'okgen_cms/searched_words.html', dict(words=words, lang=lang))
 
 
 def speed_test(request):
-    return render(request, 'okgen_cms/speed_test.html')
+    lang = (request.GET.get('lang', request.LANGUAGE_CODE))
+
+    return render(request, 'okgen_cms/speed_test.html', dict(lang=lang))

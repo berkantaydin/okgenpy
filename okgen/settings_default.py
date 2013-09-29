@@ -163,6 +163,7 @@ INSTALLED_APPS = (
     #'okgen_banks',
     'south',
     'django.contrib.flatpages',
+    'mptt',
 
 )
 

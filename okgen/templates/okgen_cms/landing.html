@@ -45,6 +45,7 @@
             </div>
 
             <h6>ADVERSITEMENTS</h6>
+
             <div class="ads">
                 <!-- reklam -->
                 <!-- 80% BA - 20% OD -->
@@ -60,12 +61,16 @@
             </div>
             <br/>
 
-            <div class="tagcloud">
-                {% for link in tagcloud %}
-                    <a style="font-size:{{ link.size }}px;"
-                       href="{% url 'cms_link_clicked' link.tag.id %}">{{ link.tag.text }}</a>
-                {% endfor %}
+            {% load mptt_tags %}
+            <div class="list-group">
+                {% recursetree nodes %}
+                        <a class="list-group-item" href="{% url 'cms_links' node.id %}">{{ node.name }}</a>
+                        {% if not node.is_leaf_node %}
+                                <a lass="list-group-item children" href="{% url 'cms_links' children.id %}">{{ children }}</a>
+                        {% endif %}
+                {% endrecursetree %}
             </div>
+
         </div>
         <div class="col-lg-2">
             <h6>ADVERSITEMENTS</h6>
