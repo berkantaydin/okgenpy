@@ -40,6 +40,14 @@ body {
     border-bottom: 1px solid #f2f2f2;
 }
 
+.links li{
+    min-width: 170px;
+    float:left;
+    margin:10px;
+    padding:10px;
+    background-color: #999999;
+}
+
 .links a:hover {
     color: #ff0000;
 }
