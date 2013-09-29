@@ -17,6 +17,26 @@
         </div>
         <div class="col-lg-8 centerarea">
             <h1>Bankalar</h1>
+
+            <div class="banks">
+                {% for bank in banks %}
+                    <div class="col-lg-4">
+                        <div class="thumbnail">
+                            <img src="{{ MEDIA_URL }}{{ bank.image }}" alt="{{ bank.name }}">
+
+                            <div class="caption">
+                                <h6>{{ bank.name }}</h6>
+
+                                <p>
+                                    <a href="{% url 'banks_bank' bank.slug %}" class="btn btn-primary">Bilgiler</a>
+                                    <a href="#" class="btn btn-default">Şubeler</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="clearfix"></div>
             <hr/>
             <div class="ads">
                 <!-- reklam -->

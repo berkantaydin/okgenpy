@@ -20,14 +20,10 @@ urlpatterns = patterns('',
                            name='cms_searched_words'),
 
                        # okgen_banks
-                       # url(r'bankalar/$', 'okgen_banks.views.banks', name='banks_banks'),
-                       # url(r'banka/(?P<id>\d+)/$', 'okgen_banks.views.bank', name='banks_bank'),
+                       url(r'bankalar/$', 'okgen_banks.views.banks', name='banks_banks'),
+                       url(r'banka/(?P<slug>\w+)/$', 'okgen_banks.views.bank', name='banks_bank'),
 
                        url(r'sayfa^$', include('django.contrib.flatpages.urls')),
-)
-
-urlpatterns += patterns('django.contrib.flatpages.views',
-                        (r'^(?P<url>.*/)$', 'flatpage'),
 )
 
 if settings.DEBUG:
@@ -37,3 +33,10 @@ else:
                             (r'^static/(?P<path>.*)$', 'django.views.static.serve',
                              {'document_root': settings.STATIC_ROOT}),
     )
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+# flat pages
+urlpatterns += patterns('django.contrib.flatpages.views',
+                        (r'^(?P<url>.*/)$', 'flatpage'),
+)

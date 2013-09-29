@@ -7,7 +7,7 @@ def banks(request):
     return render(request, 'okgen_banks/banks.html', dict(banks=banks))
 
 
-def bank(request, id):
+def bank(request, slug):
     # TODO: SLUG OLACAK
     banks = Banks.objects.all()
     return render(request, 'okgen_banks/bank.html', dict(banks=bank))
