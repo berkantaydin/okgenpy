@@ -208,7 +208,7 @@
                 }
 
                 var date = new Date();
-                var minutes = 30;
+                var minutes = 6000;
                 date.setTime(date.getTime() + (minutes * 60 * 1000));
                 jQuery.cookie('test_chrome_app_status_new', '1', { expires: date});
                 jQuery(document).off('click');
