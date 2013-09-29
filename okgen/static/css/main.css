@@ -87,12 +87,12 @@ body {
 }
 
 .tagcloud a {
-    background-color: #101010;
+    background-color: #999999;
     padding: 3px;
     margin: 5px;
     line-height: 30px;
 }
 
 .tagcloud a:hover {
-    color: #999999;
+    color: #f8f8f8;
 }
