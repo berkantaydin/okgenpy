@@ -87,7 +87,8 @@ body {
 }
 
 .tagcloud a {
-    background-color: #999999;
+    background-color: #101010;
+    color: #999999;
     padding: 3px;
     margin: 5px;
     line-height: 30px;

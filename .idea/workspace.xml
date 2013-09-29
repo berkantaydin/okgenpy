@@ -12,7 +12,7 @@
     <file path="/models.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380454845853" ignored="false" />
     <file path="/views.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380455556498" ignored="false" />
     <file path="/landing.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380305118777" ignored="false" />
-    <file path="/main.css" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380317038100" ignored="false" />
+    <file path="/main.css" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380472516100" ignored="false" />
     <file path="/banks.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380456024571" ignored="false" />
     <file path="/speed_test.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380371461229" ignored="false" />
     <file path="/searched_words.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380401028570" ignored="false" />
@@ -59,7 +59,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/okgen/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="29" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.77272725">
+            <state line="90" column="12" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.8347107">
               <folding />
             </state>
           </provider>
@@ -692,7 +692,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="29" selection-start="1162" selection-end="1162" vertical-scroll-proportion="0.77272725">
+        <state line="90" column="12" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.8347107">
           <folding />
         </state>
       </provider>
