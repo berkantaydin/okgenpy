@@ -1,6 +1,6 @@
 python==2.7.5
 Django==1.4.6
-PIL==1.1.7
+django_extensions
 gunicorn
 south
-django-suit
+suit

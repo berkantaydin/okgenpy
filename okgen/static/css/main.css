@@ -3,11 +3,11 @@ body {
     padding-bottom: 20px;
 }
 
-.container .row li{
+.container .row li {
     background: #ffffff;
 }
 
-.ya-site-form__search-precise{
+.ya-site-form__search-precise {
     display: none;
     visibility: hidden;
 }
@@ -23,76 +23,76 @@ body {
     margin: auto;
 }
 
-.links ul{
+.links ul {
     min-width: 236px;
-    float:left;
+    float: left;
 }
 
-
-.links li{
+.links li {
     list-style-type: none;
 }
 
-.links li:hover{
+.links li:hover {
     background-color: #f2f2f2;
 }
 
-.links li{
+.links li {
     border-bottom: 1px solid #f2f2f2;
 }
 
-.links a:hover{
+.links a:hover {
     color: #ff0000;
 }
 
-.links li:first-child{
+.links li:first-child {
     border-bottom: 1px solid #f2f2f2;
 }
 
-.links li a:hover{
+.links li a:hover {
     text-decoration: none;
 }
 
-.links ul{
+.links ul {
     margin-top: 5px;
 }
 
-.span-most-downloaded li{
+.span-most-downloaded li {
     overflow-x: hidden;
     text-transform: lowercase;
 }
 
-.span-last-downloaded li{
+.span-last-downloaded li {
     overflow-x: hidden;
     text-transform: lowercase;
 }
 
-.centerarea{
+.centerarea {
     overflow-x: hidden;
     max-width: 740px;
 }
 
-.searchbar{
+.searchbar {
     max-width: 720px;
 }
 
-.nav .label{
-    float:left;
+.nav .label {
+    float: left;
     margin-top: 5px;
     margin-right: 5px;
 }
 
-.list-group li{
-    margin:0;
-    padding:0;
+.list-group li {
+    margin: 0;
+    padding: 0;
 }
 
-.tagcloud a{
-    color: #999999;
+.tagcloud a {
+    background-color: #101010;
+    padding: 3px;
     margin: 5px;
     line-height: 30px;
 }
 
-.tagcloud a:hover{
-    color: #ff0000;
+.tagcloud a:hover {
+    color: #f8f8f8;
 }
