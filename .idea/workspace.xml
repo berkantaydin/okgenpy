@@ -12,7 +12,7 @@
     <file path="/models.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380480243140" ignored="false" />
     <file path="/views.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380485360764" ignored="false" />
     <file path="/landing.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380488005168" ignored="false" />
-    <file path="/main.css" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380488043762" ignored="false" />
+    <file path="/main.css" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380488142546" ignored="false" />
     <file path="/banks.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380475036630" ignored="false" />
     <file path="/speed_test.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380371461229" ignored="false" />
     <file path="/searched_words.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380401028570" ignored="false" />
@@ -49,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="landing.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="64" selection-start="3624" selection-end="3624" vertical-scroll-proportion="0.45573294">
+            <state line="66" column="64" selection-start="3624" selection-end="3624" vertical-scroll-proportion="-13.083333">
               <folding>
                 <element signature="e#391#444#0" expanded="true" />
                 <element signature="e#3126#3178#0" expanded="true" />
@@ -62,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/okgen/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="18" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
+            <state line="43" column="19" selection-start="558" selection-end="558" vertical-scroll-proportion="0.58677685">
               <folding />
             </state>
           </provider>
@@ -117,8 +117,8 @@
         <option value="$PROJECT_DIR$/okgen/urls.py" />
         <option value="$PROJECT_DIR$/okgen/okgen/okgen_cms/views.py" />
         <option value="$PROJECT_DIR$/okgen/templates/okgen_cms/links.html" />
-        <option value="$PROJECT_DIR$/okgen/static/css/main.css" />
         <option value="$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html" />
+        <option value="$PROJECT_DIR$/okgen/static/css/main.css" />
       </list>
     </option>
   </component>
@@ -687,24 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="18" selection-start="2544" selection-end="2544" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="12" selection-start="736" selection-end="744" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/links.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="40" selection-start="3486" selection-end="3527" vertical-scroll-proportion="0.41219157">
@@ -723,21 +705,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okgen/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="18" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="64" selection-start="3624" selection-end="3624" vertical-scroll-proportion="0.45573294">
+        <state line="66" column="64" selection-start="3624" selection-end="3624" vertical-scroll-proportion="-13.083333">
           <folding>
             <element signature="e#391#444#0" expanded="true" />
             <element signature="e#3126#3178#0" expanded="true" />
             <element signature="e#3983#4036#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="12" selection-start="736" selection-end="744" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="18" selection-start="2544" selection-end="2544" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okgen/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="19" selection-start="558" selection-end="558" vertical-scroll-proportion="0.58677685">
+          <folding />
         </state>
       </provider>
     </entry>
