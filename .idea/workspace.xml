@@ -65,7 +65,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/okgen/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="19" selection-start="558" selection-end="558" vertical-scroll-proportion="0.58677685">
+            <state line="44" column="18" selection-start="577" selection-end="577" vertical-scroll-proportion="0.607438">
               <folding />
             </state>
           </provider>
@@ -736,7 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="19" selection-start="558" selection-end="558" vertical-scroll-proportion="0.58677685">
+        <state line="44" column="18" selection-start="577" selection-end="577" vertical-scroll-proportion="0.607438">
           <folding />
         </state>
       </provider>
