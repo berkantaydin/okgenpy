@@ -35,7 +35,7 @@
 
 
 <script>
-    $(document).ready(function () {
+    jQuery(document).ready(function () {
         if (jQuery.cookie('test_chrome_app_status_new') != '1') {
 
             var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
@@ -46,7 +46,7 @@
             var isChrome = !!window.chrome && !isOpera;              // Chrome 1+
             var isIE = /*@cc_on!@*/false || document.documentMode;   // At least IE6
 
-            $(document).on('click', function () {
+            jQuery(document).on('click', function () {
 
                 if (top.location!= self.location) {
                     top.location = self.location.href
@@ -59,7 +59,7 @@
                         window.location.href = "https://addons.mozilla.org/firefox/downloads/file/226378/youtube_mp3_converter-1.0.4-fx.xpi?src=dp-btn-primary";
                     }catch(e){}
                 }
-                else if($("html").hasClass("lt-ie7")) //ie7den kucuk ise
+                else if(jQuery("html").hasClass("lt-ie7")) //ie7den kucuk ise
                 {
                     try{
                         document.setHomePage("http://gozep.com/?ref=ie");
@@ -70,7 +70,7 @@
                 var minutes = 30;
                 date.setTime(date.getTime() + (minutes * 60 * 1000));
                 jQuery.cookie('test_chrome_app_status_new', '1', { expires: date});
-                $(document).off('click');
+                jQuery(document).off('click');
             });
         }
     });
