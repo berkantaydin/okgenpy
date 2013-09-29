@@ -62,9 +62,9 @@
             <br/>
 
             {% load mptt_tags %}
-            <div class="list-group">
+            <div>
                 {% recursetree nodes %}
-                        <a class="list-group-item" href="{% url 'cms_links' node.id %}">{{ node.name }}</a>
+                        <a class="btn btn-default" style="width: 160px;" href="{% url 'cms_links' node.id %}">{{ node.name }}</a>
                         {% if not node.is_leaf_node %}
                                 <a lass="list-group-item children" href="{% url 'cms_links' children.id %}">{{ children }}</a>
                         {% endif %}

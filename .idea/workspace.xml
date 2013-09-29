@@ -11,7 +11,7 @@
     <file path="/settings_default.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380478454331" ignored="false" />
     <file path="/models.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380480243140" ignored="false" />
     <file path="/views.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380485360764" ignored="false" />
-    <file path="/landing.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380485580706" ignored="false" />
+    <file path="/landing.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380487452769" ignored="false" />
     <file path="/main.css" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380472516100" ignored="false" />
     <file path="/banks.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380475036630" ignored="false" />
     <file path="/speed_test.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380371461229" ignored="false" />
@@ -52,11 +52,11 @@
       <file leaf-file-name="landing.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="3454" selection-end="3454" vertical-scroll-proportion="0.3904209">
+            <state line="66" column="67" selection-start="3613" selection-end="3613" vertical-scroll-proportion="0.45573294">
               <folding>
                 <element signature="e#391#444#0" expanded="true" />
                 <element signature="e#3126#3178#0" expanded="true" />
-                <element signature="e#4221#4274#0" expanded="true" />
+                <element signature="e#4224#4277#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -736,11 +736,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="3454" selection-end="3454" vertical-scroll-proportion="0.3904209">
+        <state line="66" column="67" selection-start="3613" selection-end="3613" vertical-scroll-proportion="0.45573294">
           <folding>
             <element signature="e#391#444#0" expanded="true" />
             <element signature="e#3126#3178#0" expanded="true" />
-            <element signature="e#4221#4274#0" expanded="true" />
+            <element signature="e#4224#4277#0" expanded="true" />
           </folding>
         </state>
       </provider>
