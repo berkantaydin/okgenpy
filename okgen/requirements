@@ -3,4 +3,4 @@ Django==1.4.6
 django_extensions
 gunicorn
 south
-suit
+django_suit

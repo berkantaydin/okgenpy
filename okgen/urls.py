@@ -21,9 +21,11 @@ urlpatterns = patterns('',
 
                        # okgen_banks
                        #url(r'bankalar/$', 'okgen_banks.views.banks', name='banks_banks'),
-                       #url(r'banka/(?P<slug>\w+)/$', 'okgen_banks.views.bank', name='banks_bank'),
+                       #url(r'^banka/(?P<id>\d+)/$', 'okgen_banks.views.bank', name='banks_bank'),
+                       #url(r'^banka/subeler/(?P<id>\d+)/$', 'okgen_banks.views.branches', name='banks_branches'),
+                       #url(r'^banka/sube/(?P<id>\d+)/$', 'okgen_banks.views.branch', name='banks_branch'),
 
-                       url(r'sayfa^$', include('django.contrib.flatpages.urls')),
+                       url(r'^sayfa$', include('django.contrib.flatpages.urls')),
 )
 
 if settings.DEBUG:
