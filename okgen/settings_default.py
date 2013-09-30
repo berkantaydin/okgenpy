@@ -160,7 +160,7 @@ INSTALLED_APPS = (
     'django_extensions',
     'gunicorn',
     'okgen_cms',
-    #'okgen_banks',
+    'okgen_banks',
     'south',
     'django.contrib.flatpages',
     'mptt',

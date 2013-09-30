@@ -7,16 +7,16 @@ def banks(request):
     return render(request, 'okgen_banks/banks.html', dict(banks=banks))
 
 
-def bank(request, id):
+def bank(request, slug):
     bank = get_object_or_404(Banks, pk=id)
     return render(request, 'okgen_banks/bank.html', dict(banks=bank))
 
 
-def branches(request):
+def branches(request, slug):
     branches = Branches.objects.all()
     return render(request, 'okgen_banks/branches.html', dict(branches=branches))
 
 
-def branch(request, id):
+def branch(request, slug):
     branch = get_object_or_404(Branches, pk=id)
     return render(request, 'okgen_banks/branch.html', dict(banks=branch))
