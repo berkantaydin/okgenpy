@@ -68,28 +68,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bank.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bank.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_banks/bank.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="21" selection-start="1398" selection-end="1398" vertical-scroll-proportion="-20.0">
+            <state line="86" column="40" selection-start="3547" selection-end="3547" vertical-scroll-proportion="0.49189985">
               <folding>
                 <element signature="e#1128#1180#0" expanded="true" />
                 <element signature="e#1752#1773#0" expanded="true" />
-                <element signature="e#3934#3986#0" expanded="true" />
-                <element signature="e#4873#4926#0" expanded="true" />
+                <element signature="e#3821#3874#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banks.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="banks.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_banks/banks.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.41237113">
+            <state line="50" column="40" selection-start="2198" selection-end="2198" vertical-scroll-proportion="-13.916667">
               <folding>
                 <element signature="e#937#989#0" expanded="true" />
-                <element signature="e#2585#2637#0" expanded="true" />
-                <element signature="e#3524#3577#0" expanded="true" />
+                <element signature="e#2472#2525#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,8 +144,8 @@
         <option value="$PROJECT_DIR$/okgen/urls.py" />
         <option value="$PROJECT_DIR$/okgen/okgen/okgen_banks/views.py" />
         <option value="$PROJECT_DIR$/okgen/static/css/main.css" />
-        <option value="$PROJECT_DIR$/okgen/templates/okgen_banks/bank.html" />
         <option value="$PROJECT_DIR$/okgen/templates/okgen_banks/banks.html" />
+        <option value="$PROJECT_DIR$/okgen/templates/okgen_banks/bank.html" />
       </list>
     </option>
   </component>
@@ -790,25 +788,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_banks/bank.html">
+    <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_banks/banks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="21" selection-start="1398" selection-end="1398" vertical-scroll-proportion="-20.0">
+        <state line="50" column="40" selection-start="2198" selection-end="2198" vertical-scroll-proportion="-13.916667">
           <folding>
-            <element signature="e#1128#1180#0" expanded="true" />
-            <element signature="e#1752#1773#0" expanded="true" />
-            <element signature="e#3934#3986#0" expanded="true" />
-            <element signature="e#4873#4926#0" expanded="true" />
+            <element signature="e#937#989#0" expanded="true" />
+            <element signature="e#2472#2525#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_banks/banks.html">
+    <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_banks/bank.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.41237113">
+        <state line="86" column="40" selection-start="3547" selection-end="3547" vertical-scroll-proportion="0.49189985">
           <folding>
-            <element signature="e#937#989#0" expanded="true" />
-            <element signature="e#2585#2637#0" expanded="true" />
-            <element signature="e#3524#3577#0" expanded="true" />
+            <element signature="e#1128#1180#0" expanded="true" />
+            <element signature="e#1752#1773#0" expanded="true" />
+            <element signature="e#3821#3874#0" expanded="true" />
           </folding>
         </state>
       </provider>
