@@ -20,10 +20,10 @@ urlpatterns = patterns('',
                            name='cms_searched_words'),
                        url(r'^links/(?P<slug>[\w-]+)/$', 'okgen_cms.views.links', name='cms_links'),
                        # okgen_banks
-                       #url(r'bankalar/$', 'okgen_banks.views.banks', name='banks_banks'),
-                       #url(r'^banka/(?P<id>\d+)/$', 'okgen_banks.views.bank', name='banks_bank'),
-                       #url(r'^banka/subeler/(?P<id>\d+)/$', 'okgen_banks.views.branches', name='banks_branches'),
-                       #url(r'^banka/sube/(?P<id>\d+)/$', 'okgen_banks.views.branch', name='banks_branch'),
+                       url(r'bankalar/$', 'okgen_banks.views.banks', name='banks_banks'),
+                       url(r'^banka/(?P<slug>[\w-]+)/$', 'okgen_banks.views.bank', name='banks_bank'),
+                       url(r'^banka/subeler/(?P<slug>[\w-]+)/$', 'okgen_banks.views.branches', name='banks_branches'),
+                       url(r'^banka/sube/(?P<slug>[\w-]+)/$', 'okgen_banks.views.branch', name='banks_branch'),
 
                        url(r'^sayfa$', include('django.contrib.flatpages.urls')),
 )

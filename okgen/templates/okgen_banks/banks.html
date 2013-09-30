@@ -28,8 +28,8 @@
                                 <h6>{{ bank.name }}</h6>
 
                                 <p>
-                                    <a href="{% url 'banks_bank' bank.id %}" class="btn btn-primary">Bilgiler</a>
-                                    <a href="{% url 'banks_branches' bank.id %}" class="btn btn-default">Şubeler</a>
+                                    <a href="{% url 'banks_bank' bank.slug %}" class="btn btn-primary">Bilgiler</a>
+                                    <a href="{% url 'banks_branches' bank.slug %}" class="btn btn-default">Şubeler</a>
                                 </p>
                             </div>
                         </div>
