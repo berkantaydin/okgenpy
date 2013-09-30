@@ -24,23 +24,65 @@
 
             <h1>{{ bank.name }}</h1>
 
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- okgen728x90 -->
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:728px;height:90px"
+                 data-ad-client="ca-pub-4061725184888939"
+                 data-ad-slot="2611994603"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
             <div class="banks">
-                {% for bank in banks %}
-                    <div class="col-lg-4">
-                        <div class="thumbnail">
-                            <img src="{{ MEDIA_URL }}{{ bank.image }}" alt="{{ bank.name }}">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">{{ bank.name }} Bilgileri</div>
 
-                            <div class="caption">
-                                <h6>{{ bank.name }}</h6>
-
-                                <p>
-                                    <a href="{% url 'banks_bank' bank.slug %}" class="btn btn-primary">Bilgiler</a>
-                                    <a href="{% url 'banks_branches' bank.slug %}" class="btn btn-default">Şubeler</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                {% endfor %}
+                    <!-- Table -->
+                    <table class="table">
+                        <tr>
+                            <td style="width: 140px;">Banka Logosu</td>
+                            <td><img src="{{ MEDIA_URL }}{{ bank.image }}"/></td>
+                        </tr>
+                        <tr>
+                            <td>Banka</td>
+                            <td>{{ bank.name }}</td>
+                        </tr>
+                        <tr>
+                            <td>Çağrı Merkezi</td>
+                            <td>{{ bank.call_center }}</td>
+                        </tr>
+                        <tr>
+                            <td>Swift Kodu</td>
+                            <td>{{ bank.swift_code }}</td>
+                        </tr>
+                        <tr>
+                            <td>EFT Kodu</td>
+                            <td>{{ bank.eft_code }}</td>
+                        </tr>
+                        <tr>
+                            <td>Web Adresi</td>
+                            <td><a target="_blank" href="{{ bank.web_url }}">{{ bank.web_url }}</a></td>
+                        </tr>
+                        <tr>
+                            <td>Tarihçe</td>
+                            <td>{{ bank.history }}</td>
+                        </tr>
+                        <tr>
+                            <td>Genel Merkez Bilgileri</td>
+                            <td>{{ bank.general_address }}</td>
+                        </tr>
+                        <tr>
+                            <td>İlçe</td>
+                            <td>{{ bank.town|capfirst }}</td>
+                        </tr>
+                        <tr>
+                            <td>İl</td>
+                            <td>{{ bank.city|capfirst }}</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class="clearfix"></div>
             <hr/>

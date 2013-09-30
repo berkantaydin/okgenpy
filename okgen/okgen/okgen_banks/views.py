@@ -8,8 +8,8 @@ def banks(request):
 
 
 def bank(request, slug):
-    bank = get_object_or_404(Banks, pk=id)
-    return render(request, 'okgen_banks/bank.html', dict(banks=bank))
+    bank = get_object_or_404(Banks, slug=slug)
+    return render(request, 'okgen_banks/bank.html', dict(bank=bank))
 
 
 def branches(request, slug):
@@ -18,5 +18,5 @@ def branches(request, slug):
 
 
 def branch(request, slug):
-    branch = get_object_or_404(Branches, pk=id)
+    branch = get_object_or_404(Branches, slug=slug)
     return render(request, 'okgen_banks/branch.html', dict(banks=branch))

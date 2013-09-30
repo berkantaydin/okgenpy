@@ -106,3 +106,12 @@ body {
 .tagcloud a:hover {
     color: #f8f8f8;
 }
+
+.banks div{
+    padding: 10px;
+}
+
+.banks img{
+    height: 30px;
+    max-width: 120px;
+}
