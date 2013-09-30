@@ -62,10 +62,10 @@ def link_clicked(request, id):
     return redirect(link.link)
 
 
-def links(request, id):
+def links(request, slug):
     lang = (request.GET.get('lang', request.LANGUAGE_CODE))
 
-    category = get_object_or_404(Categories, id=id)
+    category = get_object_or_404(Categories, slug=slug)
     links = get_list_or_404(Links, category=category)
     return render(request, 'okgen_cms/links.html',
                   dict(links=links, category=category, lang=lang))

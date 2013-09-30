@@ -1,4 +1,3 @@
-python==2.7.5
 Django==1.4.6
 django_extensions
 gunicorn

@@ -64,7 +64,7 @@
             {% load mptt_tags %}
             <div class="links">
                 {% recursetree nodes %}
-                        <a href="{% url 'cms_links' node.id %}"><li>{{ node.name }}</li></a>
+                        <a href="{% url 'cms_links' node.slug %}"><li>{{ node.name }}</li></a>
                 {% endrecursetree %}
             </div>
 
