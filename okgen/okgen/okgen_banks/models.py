@@ -6,6 +6,9 @@ class City(models.Model):
     name = models.CharField(max_length=255)
     slug = AutoSlugField(max_length=50, unique=True, populate_from=('name',))
 
+    class Meta:
+        ordering = ['name', ]
+
     def __unicode__(self):
         return '%s' % self.name
 
@@ -15,8 +18,11 @@ class Town(models.Model):
     slug = AutoSlugField(max_length=50, unique=True, populate_from=('name',))
     city = models.ForeignKey(City)
 
+    class Meta:
+        ordering = ['city__name', 'name', ]
+
     def __unicode__(self):
-        return '%s' % self.name
+        return '%s > %s' % (self.city, self.name)
 
 
 class Banks(models.Model):
@@ -33,6 +39,12 @@ class Banks(models.Model):
     image = models.ImageField(upload_to='media')
     viewed = models.IntegerField(default=0)
 
+    class Meta:
+        ordering = ['name', ]
+
+    def __unicode__(self):
+        return self.name
+
     def get_branch_count(self):
         return 0
 
@@ -40,8 +52,12 @@ class Banks(models.Model):
 class Branches(models.Model):
     name = models.CharField(max_length=255)
     slug = AutoSlugField(max_length=50, unique=True, populate_from=('name',))
+    bank = models.ForeignKey(Banks)
     city = models.ForeignKey(City)
     town = models.ForeignKey(Town)
     phone = models.CharField(max_length=255)
     address = models.TextField(null=True)
     viewed = models.IntegerField(default=0)
+
+    class Meta:
+        ordering = ['bank__name', 'name', ]

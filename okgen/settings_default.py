@@ -143,6 +143,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.media',
     'django.core.context_processors.static',
     'django.contrib.messages.context_processors.messages',
+    'okgen.okgen.okgen_libs.context_processors.ads',
 )
 
 INSTALLED_APPS = (
