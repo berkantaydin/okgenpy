@@ -1,0 +1,8 @@
+from django.template.loader import render_to_string
+
+
+def ads(request):
+    return {
+        "ads160x600": render_to_string('ads/160x600.html'),
+        "ads728x90": render_to_string('ads/728x90.html'),
+    }

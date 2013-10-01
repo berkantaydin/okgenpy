@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load url from future %}
+{% block container %}
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-lg-2">
+            <h6>ADVERSITEMENTS</h6>
+            {{ ads160x600 }}
+        </div>
+        <div class="col-lg-8 centerarea">
+            <h1>Bankalar</h1>
+
+            {{ ads728x90 }}
+
+            <div class="banks">
+                {% for bank in banks %}
+                    <div class="col-lg-4">
+                        <div class="thumbnail">
+                            <a href="{% url 'banks_bank' bank.slug %}">
+                                <center><img src="{{ MEDIA_URL }}{{ bank.image }}" alt="{{ bank.name }}"></center>
+                            </a>
+
+                            <div class="caption">
+                                <h6>{{ bank.name }}</h6>
+
+                                <p>
+                                    <a href="{% url 'banks_bank' bank.slug %}" class="btn btn-primary">Bilgiler</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-2">
+            <h6>ADVERSITEMENTS</h6>
+            {{ ads160x600 }}
+        </div>
+    </div>
+    <hr>
+
+{% endblock container %}
