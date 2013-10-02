@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/manage.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380207519433" ignored="false" />
     <file path="/admin.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380560687571" ignored="false" />
-    <file path="/urls.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380647591926" ignored="false" />
+    <file path="/urls.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380733120821" ignored="false" />
     <file path="/settings_local.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380645472726" ignored="false" />
     <file path="/settings_default.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380644661522" ignored="false" />
     <file path="/models.py" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380639445011" ignored="false" />
@@ -45,34 +45,18 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/okgen/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="81" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="19" column="54" selection-start="663" selection-end="790" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings_default.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/okgen/settings_default.py">
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="43" selection-start="4930" selection-end="4930" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/okgen/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="59" selection-start="804" selection-end="804" vertical-scroll-proportion="-12.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="united.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/okgen/static/css/united.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="4" column="4" selection-start="93" selection-end="156" vertical-scroll-proportion="0.08534851">
               <folding />
             </state>
           </provider>
@@ -142,8 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/okgen/okgen/okgen_banks/models.py" />
-        <option value="$PROJECT_DIR$/okgen/settings_local.py" />
         <option value="$PROJECT_DIR$/okgen/templates/ads/160x600.html" />
         <option value="$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html" />
         <option value="$PROJECT_DIR$/okgen/templates/ads/728x90.html" />
@@ -155,9 +137,11 @@
         <option value="$PROJECT_DIR$/okgen/templates/ads/336x280.html" />
         <option value="$PROJECT_DIR$/okgen/okgen/okgen_libs/context_processors.py" />
         <option value="$PROJECT_DIR$/okgen/templates/okgen_banks/banks.html" />
-        <option value="$PROJECT_DIR$/okgen/urls.py" />
         <option value="$PROJECT_DIR$/okgen/settings_default.py" />
         <option value="$PROJECT_DIR$/okgen/templates/base.html" />
+        <option value="$PROJECT_DIR$/okgen/okgen/okgen_banks/urls.py" />
+        <option value="$PROJECT_DIR$/okgen/urls.py" />
+        <option value="$PROJECT_DIR$/okgen/okgen/okgen_cms/urls.py" />
       </list>
     </option>
   </component>
@@ -449,11 +433,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/okgen/okgen/okgen_banks" />
       <recent name="$PROJECT_DIR$/okgen/static/css" />
       <recent name="$PROJECT_DIR$/okgen/templates/ads" />
       <recent name="$PROJECT_DIR$/okgen/templates/okgen_cms" />
       <recent name="$PROJECT_DIR$/okgen/templates/okgen_banks" />
-      <recent name="$PROJECT_DIR$/okgen/okgen/okgen_libs" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.okgen">
@@ -617,13 +601,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32137734" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32137734" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -699,16 +683,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/okgen/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/okgen/templates/ads/160x600.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="354" selection-end="354" vertical-scroll-proportion="0.27842227" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="22" selection-start="2439" selection-end="2439" vertical-scroll-proportion="-14.375">
@@ -770,13 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okgen/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="81" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/searched_words.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="39" selection-start="2982" selection-end="2982" vertical-scroll-proportion="0.0">
@@ -784,23 +751,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okgen/settings_default.py">
+    <entry file="file://$PROJECT_DIR$/okgen/static/css/united.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="43" selection-start="4930" selection-end="4930" vertical-scroll-proportion="0.0">
+        <state line="6" column="41" selection-start="157" selection-end="157" vertical-scroll-proportion="0.13043478">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="59" selection-start="804" selection-end="804" vertical-scroll-proportion="-12.5">
+        <state line="3" column="54" selection-start="115" selection-end="115" vertical-scroll-proportion="0.067567565">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okgen/static/css/united.css">
+    <entry file="file://$PROJECT_DIR$/okgen/settings_default.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="84" column="61" selection-start="3002" selection-end="3002" vertical-scroll-proportion="0.10668563">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okgen/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="54" selection-start="663" selection-end="790" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okgen/okgen/okgen_cms/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="93" selection-end="156" vertical-scroll-proportion="0.08534851">
           <folding />
         </state>
       </provider>
