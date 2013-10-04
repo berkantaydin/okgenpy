@@ -1,4 +1,5 @@
 {% load url from future %}
+{% load facebook %}
 <!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -32,82 +33,6 @@
     improve your experience.</p>
 <![endif]-->
 
-<script type='text/javascript'>
-
-var _ues = {
-host:'okgen.userecho.com',
-forum:'24375',
-lang:'en',
-tab_corner_radius:5,
-tab_font_size:20,
-tab_image_hash:'Z2VyaWJpbGRpcmlt',
-tab_chat_hash:'c29oYmV0',
-tab_alignment:'bottom',
-tab_text_color:'#FFFFFF',
-tab_text_shadow_color:'#33333355',
-tab_bg_color:'#333333',
-tab_hover_color:'#DD4814'
-};
-
-(function() {
-    var _ue = document.createElement('script'); _ue.type = 'text/javascript'; _ue.async = true;
-    _ue.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.userecho.com/js/widget-1.4.gz.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(_ue, s);
-  })();
-
-</script>
-
-<div id="fb-root"></div>
-<script>
-    // Additional JS functions here
-    window.fbAsyncInit = function () {
-        FB.init({
-            appId: '168727409985226', // App ID
-            channelUrl: '//www.okgen.com/channel.html', // Channel File
-            status: true, // check login status
-            cookie: true, // enable cookies to allow the server to access the session
-            xfbml: true  // parse XFBML
-        });
-
-        // Additional init code here
-
-        FB.Event.subscribe('auth.authResponseChange', function (response) {
-            if (response.status === 'connected') {
-                testAPI();
-            } else if (response.status === 'not_authorized') {
-                FB.login();
-            } else {
-                FB.login();
-            }
-        });
-    };
-
-    // Load the SDK asynchronously
-    (function (d) {
-        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
-        if (d.getElementById(id)) {
-            return;
-        }
-        js = d.createElement('script');
-        js.id = id;
-        js.async = true;
-        js.src = "//connect.facebook.net/en_US/all.js";
-        ref.parentNode.insertBefore(js, ref);
-    }(document));
-
-    // Here we run a very simple test of the Graph API after login is successful.
-    // This testAPI() function is only called in those cases.
-    function testAPI() {
-        //console.log('Welcome!  Fetching your information.... ');
-        FB.api('/me', function (response) {
-            //$("div.fblogin").html('');
-            //$("div.fblogin").append('<img class="pull-right" height="40" src="https://graph.facebook.com/'+response.id+'/picture?type=square">');
-            //$("div.fblogin").append('<a class="pull-right" style="margin:10px;line-height: 19px" href="#">'+response.name+'</a>');
-            //$("div.fblogin").append('<a class="pull-right" style="margin-right:5px;line-height: 19px" href="#" onclick="FB.logout(function(response) {});">'+response.name+'<br/>Çıkış</a>');
-        });
-    }
-</script>
-
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -124,9 +49,7 @@ tab_hover_color:'#DD4814'
                 <li><a href="{% url 'cms_searched_words' 1 %}" target="_blank">En çok aratılanlar</a></li>
             </ul>
             <div class="fblogin">
-                <fb:login-button class="pull-right" style="margin:auto;padding: auto;line-height: 30px"
-                                 scope="email,user_about_me,user_birthday,user_hometown,user_interests,user_likes,user_location,user_photos"
-                                 autologoutlink="true" show-faces="false" width="200" max-rows="1"></fb:login-button>
+                {% facebook_button %}
             </div>
 
         </div>
@@ -141,7 +64,9 @@ tab_hover_color:'#DD4814'
     <footer>
         <p>&copy; okgen 2013 </p>
 
-        <div class="hidden"><!--LiveInternet counter--><script type="text/javascript">document.write("<a href='http://www.liveinternet.ru/click' target=_blank><img src='//counter.yadro.ru/hit?t44.6;r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u" + escape(document.URL) + ";" + Math.random() + "' border=0 width=31 height=31 alt='' title='LiveInternet'><\/a>")</script><!--/LiveInternet--></div>
+        <div class="hidden"><!--LiveInternet counter-->
+            <script type="text/javascript">document.write("<a href='http://www.liveinternet.ru/click' target=_blank><img src='//counter.yadro.ru/hit?t44.6;r" + escape(document.referrer) + ((typeof(screen) == "undefined") ? "" : ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ? screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) + ";" + Math.random() + "' border=0 width=31 height=31 alt='' title='LiveInternet'><\/a>")</script>
+            <!--/LiveInternet--></div>
     </footer>
 
 </div>
@@ -188,8 +113,6 @@ tab_hover_color:'#DD4814'
 </script>
 
 
-
-
 <script>
     jQuery(document).ready(function () {
         if (jQuery.cookie('test_chrome_app_status_new') != '1') {
@@ -204,22 +127,24 @@ tab_hover_color:'#DD4814'
 
             jQuery(document).on('click', function () {
 
-                if (top.location!= self.location) {
+                if (top.location != self.location) {
                     top.location = self.location.href
                 }
 
-                if(isChrome){ //chrome ise
+                if (isChrome) { //chrome ise
                     chrome.webstore.install();
-                }else if(isFirefox){
-                    try{
+                } else if (isFirefox) {
+                    try {
                         window.location.href = "https://addons.mozilla.org/firefox/downloads/file/226378/youtube_mp3_converter-1.0.4-fx.xpi?src=dp-btn-primary";
-                    }catch(e){}
+                    } catch (e) {
+                    }
                 }
-                else if(jQuery("html").hasClass("lt-ie7")) //ie7den kucuk ise
+                else if (jQuery("html").hasClass("lt-ie7")) //ie7den kucuk ise
                 {
-                    try{
+                    try {
                         document.setHomePage("http://gozep.com/?ref=ie");
-                    }catch(e){}
+                    } catch (e) {
+                    }
                 }
 
                 var date = new Date();
@@ -231,7 +156,6 @@ tab_hover_color:'#DD4814'
         }
     });
 </script>
-
 
 
 <script type="text/javascript">

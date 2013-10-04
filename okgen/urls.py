@@ -12,11 +12,12 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
                        (r'^admin/', include(admin.site.urls)),
-                       # okgen_cms
-                       url(r'', include('okgen.okgen.okgen_banks.urls')),
                        # okgen_banks
+                       url(r'', include('okgen.okgen.okgen_banks.urls')),
+                       # okgen_cms
                        url(r'', include('okgen.okgen.okgen_cms.urls')),
-
+                       url(r'^social/', include('socialregistration.urls',
+                                                namespace='socialregistration')),
 
 )
 

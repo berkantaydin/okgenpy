@@ -122,10 +122,16 @@ WSGI_APPLICATION = 'okgen.wsgi.application'
 
 AUTHENTICATION_BACKENDS = (
     'okgen.okgen.okgen_libs.backends.EmailAuthBackend',
+    'django.contrib.auth.backends.ModelBackend',
+    'socialregistration.contrib.facebook.auth.FacebookAuth',
 )
 
 LOGIN_URL = '/'
 LOGIN_REDIRECT_URL = '/'
+
+FACEBOOK_APP_ID = '168727409985226'
+FACEBOOK_SECRET_KEY = 'd0a4bfdbfd521275cc807e8d8c1000c7'
+FACEBOOK_REQUEST_PERMISSIONS = ''
 
 TEMPLATE_DIRS = (
     os.path.join(PROJECT_ROOT, "templates"),
@@ -153,6 +159,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.flatpages',
     # Bootstrap for Django Admin
     'suit',
     'django.contrib.admin',
@@ -163,8 +170,9 @@ INSTALLED_APPS = (
     'okgen_cms',
     'okgen_banks',
     'south',
-    'django.contrib.flatpages',
     'mptt',
+    'socialregistration',
+    'socialregistration.contrib.facebook',
 
 )
 
@@ -188,7 +196,7 @@ LOGGING = {
             'filters': ['require_debug_false'],
             'class': 'django.utils.log.AdminEmailHandler'
         },
-     'console':{
+        'console': {
             'level': 'DEBUG',
             'class': 'logging.StreamHandler',
         },
