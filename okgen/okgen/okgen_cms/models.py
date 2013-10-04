@@ -29,3 +29,6 @@ class Links(models.Model):
     clicked = models.IntegerField(default=1)
     hidden = models.BooleanField(default=False)
     tags = TaggableManager()
+
+    def tags(self):
+        return self.tags.name
