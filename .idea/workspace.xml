@@ -16,7 +16,7 @@
     <file path="/banks.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380646305743" ignored="false" />
     <file path="/speed_test.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380371461229" ignored="false" />
     <file path="/searched_words.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380401028570" ignored="false" />
-    <file path="/base.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380732502202" ignored="false" />
+    <file path="/base.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380893755578" ignored="false" />
     <file path="/requirements" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380479355313" ignored="false" />
     <file path="/default.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380645837238" ignored="false" />
     <file path="/bank.html" changelist="cdbbfea9-bd59-4c77-bf46-6c12291093f7" time="1380564008433" ignored="false" />
@@ -78,15 +78,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="requirements" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/okgen/requirements">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="landing.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,10 +96,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings_local.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings_local.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/okgen/settings_local.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="12" selection-start="509" selection-end="509" vertical-scroll-proportion="0.2347084">
+            <state line="11" column="12" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/okgen/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="30" selection-start="495" selection-end="495" vertical-scroll-proportion="0.32761312">
               <folding />
             </state>
           </provider>
@@ -146,7 +146,6 @@
         <option value="$PROJECT_DIR$/okgen/templates/ads/336x280.html" />
         <option value="$PROJECT_DIR$/okgen/okgen/okgen_libs/context_processors.py" />
         <option value="$PROJECT_DIR$/okgen/templates/okgen_banks/banks.html" />
-        <option value="$PROJECT_DIR$/okgen/templates/base.html" />
         <option value="$PROJECT_DIR$/okgen/okgen/okgen_banks/admin.py" />
         <option value="$PROJECT_DIR$/okgen/okgen/okgen_banks/models.py" />
         <option value="$PROJECT_DIR$/okgen/okgen/okgen_account/views.py" />
@@ -158,6 +157,7 @@
         <option value="$PROJECT_DIR$/okgen/okgen/okgen_cms/urls.py" />
         <option value="$PROJECT_DIR$/okgen/urls.py" />
         <option value="$PROJECT_DIR$/okgen/settings_local.py" />
+        <option value="$PROJECT_DIR$/okgen/templates/base.html" />
       </list>
     </option>
   </component>
@@ -617,13 +617,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3364419" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3364419" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -706,7 +706,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_banks/bank.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="45" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" />
+        <state line="12" column="45" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/static/css/united.css">
@@ -714,14 +716,11 @@
         <state line="6" column="41" selection-start="157" selection-end="157" vertical-scroll-proportion="0.13043478" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/okgen/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="54" selection-start="115" selection-end="115" vertical-scroll-proportion="0.067567565" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/searched_words.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="39" selection-start="2982" selection-end="2982" vertical-scroll-proportion="0.0" />
+        <state line="56" column="39" selection-start="2982" selection-end="2982" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/settings_default.py">
@@ -796,7 +795,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/settings_local.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="509" selection-end="509" vertical-scroll-proportion="0.2347084">
+        <state line="11" column="12" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/okgen/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="495" selection-end="495" vertical-scroll-proportion="0.32761312">
           <folding />
         </state>
       </provider>
