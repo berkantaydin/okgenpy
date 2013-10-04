@@ -6,3 +6,4 @@ django_suit
 django_mptt
 django-socialregistration
 -e git+https://github.com/pythonforfacebook/facebook-sdk#egg=FacebookSDK
+django-taggit
