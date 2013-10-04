@@ -173,6 +173,7 @@ INSTALLED_APPS = (
     'mptt',
     'socialregistration',
     'socialregistration.contrib.facebook',
+    'taggit',
 
 )
 

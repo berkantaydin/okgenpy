@@ -1,6 +1,7 @@
 from django.db import models
 from mptt.models import MPTTModel, TreeForeignKey
 from django_extensions.db.fields import AutoSlugField
+from taggit.managers import TaggableManager
 
 
 class Words(models.Model):
@@ -27,3 +28,4 @@ class Links(models.Model):
     link = models.CharField(max_length=255)
     clicked = models.IntegerField(default=1)
     hidden = models.BooleanField(default=False)
+    tags = TaggableManager()
