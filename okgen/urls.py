@@ -12,23 +12,12 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
                        (r'^admin/', include(admin.site.urls)),
-
                        # okgen_cms
-                       (r'^$', include('okgen.okgen.okgen_cms.urls')),
-                       url(r'link_clicked/(?P<id>\d+)/$', 'okgen_cms.views.link_clicked', name='cms_link_clicked'),
-                       url(r'searched_words/(?P<page>\d+)/$', 'okgen_cms.views.searched_words',
-                           name='cms_searched_words'),
-
-                       # for okgen_banks handle it
-                       url(r'^links/bankalar/$', 'okgen_banks.views.banks', name='banks_banks'),
-
-                       url(r'^links/(?P<slug>[\w-]+)/$', 'okgen_cms.views.links', name='cms_links'),
+                       url(r'', include('okgen.okgen.okgen_banks.urls')),
                        # okgen_banks
-                       url(r'^banka/(?P<slug>[\w-]+)/$', 'okgen_banks.views.bank', name='banks_bank'),
-                       url(r'^banka/subeler/(?P<slug>[\w-]+)/$', 'okgen_banks.views.branches', name='banks_branches'),
-                       url(r'^banka/sube/(?P<slug>[\w-]+)/$', 'okgen_banks.views.branch', name='banks_branch'),
+                       url(r'', include('okgen.okgen.okgen_cms.urls')),
 
-                       url(r'^sayfa$', include('django.contrib.flatpages.urls')),
+
 )
 
 if settings.DEBUG:

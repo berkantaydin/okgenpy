@@ -25,6 +25,19 @@ class Town(models.Model):
         return '%s > %s' % (self.city, self.name)
 
 
+class County(models.Model):
+    name = models.CharField(max_length=255)
+    slug = AutoSlugField(max_length=50, unique=True, populate_from=('name',))
+    city = models.ForeignKey(City)
+    town = models.ForeignKey(Town)
+
+    class Meta:
+        ordering = ['city__name', 'town__name', 'name', ]
+
+    def __unicode__(self):
+        return '%s > %s > %s' % (self.city, self.town, self.name)
+
+
 class Banks(models.Model):
     name = models.CharField(max_length=255)
     slug = AutoSlugField(max_length=50, unique=True, populate_from=('name',))
@@ -55,7 +68,11 @@ class Branches(models.Model):
     bank = models.ForeignKey(Banks)
     city = models.ForeignKey(City)
     town = models.ForeignKey(Town)
+    branch_code = models.CharField(max_length=20)
+    swift_code = models.CharField(max_length=20)
     phone = models.CharField(max_length=255)
+    fax = models.CharField(max_length=255)
+    opentime = models.TextField(null=True)
     address = models.TextField(null=True)
     viewed = models.IntegerField(default=0)
 

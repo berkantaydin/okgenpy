@@ -84,9 +84,3 @@ def searched_words(request, page):
 
     return render(request,
                   'okgen_cms/searched_words.html', dict(words=words, lang=lang))
-
-
-def speed_test(request):
-    lang = (request.GET.get('lang', request.LANGUAGE_CODE))
-
-    return render(request, 'okgen_cms/speed_test.html', dict(lang=lang))
