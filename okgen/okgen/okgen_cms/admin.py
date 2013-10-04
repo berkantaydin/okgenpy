@@ -6,6 +6,8 @@ from mptt.admin import MPTTModelAdmin
 class CustomMPTTModelAdmin(MPTTModelAdmin):
     mptt_level_indent = 20
     pass
+
+
 admin.site.register(Categories, CustomMPTTModelAdmin)
 
 
@@ -13,10 +15,14 @@ class WordsAdmin(admin.ModelAdmin):
     list_display = ('word', 'viewed', 'hidden')
     search_fields = ['word']
     pass
+
+
 admin.site.register(Words, WordsAdmin)
 
 
 class LinksAdmin(admin.ModelAdmin):
-    list_display = ('text', 'category','link', 'clicked', 'hidden')
+    list_display = ('text', 'tag', 'link', 'clicked', 'hidden')
     pass
+
+
 admin.site.register(Links, LinksAdmin)
