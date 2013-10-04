@@ -47,7 +47,7 @@
       <file leaf-file-name="landing.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="74" selection-start="249" selection-end="249" vertical-scroll-proportion="0.11261261">
+            <state line="4" column="35" selection-start="174" selection-end="174" vertical-scroll-proportion="0.09009009">
               <folding />
             </state>
           </provider>
@@ -802,7 +802,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/okgen/templates/okgen_cms/landing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="74" selection-start="249" selection-end="249" vertical-scroll-proportion="0.11261261">
+        <state line="4" column="35" selection-start="174" selection-end="174" vertical-scroll-proportion="0.09009009">
           <folding />
         </state>
       </provider>
