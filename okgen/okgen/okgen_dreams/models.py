@@ -4,7 +4,7 @@ from django_extensions.db.fields import AutoSlugField
 
 class Dreams(models.Model):
     name = models.CharField(max_length=255)
-    #slug = AutoSlugField(max_length=50, unique=True, populate_from=('name',))
+    slug = AutoSlugField(max_length=50, unique=True, populate_from=('name',))
     text = models.TextField()
 
     class Meta:
