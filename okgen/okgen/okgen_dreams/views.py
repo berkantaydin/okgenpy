@@ -3,14 +3,14 @@ from django.core.paginator import Paginator, InvalidPage, EmptyPage
 from .models import Dreams
 
 
-def dreams(request, page):
+def dreams(request, page=1):
     dreams = Dreams.objects.all()
 
     paginator = Paginator(dreams, 50)
 
     if not page:
         page = 1
-        
+
     page = int(page)
 
     try:
