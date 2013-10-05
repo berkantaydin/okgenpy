@@ -8,6 +8,9 @@ def dreams(request, page):
 
     paginator = Paginator(dreams, 50)
 
+    if not page:
+        page = 1
+        
     page = int(page)
 
     try:
