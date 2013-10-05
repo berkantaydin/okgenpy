@@ -17,7 +17,7 @@
                 <ul class="nav nav-pills nav-stacked list-group">
                     {% for dream in dreams %}
                         <li class="list-group-item"><a
-                                href="{% url 'dreams_dream' dream.id %}">{{ dream.name }}</a></li>
+                                href="{% url 'dreams_dream' dream.slug %}">{{ dream.name }}</a></li>
                     {% endfor %}
                 </ul>
             </div>

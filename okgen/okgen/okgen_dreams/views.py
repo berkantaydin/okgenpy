@@ -7,6 +7,6 @@ def dreams(request):
     return render(request, 'okgen_dreams/dreams.html', dict(dreams=dreams))
 
 
-def dream(request, id):
-    dream = get_object_or_404(Dreams, pk=id)
+def dream(request, slug):
+    dream = get_object_or_404(Dreams, slug=slug)
     return render(request, 'okgen_dreams/dream.html', dict(dream=dream))
