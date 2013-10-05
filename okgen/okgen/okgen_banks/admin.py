@@ -39,7 +39,7 @@ admin.site.register(Banks, BanksAdmin)
 
 
 class BranchesAdmin(admin.ModelAdmin):
-    list_display = ('name', 'town', 'slug', 'viewed')
+    list_display = ('name', 'town', 'slug')
     search_fields = ['name']
     pass
 

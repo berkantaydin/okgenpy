@@ -169,6 +169,7 @@ INSTALLED_APPS = (
     'gunicorn',
     'okgen_cms',
     'okgen_banks',
+    'okgen_dreams',
     'south',
     'mptt',
     'socialregistration',

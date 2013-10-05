@@ -14,6 +14,8 @@ urlpatterns = patterns('',
                        (r'^admin/', include(admin.site.urls)),
                        # okgen_banks
                        url(r'', include('okgen.okgen.okgen_banks.urls')),
+                       # okgen_dreams
+                       url(r'', include('okgen.okgen.okgen_dreams.urls')),
                        # okgen_cms
                        url(r'', include('okgen.okgen.okgen_cms.urls')),
                        url(r'^social/', include('socialregistration.urls',
