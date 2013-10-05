@@ -4,12 +4,12 @@ from django.core.paginator import Paginator, InvalidPage, EmptyPage
 from .models import Dreams
 
 
-def dreams(request, page=1):
+def dreams(request, page):
     dreams = Dreams.objects.all()
 
     paginator = Paginator(dreams, 50)
 
-    if not page:
+    if page:
         return redirect(reverse('okgen_dreams.dreams', args=(1,)))
 
     page = int(page)
