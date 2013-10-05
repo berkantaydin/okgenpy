@@ -8,6 +8,9 @@ def dreams(request, page):
 
     paginator = Paginator(dreams, 50)
 
+    if page:
+        page = 1
+        
     try:
         dreams = paginator.page(page)
     except (EmptyPage, InvalidPage):
