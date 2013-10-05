@@ -1,5 +1,4 @@
 {% load url from future %}
-{% load facebook %}
 <!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -50,9 +49,6 @@
                 <li class="active"><a href="#" id="currency_euro">&nbsp;</a></li>
                 <li><a href="{% url 'cms_searched_words' 1 %}" target="_blank">En çok aratılanlar</a></li>
             </ul>
-            <div class="fblogin">
-                {% facebook_button %}
-            </div>
 
         </div>
         <!--/.navbar-collapse -->

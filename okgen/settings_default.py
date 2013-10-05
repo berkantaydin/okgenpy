@@ -122,8 +122,6 @@ WSGI_APPLICATION = 'okgen.wsgi.application'
 
 AUTHENTICATION_BACKENDS = (
     'okgen.okgen.okgen_libs.backends.EmailAuthBackend',
-    'django.contrib.auth.backends.ModelBackend',
-    'socialregistration.contrib.facebook.auth.FacebookAuth',
 )
 
 LOGIN_URL = '/'
@@ -172,8 +170,6 @@ INSTALLED_APPS = (
     'okgen_dreams',
     'south',
     'mptt',
-    'socialregistration',
-    'socialregistration.contrib.facebook',
     'taggit',
 
 )
