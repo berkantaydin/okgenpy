@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load url from future %}
+{% block title %}Rüya Tabirleri{% endblock title %}
+{% block container %}
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-lg-2">
+            <h6>ADVERSITEMENTS</h6>
+            {{ ads160x600 }}
+        </div>
+        <div class="col-lg-8 centerarea">
+            <h1>Rüya Tabirleri</h1>
+
+            {{ ads728x90 }}
+
+            <div class="dreams">
+                <ul class="nav nav-pills nav-stacked list-group">
+                    {% for dream in dreams %}
+                        <li class="list-group-item"><a
+                                href="{% url 'dreams_dream' dream.id %}">{{ dream.name }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="pagination">
+                <ul class="pagination">
+                    {% if words.has_previous %}
+                        <li><a href="{% url 'cms_searched_words' words.previous_page_number %}">Önceki</a></li>
+                    {% endif %}
+                    {% for i in words.paginator.page_range %}
+                        {% if i == words.number %}
+                            <li class="active"><a href="#">{{ i }}</a></li>
+                        {% else %}
+                            <li><a href="{% url 'cms_searched_words' i %}">{{ i }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                    {% if words.has_next %}
+                        <li><a href="{% url 'cms_searched_words' words.next_page_number %}">Sonraki</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-2">
+            <h6>ADVERSITEMENTS</h6>
+            {{ ads160x600 }}
+        </div>
+    </div>
+    <hr>
+
+{% endblock container %}

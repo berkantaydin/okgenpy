@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load url from future %}
+{% block title %}Rüya tabirleri > {{ dream.name }}{% endblock title %}
+{% block container %}
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-lg-2">
+            <h6>ADVERSITEMENTS</h6>
+            {{ ads160x600 }}
+        </div>
+        <div class="col-lg-8 centerarea">
+
+            <ol class="breadcrumb">
+                <li><a href="{% url 'dreams_dreams' %}">Rüya Tabirleri</a></li>
+                <li class="active">{{ dream.name }}</li>
+            </ol>
+
+            <h1>Rüyada {{ dream.name }} görmek</h1>
+
+            {{ ads728x90 }}
+            {% autoescape on %}
+                <div class="dream">{{ dream.text }}</div>
+            {% endautoescape %}
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-2">
+            <h6>ADVERSITEMENTS</h6>
+            {{ ads160x600 }}
+        </div>
+    </div>
+    <hr>
+
+{% endblock container %}
