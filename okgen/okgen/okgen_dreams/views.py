@@ -1,4 +1,5 @@
 from django.shortcuts import render, get_object_or_404, redirect
+from django.core.urlresolvers import reverse
 from django.core.paginator import Paginator, InvalidPage, EmptyPage
 from .models import Dreams
 
@@ -9,7 +10,7 @@ def dreams(request, page=1):
     paginator = Paginator(dreams, 50)
 
     if not page:
-        page = 1
+        return redirect(reverse('okgen_dreams.dreams', args=(1,)))
 
     page = int(page)
 
