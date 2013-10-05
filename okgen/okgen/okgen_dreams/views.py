@@ -3,7 +3,7 @@ from django.core.paginator import Paginator, InvalidPage, EmptyPage
 from .models import Dreams
 
 
-def dreams(request):
+def dreams(request, page):
     dreams = Dreams.objects.all()
 
     paginator = Paginator(dreams, 50)
