@@ -75,9 +75,25 @@
                                         {{ node.name }}
                                     </a>
                                 </li>
-                                {% for link in node.children_five_random %}
-                                    <li class="list-group-item"><a href="{% url 'cms_link_clicked' link.id %}">{{ link.text }}</a></li>
-                                {% endfor %}
+                                {% if node.slug == 'bankalar' %}
+                                    {% for link in node.children_five_random %}
+                                        <li class="list-group-item">
+                                            <a href="{% url 'banks_bank' link.slug %}">{{ link.name }}</a>
+                                        </li>
+                                    {% endfor %}
+                                {% elif node.slug == 'ruya-tabirleri' %}
+                                    {% for link in node.children_five_random %}
+                                        <li class="list-group-item">
+                                            <a href="{% url 'dreams_dream' link.slug %}">{{ link.name }}</a>
+                                        </li>
+                                    {% endfor %}
+                                {% else %}
+                                    {% for link in node.children_five_random %}
+                                        <li class="list-group-item">
+                                            <a href="{% url 'cms_link_clicked' link.id %}">{{ link.text }}</a>
+                                        </li>
+                                    {% endfor %}
+                                {% endif %}
                             </ul>
                         </div>
                     {% else %}
