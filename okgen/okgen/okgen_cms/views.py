@@ -21,7 +21,7 @@ def landing(request):
         except Exception as e:
             Words(word=word, viewed=1).save()
 
-        return render(request, 'okgen_cms/results.html', dict(lang=lang))
+        return render(request, 'okgen_cms/results.html', dict(lang=lang, word=word))
     else:
         """
         counts, taglist, tagcloud = [], [], []
@@ -52,7 +52,7 @@ def landing(request):
         categories = Categories.objects.all()
         words = Words.objects.filter(hidden=False).order_by('-viewed').all()[:50]
         return render(request, 'okgen_cms/landing.html', dict(
-            lang=lang, nodes=categories, mostly_searched=words, word=word))
+            lang=lang, nodes=categories, mostly_searched=words))
 
 
 def link_clicked(request, id):
