@@ -28,7 +28,6 @@ class Links(models.Model):
     link = models.CharField(max_length=255)
     clicked = models.IntegerField(default=1)
     hidden = models.BooleanField(default=False)
-    image = models.ImageField(upload_to='okgen_cms_links', null=True)
     tags = TaggableManager()
 
     def tags(self):
