@@ -9859,7 +9859,7 @@
         "fields": {
             "hidden": false, 
             "word": "google", 
-            "viewed": 5391
+            "viewed": 5392
         }
     }, 
     {
@@ -9868,7 +9868,7 @@
         "fields": {
             "hidden": false, 
             "word": "facebook", 
-            "viewed": 3777
+            "viewed": 3780
         }
     }, 
     {
@@ -9904,7 +9904,7 @@
         "fields": {
             "hidden": true, 
             "word": "facebook giri\u015f", 
-            "viewed": 767
+            "viewed": 769
         }
     }, 
     {
@@ -11200,7 +11200,7 @@
         "fields": {
             "hidden": false, 
             "word": "e okul", 
-            "viewed": 39
+            "viewed": 40
         }
     }, 
     {
@@ -15952,7 +15952,7 @@
         "fields": {
             "hidden": false, 
             "word": "fanatik", 
-            "viewed": 47
+            "viewed": 49
         }
     }, 
     {
@@ -22090,7 +22090,7 @@
         "fields": {
             "hidden": false, 
             "word": "lale devri son b\u00f6l\u00fcm izle", 
-            "viewed": 7
+            "viewed": 8
         }
     }, 
     {
@@ -35635,7 +35635,7 @@
         "fields": {
             "hidden": false, 
             "word": "ff", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -85918,7 +85918,7 @@
         "fields": {
             "hidden": false, 
             "word": "adore mobilya", 
-            "viewed": 3
+            "viewed": 4
         }
     }, 
     {
@@ -88424,6 +88424,33 @@
         }
     }, 
     {
+        "pk": 8734, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "lale devri son b\u00f6l\u00fcm 5 ekim 2013", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8735, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yang\u0131n santrali \u015femalar\u0131", 
+            "viewed": 4
+        }
+    }, 
+    {
+        "pk": 8736, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "fanatikf", 
+            "viewed": 1
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "okgen_cms.categories", 
         "fields": {
@@ -88767,7 +88794,7 @@
             "text": "google", 
             "hidden": false, 
             "link": "http://www.google.com.tr", 
-            "clicked": 2860
+            "clicked": 2861
         }
     }, 
     {
