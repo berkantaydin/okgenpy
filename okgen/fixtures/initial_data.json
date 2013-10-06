@@ -9,7 +9,7 @@
             "is_active": true, 
             "is_superuser": true, 
             "is_staff": true, 
-            "last_login": "2013-10-05T13:01:52.213Z", 
+            "last_login": "2013-10-06T15:49:54.527Z", 
             "groups": [], 
             "user_permissions": [], 
             "password": "pbkdf2_sha256$10000$bGZOlgQeT8o5$Yk0XnhhFyZraic2h3lDSnqVrbGT5cdt/jpL9nL/1WAs=", 
@@ -1491,6 +1491,14 @@
         "fields": {
             "expire_date": "2013-10-20T10:15:08.305Z", 
             "session_data": "NTE2NTA5ODZhMTE0ZDNlMGQ0NmQxZDUyMzcxZTJkYzRhMzdmMDFmNTqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVTBva2dlbi5va2dlbi5va2dlbl9saWJzLmJhY2tlbmRzLkVtYWlsQXV0aEJh\nY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwN1Lg==\n"
+        }
+    }, 
+    {
+        "pk": "bcc43dd312e5fb2563aa9814b20f359d", 
+        "model": "sessions.session", 
+        "fields": {
+            "expire_date": "2013-10-20T15:49:54.530Z", 
+            "session_data": "ODhmNjEyYjkzNDVlZmNhNTI5NTc0MzVjMDBmNmVkYjgxZDMzNjdhNzqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVTBva2dlbi5va2dlbi5va2dlbl9saWJzLmJhY2tlbmRzLkVtYWlsQXV0aEJh\nY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwF1Lg==\n"
         }
     }, 
     {
