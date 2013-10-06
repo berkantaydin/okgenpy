@@ -167,8 +167,13 @@ body {
     overflow: hidden;
 }
 
+.links2 ul li a {
+    padding: 5px;
+}
+
 .links2 .active {
     border: none;
+    margin-top: 18px;
 }
 
 .links2 .lonely{
