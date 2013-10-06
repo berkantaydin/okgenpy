@@ -1502,6 +1502,14 @@
         }
     }, 
     {
+        "pk": "c3b80e4a2e39fb0d760de2b9b9723529", 
+        "model": "sessions.session", 
+        "fields": {
+            "expire_date": "2013-10-20T16:00:32.702Z", 
+            "session_data": "Zjg2MWY5ZjZlZjI5OThmZDI1ZmE5Yzk2MWI3MjQyMDUxYjAyZDA1ZjqAAn1xAS4=\n"
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "sites.site", 
         "fields": {
@@ -1552,6 +1560,258 @@
             ], 
             "content": "<div id=\"speedtestdiv\"></div>\r\n                <div id=\"speedTestLink\">Powered by: <a id=\"sl\"\r\n                                                       href=\"http://www.broadbandspeedtest.co.uk\">broadbandspeedtest.co.uk</a>\r\n                </div>\r\n                <script src=\"http://www.broadbandspeedtest.co.uk/speedtest.js\"></script>", 
             "enable_comments": false
+        }
+    }, 
+    {
+        "pk": 475, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-10-06T16:02:07.230Z", 
+            "object_repr": "Links object", 
+            "object_id": "97", 
+            "change_message": "", 
+            "user": [
+                "ba"
+            ], 
+            "content_type": [
+                "okgen_cms", 
+                "links"
+            ]
+        }
+    }, 
+    {
+        "pk": 474, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-10-06T16:01:58.696Z", 
+            "object_repr": "Links object", 
+            "object_id": "96", 
+            "change_message": "", 
+            "user": [
+                "ba"
+            ], 
+            "content_type": [
+                "okgen_cms", 
+                "links"
+            ]
+        }
+    }, 
+    {
+        "pk": 473, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-10-06T16:00:54.939Z", 
+            "object_repr": "Links object", 
+            "object_id": "95", 
+            "change_message": "", 
+            "user": [
+                "ba"
+            ], 
+            "content_type": [
+                "okgen_cms", 
+                "links"
+            ]
+        }
+    }, 
+    {
+        "pk": 472, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-10-06T16:00:43.906Z", 
+            "object_repr": "Links object", 
+            "object_id": "94", 
+            "change_message": "", 
+            "user": [
+                "ba"
+            ], 
+            "content_type": [
+                "okgen_cms", 
+                "links"
+            ]
+        }
+    }, 
+    {
+        "pk": 471, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-10-06T16:00:33.674Z", 
+            "object_repr": "Links object", 
+            "object_id": "93", 
+            "change_message": "", 
+            "user": [
+                "ba"
+            ], 
+            "content_type": [
+                "okgen_cms", 
+                "links"
+            ]
+        }
+    }, 
+    {
+        "pk": 470, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-10-06T16:00:21.426Z", 
+            "object_repr": "Links object", 
+            "object_id": "92", 
+            "change_message": "", 
+            "user": [
+                "ba"
+            ], 
+            "content_type": [
+                "okgen_cms", 
+                "links"
+            ]
+        }
+    }, 
+    {
+        "pk": 469, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-10-06T16:00:05.718Z", 
+            "object_repr": "Links object", 
+            "object_id": "91", 
+            "change_message": "", 
+            "user": [
+                "ba"
+            ], 
+            "content_type": [
+                "okgen_cms", 
+                "links"
+            ]
+        }
+    }, 
+    {
+        "pk": 468, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-10-06T15:59:54.218Z", 
+            "object_repr": "Links object", 
+            "object_id": "90", 
+            "change_message": "", 
+            "user": [
+                "ba"
+            ], 
+            "content_type": [
+                "okgen_cms", 
+                "links"
+            ]
+        }
+    }, 
+    {
+        "pk": 467, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-10-06T15:59:40.843Z", 
+            "object_repr": "Links object", 
+            "object_id": "89", 
+            "change_message": "", 
+            "user": [
+                "ba"
+            ], 
+            "content_type": [
+                "okgen_cms", 
+                "links"
+            ]
+        }
+    }, 
+    {
+        "pk": 466, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-10-06T15:59:19.936Z", 
+            "object_repr": "Links object", 
+            "object_id": "88", 
+            "change_message": "", 
+            "user": [
+                "ba"
+            ], 
+            "content_type": [
+                "okgen_cms", 
+                "links"
+            ]
+        }
+    }, 
+    {
+        "pk": 465, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-10-06T15:59:09.644Z", 
+            "object_repr": "Links object", 
+            "object_id": "87", 
+            "change_message": "", 
+            "user": [
+                "ba"
+            ], 
+            "content_type": [
+                "okgen_cms", 
+                "links"
+            ]
+        }
+    }, 
+    {
+        "pk": 464, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2013-10-06T15:58:33.420Z", 
+            "object_repr": "Links object", 
+            "object_id": "86", 
+            "change_message": "Hi\u00e7bir alan de\u011fi\u015ftirilmedi.", 
+            "user": [
+                "ba"
+            ], 
+            "content_type": [
+                "okgen_cms", 
+                "links"
+            ]
+        }
+    }, 
+    {
+        "pk": 463, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-10-06T15:58:27.954Z", 
+            "object_repr": "Links object", 
+            "object_id": "86", 
+            "change_message": "", 
+            "user": [
+                "ba"
+            ], 
+            "content_type": [
+                "okgen_cms", 
+                "links"
+            ]
+        }
+    }, 
+    {
+        "pk": 462, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2013-10-06T15:58:23.005Z", 
+            "object_repr": "G\u00fcnl\u00fck Bur\u00e7 Yorumlar\u0131", 
+            "object_id": "26", 
+            "change_message": "", 
+            "user": [
+                "ba"
+            ], 
+            "content_type": [
+                "okgen_cms", 
+                "categories"
+            ]
         }
     }, 
     {
@@ -9867,7 +10127,7 @@
         "fields": {
             "hidden": false, 
             "word": "google", 
-            "viewed": 5393
+            "viewed": 5395
         }
     }, 
     {
@@ -9876,7 +10136,7 @@
         "fields": {
             "hidden": false, 
             "word": "facebook", 
-            "viewed": 3781
+            "viewed": 3783
         }
     }, 
     {
@@ -9912,7 +10172,7 @@
         "fields": {
             "hidden": true, 
             "word": "facebook giri\u015f", 
-            "viewed": 770
+            "viewed": 771
         }
     }, 
     {
@@ -9993,7 +10253,7 @@
         "fields": {
             "hidden": false, 
             "word": "youtube", 
-            "viewed": 1666
+            "viewed": 1668
         }
     }, 
     {
@@ -10218,7 +10478,7 @@
         "fields": {
             "hidden": false, 
             "word": "dizimag", 
-            "viewed": 45
+            "viewed": 46
         }
     }, 
     {
@@ -13080,7 +13340,7 @@
         "fields": {
             "hidden": false, 
             "word": "adnaklasnik.ru", 
-            "viewed": 31
+            "viewed": 32
         }
     }, 
     {
@@ -13809,7 +14069,7 @@
         "fields": {
             "hidden": false, 
             "word": "youtube mp3", 
-            "viewed": 67
+            "viewed": 68
         }
     }, 
     {
@@ -14295,7 +14555,7 @@
         "fields": {
             "hidden": false, 
             "word": "2 ki\u015filik oyunlar", 
-            "viewed": 29
+            "viewed": 30
         }
     }, 
     {
@@ -18354,7 +18614,7 @@
         "fields": {
             "hidden": false, 
             "word": "oyun skor", 
-            "viewed": 198
+            "viewed": 199
         }
     }, 
     {
@@ -20280,7 +20540,7 @@
         "fields": {
             "hidden": false, 
             "word": "canl\u0131 skor", 
-            "viewed": 24
+            "viewed": 25
         }
     }, 
     {
@@ -25446,7 +25706,7 @@
         "fields": {
             "hidden": false, 
             "word": "zuma oyna", 
-            "viewed": 6
+            "viewed": 7
         }
     }, 
     {
@@ -30666,7 +30926,7 @@
         "fields": {
             "hidden": false, 
             "word": "defacto", 
-            "viewed": 8
+            "viewed": 9
         }
     }, 
     {
@@ -44148,7 +44408,7 @@
         "fields": {
             "hidden": false, 
             "word": "kanal d canl\u0131 izle", 
-            "viewed": 4
+            "viewed": 5
         }
     }, 
     {
@@ -87303,7 +87563,7 @@
         "fields": {
             "hidden": false, 
             "word": "ferditayfur d\u00f6\u015ft\u00fcminecaresis", 
-            "viewed": 7
+            "viewed": 9
         }
     }, 
     {
@@ -88495,6 +88755,114 @@
         }
     }, 
     {
+        "pk": 8741, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yang\u0131n korna \u015femalar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8742, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "d\u0131g\u0131 play", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8743, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "be\u015fikta\u015f \u00e7ar\u015f\u0131 grubu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8744, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "g\u00fc\u00e7l\u00fc soydemir", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 8745, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "kafa topu", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8746, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yang\u0131n korna tesisat\u0131  \u015femalar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8747, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "meb macera oyunlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8748, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "g\u00fcll\u00fc oyuncak gibi", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 8749, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "canl\u0131 borsa izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8750, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "faricelebi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8751, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "arabian hijab sex", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8752, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "tamindir.com", 
+            "viewed": 1
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "okgen_cms.categories", 
         "fields": {
@@ -88664,6 +89032,19 @@
         }
     }, 
     {
+        "pk": 26, 
+        "model": "okgen_cms.categories", 
+        "fields": {
+            "rght": 2, 
+            "name": "G\u00fcnl\u00fck Bur\u00e7 Yorumlar\u0131", 
+            "parent": null, 
+            "level": 0, 
+            "lft": 1, 
+            "tree_id": 15, 
+            "slug": "gunluk-burc-yorumlar"
+        }
+    }, 
+    {
         "pk": 16, 
         "model": "okgen_cms.categories", 
         "fields": {
@@ -88672,7 +89053,7 @@
             "parent": null, 
             "level": 0, 
             "lft": 1, 
-            "tree_id": 15, 
+            "tree_id": 16, 
             "slug": "kadn"
         }
     }, 
@@ -88685,7 +89066,7 @@
             "parent": null, 
             "level": 0, 
             "lft": 1, 
-            "tree_id": 16, 
+            "tree_id": 17, 
             "slug": "mafya-oyunlar"
         }
     }, 
@@ -88698,7 +89079,7 @@
             "parent": null, 
             "level": 0, 
             "lft": 1, 
-            "tree_id": 17, 
+            "tree_id": 18, 
             "slug": "muzik"
         }
     }, 
@@ -88711,7 +89092,7 @@
             "parent": null, 
             "level": 0, 
             "lft": 1, 
-            "tree_id": 18, 
+            "tree_id": 19, 
             "slug": "oyun"
         }
     }, 
@@ -88724,7 +89105,7 @@
             "parent": null, 
             "level": 0, 
             "lft": 1, 
-            "tree_id": 20, 
+            "tree_id": 21, 
             "slug": "ruya-tabirleri"
         }
     }, 
@@ -88737,7 +89118,7 @@
             "parent": null, 
             "level": 0, 
             "lft": 1, 
-            "tree_id": 21, 
+            "tree_id": 22, 
             "slug": "saglk"
         }
     }, 
@@ -88750,7 +89131,7 @@
             "parent": null, 
             "level": 0, 
             "lft": 1, 
-            "tree_id": 22, 
+            "tree_id": 23, 
             "slug": "sosyal-medya"
         }
     }, 
@@ -88763,7 +89144,7 @@
             "parent": null, 
             "level": 0, 
             "lft": 1, 
-            "tree_id": 23, 
+            "tree_id": 24, 
             "slug": "spor"
         }
     }, 
@@ -88776,7 +89157,7 @@
             "parent": null, 
             "level": 0, 
             "lft": 1, 
-            "tree_id": 24, 
+            "tree_id": 25, 
             "slug": "video-ve-gorsel"
         }
     }, 
@@ -88789,7 +89170,7 @@
             "parent": null, 
             "level": 0, 
             "lft": 1, 
-            "tree_id": 25, 
+            "tree_id": 26, 
             "slug": "vine-fenomenleri"
         }
     }, 
@@ -88802,7 +89183,7 @@
             "parent": null, 
             "level": 0, 
             "lft": 1, 
-            "tree_id": 26, 
+            "tree_id": 27, 
             "slug": "e-devlet"
         }
     }, 
@@ -88815,7 +89196,7 @@
             "parent": null, 
             "level": 0, 
             "lft": 1, 
-            "tree_id": 27, 
+            "tree_id": 28, 
             "slug": "sans-oyunlar"
         }
     }, 
@@ -88838,7 +89219,7 @@
             "text": "google", 
             "hidden": false, 
             "link": "http://www.google.com.tr", 
-            "clicked": 2861
+            "clicked": 2863
         }
     }, 
     {
@@ -88893,7 +89274,7 @@
             "text": "sahadan", 
             "hidden": false, 
             "link": "http://www.sahadan.com/", 
-            "clicked": 51
+            "clicked": 52
         }
     }, 
     {
@@ -89113,7 +89494,7 @@
             "text": "oyun skor", 
             "hidden": false, 
             "link": "http://www.oyunskor.com/", 
-            "clicked": 61
+            "clicked": 62
         }
     }, 
     {
@@ -89642,6 +90023,138 @@
             "hidden": false, 
             "link": "http://www.globalmafya.com", 
             "clicked": 7
+        }
+    }, 
+    {
+        "pk": 86, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "category": 26, 
+            "text": "ko\u00e7", 
+            "hidden": false, 
+            "link": "http://astroloji.milliyet.com.tr/Astroloji/Default.aspx?aType=BurcDetay&parCATID=150&ARTICLETYPEID=6&RD=537", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 87, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "category": 26, 
+            "text": "bo\u011fa", 
+            "hidden": false, 
+            "link": "http://astroloji.milliyet.com.tr/Astroloji/Default.aspx?aType=BurcDetay&parCATID=151&ARTICLETYPEID=6&RD=537", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 88, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "category": 26, 
+            "text": "ikizler", 
+            "hidden": false, 
+            "link": "http://astroloji.milliyet.com.tr/Astroloji/Default.aspx?aType=BurcDetay&parCATID=152&ARTICLETYPEID=6&RD=535", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 89, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "category": 26, 
+            "text": "yenge\u00e7", 
+            "hidden": false, 
+            "link": "http://astroloji.milliyet.com.tr/Astroloji/Default.aspx?aType=BurcDetay&parCATID=153&ARTICLETYPEID=6&RD=535", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 90, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "category": 26, 
+            "text": "aslan", 
+            "hidden": false, 
+            "link": "http://astroloji.milliyet.com.tr/Astroloji/Default.aspx?aType=BurcDetay&parCATID=154&ARTICLETYPEID=6&RD=535", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 91, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "category": 26, 
+            "text": "ba\u015fak", 
+            "hidden": false, 
+            "link": "http://astroloji.milliyet.com.tr/Astroloji/Default.aspx?aType=BurcDetay&parCATID=155&ARTICLETYPEID=6&RD=143", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 92, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "category": 26, 
+            "text": "terazi", 
+            "hidden": false, 
+            "link": "http://astroloji.milliyet.com.tr/Astroloji/Default.aspx?aType=BurcDetay&parCATID=156&ARTICLETYPEID=6&RD=143", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 93, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "category": 26, 
+            "text": "akrep", 
+            "hidden": false, 
+            "link": "http://astroloji.milliyet.com.tr/Astroloji/Default.aspx?aType=BurcDetay&parCATID=157&ARTICLETYPEID=6&RD=143", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 94, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "category": 26, 
+            "text": "yay", 
+            "hidden": false, 
+            "link": "http://astroloji.milliyet.com.tr/Astroloji/Default.aspx?aType=BurcDetay&parCATID=158&ARTICLETYPEID=6&RD=143", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 95, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "category": 26, 
+            "text": "o\u011flak", 
+            "hidden": false, 
+            "link": "http://astroloji.milliyet.com.tr/Astroloji/Default.aspx?aType=BurcDetay&parCATID=159&ARTICLETYPEID=6&RD=280", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 96, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "category": 26, 
+            "text": "kova", 
+            "hidden": false, 
+            "link": "http://astroloji.milliyet.com.tr/Astroloji/Default.aspx?aType=BurcDetay&parCATID=160&ARTICLETYPEID=6&RD=280", 
+            "clicked": 1
+        }
+    }, 
+    {
+        "pk": 97, 
+        "model": "okgen_cms.links", 
+        "fields": {
+            "category": 26, 
+            "text": "bal\u0131k", 
+            "hidden": false, 
+            "link": "http://astroloji.milliyet.com.tr/Astroloji/Default.aspx?aType=BurcDetay&parCATID=161&ARTICLETYPEID=6&RD=280", 
+            "clicked": 1
         }
     }, 
     {
