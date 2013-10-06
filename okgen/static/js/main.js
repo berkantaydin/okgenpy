@@ -13,7 +13,6 @@ $(function () {
         type: 'GET',
         dataType: 'JSONP',
         success: function (data) {
-            console.log(data);
             $("#currency_dolar").text('$' + ' ' + data.rate.toFixed(2) + ' TL');
         }
     });
@@ -23,7 +22,6 @@ $(function () {
         type: 'GET',
         dataType: 'JSONP',
         success: function (data) {
-            console.log(data);
             $("#currency_euro").text('€' + ' ' + data.rate.toFixed(2) + ' TL');
         }
     });

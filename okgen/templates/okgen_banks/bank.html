@@ -4,7 +4,7 @@
 {% block container %}
     <!-- Example row of columns -->
     <div class="row">
-        <div class="col-lg-2">
+        <div class="col-lg-2 visible-lg">
             <h6>ADVERSITEMENTS</h6>
             {{ ads160x600 }}
         </div>
@@ -17,7 +17,9 @@
 
             <h1>{{ bank.name }}</h1>
 
-            {{ ads728x90 }}
+            <div class="visible-sm">
+                {{ ads728x90 }}
+            </div>
 
             <div class="banks">
                 <div class="panel panel-default">
@@ -71,7 +73,7 @@
             </div>
             <div class="clearfix"></div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 visible-lg">
             <h6>ADVERSITEMENTS</h6>
             {{ ads160x600 }}
         </div>

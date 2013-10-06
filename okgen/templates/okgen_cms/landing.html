@@ -4,7 +4,7 @@
 {% block container %}
     <!-- Example row of columns -->
     <div class="row">
-        <div class="col-lg-2">
+        <div class="col-lg-2 visible-lg">
             <h6>ADVERSITEMENTS</h6>
             {{ ads160x600 }}
         </div>
@@ -37,22 +37,26 @@
                 })(window, document, 'yandex_site_callbacks');</script>
             </div>
 
-            <h6>ADVERSITEMENTS</h6>
+            <div class="visible-sm">
+                <h6>ADVERSITEMENTS</h6>
 
-            <div class="ads">
-                {{ ads728x90 }}
+                <div class="ads">
+                    {{ ads728x90 }}
+                </div>
             </div>
             <br/>
 
             {% load mptt_tags %}
             <div class="links">
                 {% recursetree nodes %}
-                        <a href="{% url 'cms_links' node.slug %}"><li>{{ node.name }}</li></a>
+                    <a href="{% url 'cms_links' node.slug %}">
+                        <li>{{ node.name }}</li>
+                    </a>
                 {% endrecursetree %}
             </div>
 
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 visible-lg">
             <h6>ADVERSITEMENTS</h6>
             {{ ads160x600 }}
         </div>
