@@ -52,7 +52,7 @@ def landing(request):
         categories = Categories.objects.all()
         words = Words.objects.filter(hidden=False).order_by('-viewed').all()[:50]
         return render(request, 'okgen_cms/landing.html', dict(
-            lang=lang, nodes=categories, mostly_searched=words))
+            lang=lang, nodes=categories, mostly_searched=words, word=word))
 
 
 def link_clicked(request, id):
