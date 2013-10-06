@@ -71,7 +71,7 @@ def links(request, slug):
                   dict(links=links, category=category, lang=lang))
 
 
-def searched_words(request, page):
+def searched_words(request, page=1):
     lang = (request.GET.get('lang', request.LANGUAGE_CODE))
 
     words = Words.objects.filter(hidden=False).order_by('word').order_by('-viewed').all()
