@@ -76,7 +76,7 @@
                                     </a>
                                 </li>
                                 {% for link in node.children_five_random %}
-                                    <li class="list-group-item"><a href="{{ link.link }}">{{ link.text }}</a></li>
+                                    <li class="list-group-item"><a href="{% url 'cms_link_clicked' link.id %}">{{ link.text }}</a></li>
                                 {% endfor %}
                             </ul>
                         </div>
