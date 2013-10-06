@@ -40,12 +40,12 @@ body {
     border-bottom: 1px solid #f2f2f2;
 }
 
-.links li{
+.links li {
     color: #101010;
     min-width: 150px;
-    float:left;
-    margin:10px;
-    padding:10px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
     background-color: #999999;
 }
 
@@ -107,16 +107,53 @@ body {
     color: #f8f8f8;
 }
 
-.banks div{
+.banks div {
     padding: 10px;
 }
 
-.banks img{
+.banks img {
     height: 30px;
     max-width: 120px;
 }
 
-.fblogin{
-    margin-top:10px;
+.fblogin {
+    margin-top: 10px;
     text-align: right;
+}
+
+#scrollDivBuyTr {
+    width: 100%;
+    height: 30px;
+    min-height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+#scrollDivBuyTr ul li {
+    height: 30px;
+    background: url(../img/sound.png) no-repeat center left;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+#scrollDivBuyTr ul li a {
+    color: #f66e2d
+}
+
+#scrollDivBuyTr ul li a i {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url(http://b.thanksearch.com/ftpup/images/me/n2/buy/buy_word.png?t=1.01) no-repeat;
+    margin: 6px 3px 0 0;
+}
+
+#scrollDivBuyTr li {
+    height: 30px;
+    list-style: none;
+}
+
+#scrollDivBuyTr ul li a:hover {
+    text-decoration: underline;
 }
