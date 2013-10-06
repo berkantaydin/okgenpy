@@ -9859,7 +9859,7 @@
         "fields": {
             "hidden": false, 
             "word": "google", 
-            "viewed": 5388
+            "viewed": 5391
         }
     }, 
     {
@@ -9868,7 +9868,7 @@
         "fields": {
             "hidden": false, 
             "word": "facebook", 
-            "viewed": 3773
+            "viewed": 3777
         }
     }, 
     {
@@ -10156,7 +10156,7 @@
         "fields": {
             "hidden": true, 
             "word": "google.com", 
-            "viewed": 754
+            "viewed": 755
         }
     }, 
     {
@@ -12172,7 +12172,7 @@
         "fields": {
             "hidden": false, 
             "word": "transformice", 
-            "viewed": 8
+            "viewed": 9
         }
     }, 
     {
@@ -17707,7 +17707,7 @@
         "fields": {
             "hidden": false, 
             "word": "3 ki\u015filik oyunlar", 
-            "viewed": 2
+            "viewed": 3
         }
     }, 
     {
@@ -22090,7 +22090,7 @@
         "fields": {
             "hidden": false, 
             "word": "lale devri son b\u00f6l\u00fcm izle", 
-            "viewed": 4
+            "viewed": 7
         }
     }, 
     {
@@ -35428,7 +35428,7 @@
         "fields": {
             "hidden": false, 
             "word": "evidea perde", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -69583,7 +69583,7 @@
         "fields": {
             "hidden": false, 
             "word": "wwwyandex", 
-            "viewed": 22
+            "viewed": 23
         }
     }, 
     {
@@ -88294,7 +88294,7 @@
         "fields": {
             "hidden": false, 
             "word": "t\u00fcrkpornolar\u0131", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -88357,6 +88357,69 @@
         "fields": {
             "hidden": false, 
             "word": "croheme indir", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8727, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "atv 312  driver baglant\u0131s\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8728, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "darbecash", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8729, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "chrome download", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 8730, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "2013 akisar galatasaray ma\u00e7\u0131n \u00f6zeti", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8731, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "yirmi \u00fc\u00e7 hafta hamilelik uzman tvi", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8732, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "t\u00fcrk\u00e7e arap\u00e7a \u00e7eviri", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8733, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "lale devri son b\u00f6l\u00fcm izle youtube", 
             "viewed": 1
         }
     }, 
@@ -88704,7 +88767,7 @@
             "text": "google", 
             "hidden": false, 
             "link": "http://www.google.com.tr", 
-            "clicked": 2858
+            "clicked": 2860
         }
     }, 
     {
@@ -88781,7 +88844,7 @@
             "text": "fanatik", 
             "hidden": false, 
             "link": "http://www.fanatik.com.tr/", 
-            "clicked": 46
+            "clicked": 47
         }
     }, 
     {
