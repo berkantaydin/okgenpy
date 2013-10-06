@@ -42,10 +42,14 @@
 
             <div id="scrollDivBuyTr">
                 <ul>
-                    <li><a href="https://docs.google.com/spreadsheet/embeddedform?formkey=dGtwRHdUVnN0UW8yVk5TZUtCeXBGQ2c6MA">Okgen'i geliştirmemize yardımcı olmak ister misiniz?</a></li>
-                    <li><a href="http://www.okgen.com/links/ruya-tabirleri/">Rüyalarınızın sırlarına erişmek artık çok kolay</a></li>
+                    <li>
+                        <a href="https://docs.google.com/spreadsheet/embeddedform?formkey=dGtwRHdUVnN0UW8yVk5TZUtCeXBGQ2c6MA">Okgen'i
+                            geliştirmemize yardımcı olmak ister misiniz?</a></li>
+                    <li><a href="http://www.okgen.com/links/ruya-tabirleri/">Rüyalarınızın sırlarına erişmek artık çok
+                        kolay</a></li>
                     <li><a href="http://globalmafya.com">Global Mafya oyununu denediniz mi ?</a></li>
-                    <li><a href="http://youtubemp3donusturucu.com">Youtube videolarını ücretsiz MP3 formatına çevirin.</a></li>
+                    <li><a href="http://youtubemp3donusturucu.com">Youtube videolarını ücretsiz MP3 formatına
+                        çevirin.</a></li>
                     <li><a href="http://www.okgen.com/links/bankalar/">Yeni banka modülümüzü deneyin.</a></li>
                 </ul>
             </div>
@@ -60,11 +64,33 @@
             <br/>
 
             {% load mptt_tags %}
-            <div class="links">
+            <div class="links2">
                 {% recursetree nodes %}
-                    <a href="{% url 'cms_links' node.slug %}">
-                        <li>{{ node.name }}</li>
-                    </a>
+                    {% if node.children_count > 0 %}
+                        <div class="col-lg-4 pin">
+                            <ul class="nav nav-pills nav-stacked list-group">
+                                <li class="list-group-item active">
+                                    <a href="{% url 'cms_links' node.slug %}">
+                                        <span class="badge pull-right">{{ node.children_count }}</span>
+                                        {{ node.name }}
+                                    </a>
+                                </li>
+                                {% for link in node.children_five_random %}
+                                    <li class="list-group-item"><a href="{{ link.link }}">{{ link.text }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    {% else %}
+                        <div class="col-lg-4 pin">
+                            <ul class="nav nav-pills nav-stacked">
+                                <li class="active lonely" style="width:100%">
+                                    <a href="{% url 'cms_links' node.slug %}">
+                                        {{ node.name }}
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    {% endif %}
                 {% endrecursetree %}
             </div>
 

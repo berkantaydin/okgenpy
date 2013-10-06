@@ -157,3 +157,20 @@ body {
 #scrollDivBuyTr ul li a:hover {
     text-decoration: underline;
 }
+
+.links2 ul {
+    -webkit-box-shadow: none;
+}
+
+.links2 ul li {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.links2 .active {
+    border: none;
+}
+
+.links2 .lonely{
+    padding-bottom: 14px;
+}

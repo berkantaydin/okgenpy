@@ -21,6 +21,13 @@ class Categories(MPTTModel):
     class MPTTMeta:
         order_insertion_by = ['name']
 
+    def children_count(self):
+        return Links.objects.filter(category=self).count()
+
+    def children_five_random(self):
+        return Links.objects.filter(category=self).order_by('?').all()[:5]
+
+
 
 class Links(models.Model):
     text = models.CharField(max_length=255)

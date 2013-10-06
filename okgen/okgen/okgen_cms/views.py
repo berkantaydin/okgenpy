@@ -49,6 +49,7 @@ def landing(request):
             lang=lang, tagcloud=tagcloud, mostly_searched=words))
         """
 
+        linktree = []
         categories = Categories.objects.all()
         words = Words.objects.filter(hidden=False).order_by('-viewed').all()[:50]
         return render(request, 'okgen_cms/landing.html', dict(
