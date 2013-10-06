@@ -26,18 +26,18 @@
 
             <div class="pagination">
                 <ul class="pagination">
-                    {% if dream.has_previous %}
-                        <li><a href="{% url 'cms_searched_words' dream.previous_page_number %}">Önceki</a></li>
+                    {% if dreams.has_previous %}
+                        <li><a href="{% url 'cms_searched_words' dreams.previous_page_number %}">Önceki</a></li>
                     {% endif %}
-                    {% for i in dream.paginator.page_range %}
-                        {% if i == dream.number %}
+                    {% for i in dreams.paginator.page_range %}
+                        {% if i == dreams.number %}
                             <li class="active"><a href="#">{{ i }}</a></li>
                         {% else %}
                             <li><a href="{% url 'dreams_dreams' i %}">{{ i }}</a></li>
                         {% endif %}
                     {% endfor %}
-                    {% if words.has_next %}
-                        <li><a href="{% url 'dreams_dreams' dream.next_page_number %}">Sonraki</a></li>
+                    {% if dreams.has_next %}
+                        <li><a href="{% url 'dreams_dreams' dreams.next_page_number %}">Sonraki</a></li>
                     {% endif %}
                 </ul>
             </div>
