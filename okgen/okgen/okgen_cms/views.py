@@ -21,7 +21,7 @@ def landing(request):
         except Exception as e:
             Words(word=word, viewed=1).save()
 
-        return render(request, 'okgen_cms/results.html', dict(lang=lang, word=word))
+        return render(request, 'okgen_cms/results.html', dict(lang=lang, word=request.GET.get('text', None)))
     else:
         """
         counts, taglist, tagcloud = [], [], []
