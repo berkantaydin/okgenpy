@@ -9859,7 +9859,7 @@
         "fields": {
             "hidden": false, 
             "word": "google", 
-            "viewed": 5392
+            "viewed": 5393
         }
     }, 
     {
@@ -9868,7 +9868,7 @@
         "fields": {
             "hidden": false, 
             "word": "facebook", 
-            "viewed": 3780
+            "viewed": 3781
         }
     }, 
     {
@@ -9904,7 +9904,7 @@
         "fields": {
             "hidden": true, 
             "word": "facebook giri\u015f", 
-            "viewed": 769
+            "viewed": 770
         }
     }, 
     {
@@ -11839,7 +11839,7 @@
         "fields": {
             "hidden": false, 
             "word": "gazeteler", 
-            "viewed": 84
+            "viewed": 85
         }
     }, 
     {
@@ -28813,7 +28813,7 @@
         "fields": {
             "hidden": false, 
             "word": "ucuz u\u00e7ak bileti", 
-            "viewed": 7
+            "viewed": 8
         }
     }, 
     {
@@ -88451,6 +88451,42 @@
         }
     }, 
     {
+        "pk": 8737, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sinemalar", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8738, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "blade9", 
+            "viewed": 2
+        }
+    }, 
+    {
+        "pk": 8739, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "gormeti 15.b\u00f6l\u00fcm\u00fc izle", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 8740, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "2013 mercedes a45 amg", 
+            "viewed": 1
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "okgen_cms.categories", 
         "fields": {
@@ -89410,7 +89446,7 @@
             "text": "matematik \u00f6\u011fretmeni", 
             "hidden": false, 
             "link": "http://www.farukhoca.net/", 
-            "clicked": 18
+            "clicked": 19
         }
     }, 
     {
