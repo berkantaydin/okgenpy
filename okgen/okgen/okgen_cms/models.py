@@ -1,7 +1,6 @@
 from django.db import models
 from mptt.models import MPTTModel, TreeForeignKey
 from django_extensions.db.fields import AutoSlugField
-from taggit.managers import TaggableManager
 from okgen.okgen.okgen_banks.models import Banks
 from okgen.okgen.okgen_dreams.models import Dreams
 
@@ -44,7 +43,3 @@ class Links(models.Model):
     link = models.CharField(max_length=255)
     clicked = models.IntegerField(default=1)
     hidden = models.BooleanField(default=False)
-    tags = TaggableManager()
-
-    def tags(self):
-        return self.tags.name

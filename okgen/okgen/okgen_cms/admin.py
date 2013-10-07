@@ -21,7 +21,7 @@ admin.site.register(Words, WordsAdmin)
 
 
 class LinksAdmin(admin.ModelAdmin):
-    list_display = ('text', 'category', 'tags', 'link', 'clicked', 'hidden')
+    list_display = ('text', 'category', 'link', 'clicked', 'hidden')
     pass
 
 
