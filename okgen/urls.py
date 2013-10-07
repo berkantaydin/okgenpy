@@ -19,7 +19,7 @@ sitemaps = {
     "dreams": DreamsSitemap,
     "linkcats": CategoriesSitemap,
     "links": LinksSitemap,
-    "words": WordsSitemap,
+    #"words": WordsSitemap,
 }
 
 urlpatterns = patterns('',
