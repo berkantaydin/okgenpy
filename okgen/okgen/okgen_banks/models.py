@@ -1,5 +1,7 @@
 from django.db import models
+from django.core.urlresolvers import reverse
 from django_extensions.db.fields import AutoSlugField
+from django.contrib.sitemaps import ping_google
 
 
 class City(models.Model):
@@ -60,6 +62,16 @@ class Banks(models.Model):
 
     def get_branch_count(self):
         return 0
+
+    def get_absolute_url(self):
+        return reverse('banks_bank', args={self.slug})
+
+    def save(self, force_insert=False, force_update=False):
+        super(Banks, self).save(force_insert, force_update)
+        try:
+            ping_google()
+        except Exception:
+            pass
 
 
 class Branches(models.Model):
