@@ -12,6 +12,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
                        (r'^admin/', include(admin.site.urls)),
+                       (r'^accounts/', include('allauth.urls')),
                        # okgen_banks
                        url(r'', include('okgen.okgen.okgen_banks.urls')),
                        # okgen_dreams

@@ -1,4 +1,5 @@
 {% load url from future %}
+{% load socialaccount %}
 <!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -25,6 +26,8 @@
     <script src="{{ STATIC_URL }}js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     <script type='text/javascript' src='http://xslt.alexa.com/site_stats/js/s/c?url=okgen.com'></script>
     <script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
+
+    {% providers_media_js %}
 </head>
 <body>
 <!--[if lt IE 7]>
@@ -54,8 +57,12 @@
                        target="_blank">İletişim</a>
                 </li>
                 <li>
-                    <div id='MicrosoftTranslatorWidget' class='Dark' style='color:white;background-color:#555555;margin-top: -8px;'></div>
+                    <div id='MicrosoftTranslatorWidget' class='Dark'
+                         style='color:white;background-color:#555555;margin-top: -8px;'></div>
                 </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="{% provider_login_url "facebook" method="js_sdk" %}">Facebook Connect</a></li>
             </ul>
             <!--
             <ul class="nav navbar-nav navbar-right">

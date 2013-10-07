@@ -122,6 +122,12 @@ WSGI_APPLICATION = 'okgen.wsgi.application'
 
 AUTHENTICATION_BACKENDS = (
     'okgen.okgen.okgen_libs.backends.EmailAuthBackend',
+
+    # Needed to login by username in Django admin, regardless of `allauth`
+    "django.contrib.auth.backends.ModelBackend",
+
+    # `allauth` specific authentication methods, such as login by e-mail
+    "allauth.account.auth_backends.AuthenticationBackend",
 )
 
 LOGIN_URL = '/'
@@ -148,6 +154,8 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.static',
     'django.contrib.messages.context_processors.messages',
     'okgen.okgen.okgen_libs.context_processors.ads',
+    "allauth.account.context_processors.account",
+    "allauth.socialaccount.context_processors.socialaccount",
 )
 
 INSTALLED_APPS = (
@@ -170,6 +178,13 @@ INSTALLED_APPS = (
     'okgen_dreams',
     'south',
     'mptt',
+    'avatar',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.facebook',
+    'allauth.socialaccount.providers.google',
+    'allauth.socialaccount.providers.twitter',
 
 )
 
@@ -215,3 +230,14 @@ LANGUAGES = (
 # okgen_cms
 TAG_CLOUD_MAX_FONT_SIZE = 22
 TAG_CLOUD_MIN_FONT_SIZE = 12
+
+# accounts
+ACCOUNT_AUTHENTICATION_METHOD = "email"
+ACCOUNT_EMAIL_REQUIRED = True
+
+SOCIALACCOUNT_PROVIDERS = \
+    { 'facebook':
+        { 'SCOPE': ['email', 'publish_stream'],
+          'AUTH_PARAMS': { 'auth_type': 'reauthenticate' },
+          'METHOD': 'js_sdk' ,
+          'LOCALE_FUNC': lambda request: 'tr_TR'} }

@@ -4,6 +4,7 @@ from django_extensions.db.fields import AutoSlugField
 from okgen.okgen.okgen_banks.models import Banks
 from okgen.okgen.okgen_dreams.models import Dreams
 
+
 class Words(models.Model):
     word = models.CharField(max_length=255)
     viewed = models.IntegerField(default=0)
