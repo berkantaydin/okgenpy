@@ -4,4 +4,3 @@ gunicorn
 south
 django_suit
 django_mptt
-django-taggit

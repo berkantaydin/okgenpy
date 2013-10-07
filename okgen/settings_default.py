@@ -170,7 +170,6 @@ INSTALLED_APPS = (
     'okgen_dreams',
     'south',
     'mptt',
-    'taggit',
 
 )
 
