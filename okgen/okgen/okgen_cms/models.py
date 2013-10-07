@@ -67,7 +67,7 @@ class Links(models.Model):
     hidden = models.BooleanField(default=False)
 
     def get_absolute_url(self):
-        return reverse('cms_link_clicked', args={self.slug})
+        return reverse('cms_link_clicked', args={self.pk})
 
     def save(self, force_insert=False, force_update=False):
         super(Links, self).save(force_insert, force_update)
