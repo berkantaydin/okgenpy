@@ -14,6 +14,12 @@ def landing(request):
     if word is not None:
         word = word.lower().strip()
 
+        if word.find("google") != -1:
+            redirect = "http://www.google.com.tr"
+
+        if word.find("facebook") != -1:
+            redirect = "http://www.facebook.com"
+
         if word.find("porno") != -1:
             redirect = "http://www.sikisicin.com"
 
