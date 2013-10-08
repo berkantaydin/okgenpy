@@ -169,8 +169,12 @@ INSTALLED_APPS = (
     'south',
     'mptt',
     'tagging',
+    'registration',
 
 )
+
+ACCOUNT_ACTIVATION_DAYS = 7
+REGISTRATION_OPEN = True
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
