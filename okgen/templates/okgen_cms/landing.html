@@ -4,7 +4,11 @@
 {% block container %}
     <!-- Example row of columns -->
     <div class="row">
-        <div class="col-lg-10 centerarea">
+        <div class="col-lg-2 visible-lg">
+            <h6>ADVERSITEMENTS</h6>
+            {{ ads160x600 }}
+        </div>
+        <div class="col-lg-8 centerarea">
             <div style="margin-top: 20px;">
                 <center><a href="http://okgen.com"><img src="{{ STATIC_URL }}img/yandex.png"/></a></center>
             </div>
@@ -106,10 +110,6 @@
                 {% endrecursetree %}
             </div>
 
-        </div>
-        <div class="col-lg-2 visible-lg">
-            <h6>ADVERSITEMENTS</h6>
-            {{ ads160x600 }}
         </div>
     </div>
 
