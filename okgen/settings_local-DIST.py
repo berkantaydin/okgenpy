@@ -9,10 +9,5 @@ EMAIL_FILE_PATH = '/tmp/django-mail'
 # email that are beeing sent to maintainers.
 DEFAULT_FROM_EMAIL = 'noreply@localhost'
 
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'bekowebmaster1@gmail.com'
-EMAIL_HOST_PASSWORD = '94649464'
 
 INSTALLED_APPS += ('debug_toolbar',)
