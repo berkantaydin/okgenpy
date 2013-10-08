@@ -148,7 +148,7 @@
                 var text = $(this).text();
                 $(this).click(function (event) { // when someone clicks these links
                     event.preventDefault(); // don't open the link yet
-                    ga('send', 'event', 'link', 'click', text, href); // create a custom event
+                    ga('send', 'event', 'link', 'click', href); // create a custom event
                     setTimeout(function () { // now wait 300 milliseconds...
                         window.open(href, (!target ? "_self" : target)); // ...and open the link as usual
                     }, 300);
