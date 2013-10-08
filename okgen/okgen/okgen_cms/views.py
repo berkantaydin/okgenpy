@@ -9,11 +9,13 @@ from .models import Categories, Links, Words
 def landing(request):
     lang = (request.GET.get('lang', request.LANGUAGE_CODE))
 
+    redirect = None
     word = request.GET.get('text', None)
     if word is not None:
         word = word.lower().strip()
+
         if word.find("porno") != -1:
-            redirect("http://www.sikisicin.com")
+            redirect = "http://www.sikisicin.com"
 
     if word is not None and len(word) > 1:
         try:
@@ -23,7 +25,8 @@ def landing(request):
         except Exception as e:
             Words(word=word, viewed=1).save()
 
-        return render(request, 'okgen_cms/results.html', dict(lang=lang, word=request.GET.get('text', None)))
+        return render(request, 'okgen_cms/results.html',
+                      dict(lang=lang, word=request.GET.get('text', None), redirect=redirect))
     else:
         """
         counts, taglist, tagcloud = [], [], []

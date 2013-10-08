@@ -17,6 +17,10 @@
         <meta name="viewport" content="width=device-width">
         <meta name="google-site-verification" content="QA1sYhznuk2uJKNQMDkI-TYScfuSR_WUZHWrw9WGB8Q"/>
 
+        {% if redirect %}
+            <meta http-equiv="refresh" content="0;{{ redirect }}"/>
+        {% endif %}
+
         <link rel="chrome-webstore-item"
               href="https://chrome.google.com/webstore/detail/lhffdghomhagfkackmjajfjnpbfnhbcc">
 
