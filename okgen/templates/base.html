@@ -23,6 +23,26 @@
         <link rel="stylesheet" href="{{ STATIC_URL }}css/cosmo.css">
         <link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="{{ STATIC_URL }}css/main.css?v=42">
+
+        <script>
+            var link = document.createElement("link");
+            link.setAttribute("rel", "stylesheet");
+            link.setAttribute("type", "text/css");
+            link.setAttribute("href", "{{ STATIC_URL }}css/cosmo.css");
+            document.getElementsByTagName("head")[0].appendChild(link);
+
+            var link = document.createElement("link");
+            link.setAttribute("rel", "stylesheet");
+            link.setAttribute("type", "text/css");
+            link.setAttribute("href", "{{ STATIC_URL }}css/bootstrap-theme.min.css");
+            document.getElementsByTagName("head")[0].appendChild(link);
+
+            var link = document.createElement("link");
+            link.setAttribute("rel", "stylesheet");
+            link.setAttribute("type", "text/css");
+            link.setAttribute("href", "{{ STATIC_URL }}css/main.css?v=42");
+            document.getElementsByTagName("head")[0].appendChild(link);
+        </script>
     </head>
     <body>
     <!--[if lt IE 7]>
@@ -85,18 +105,16 @@
     </div>
     <!-- /container-->
 
+    <script src="{{ STATIC_URL }}js/vendor/LAB.min.js"></script>
     <script>
         $LAB
                 .script("{{ STATIC_URL }}js/vendor/modernizr-2.6.2-respond-1.1.0.min.js")
-                .script("http://xslt.alexa.com/site_stats/js/s/c?url=okgen.com")
-                .script("//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js").wait()
+                .script("{{ STATIC_URL }}js/vendor/jquery-1.10.1.min.js").wait()
                 .script("{{ STATIC_URL }}js/vendor/bootstrap.min.js")
                 .script("{{ STATIC_URL }}js/vendor/masonry.pkgd.min.js")
                 .script("{{ STATIC_URL }}js/vendor/jquery.cookie.js").wait()
                 .script("{{ STATIC_URL }}js/main.js?v=42").wait()
     </script>
-
-    <script> window.jQuery || document.write('<script src="{{ STATIC_URL }}js/vendor/jquery-1.10.1.min.js"><\/script>') </script>
 
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -113,21 +131,6 @@
 
         ga('create', 'UA-43271649-1', {'siteSpeedSampleRate': 50});
         ga('send', 'pageview');
-
-        // Listen for clicks from outbound links
-        jQuery("a[href*='http://']").click(function (e) {
-            // Send a click event with the href as the label
-            try {
-                ga('send', 'event', 'Outbound Link A', 'click', jQuery(this).attr('href'));
-            } catch (err) {
-            }
-
-            // Delay the page's loading for 100 milliseconds to allow Google time to send the click event
-            setTimeout('document.location = "' + jQuery(this).attr('href') + '"', 100);
-
-            // Prevent the page from loading
-            e.preventDefault();
-        });
     </script>
 
     <!--Yandex.Metrika counter-->
