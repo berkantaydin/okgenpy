@@ -165,7 +165,7 @@ INSTALLED_APPS = (
     'okgen_cms',
     'okgen_banks',
     'okgen_dreams',
-    #'photologue',
+    'photologue',
     'south',
     'mptt',
     'tagging',
