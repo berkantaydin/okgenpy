@@ -12,9 +12,8 @@ def landing(request):
     word = request.GET.get('text', None)
     if word is not None:
         word = word.lower().strip()
-
-    if word.find("porno") > 0:
-        redirect("http://www.sikisicin.com")
+        if word.find("porno") > 0:
+            redirect("http://www.sikisicin.com")
 
     if word is not None and len(word) > 1:
         try:
