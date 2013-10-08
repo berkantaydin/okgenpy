@@ -1,6 +1,35 @@
 {% extends "base.html" %}
 
 {% block container %}
-{% block content %}
-    {% endblock %}
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-lg-2 visible-lg">
+            <h6>ADVERSITEMENTS</h6>
+            {{ ads160x600 }}
+        </div>
+        <div class="col-lg-8 centerarea">
+            <div id="scrollDivBuyTr">
+                <ul>
+                    <li>
+                        <a href="https://docs.google.com/spreadsheet/embeddedform?formkey=dGtwRHdUVnN0UW8yVk5TZUtCeXBGQ2c6MA">Okgen'i
+                            geliştirmemize yardımcı olmak ister misiniz?</a></li>
+                    <li><a href="http://www.okgen.com/links/ruya-tabirleri/">Rüyalarınızın sırlarına erişmek artık çok
+                        kolay</a></li>
+                    <li><a href="http://globalmafya.com">Global Mafya oyununu denediniz mi ?</a></li>
+                    <li><a href="http://youtubemp3donusturucu.com">Youtube videolarını ücretsiz MP3 formatına
+                        çevirin.</a></li>
+                    <li><a href="http://www.okgen.com/links/bankalar/">Yeni banka modülümüzü deneyin.</a></li>
+                </ul>
+            </div>
+
+            {% block content %}
+            {% endblock %}
+
+        </div>
+        <div class="col-lg-2 visible-lg">
+            <h6>ADVERSITEMENTS</h6>
+            {{ ads160x600 }}
+        </div>
+    </div>
+    <hr>
 {% endblock %}
