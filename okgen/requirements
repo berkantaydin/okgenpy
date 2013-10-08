@@ -6,3 +6,5 @@ django_suit
 django_mptt
 django-allauth
 django-avatar
+django-photologue
+django-tagging

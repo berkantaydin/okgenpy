@@ -25,11 +25,15 @@ sitemaps = {
 urlpatterns = patterns('',
                        (r'^admin/', include(admin.site.urls)),
 
+                       # sitemaps
                        url(r'^sitemap\.xml$', sitemap_index,
                            {'sitemaps': sitemaps, 'template_name': 'sitemap-index.html'}),
 
                        (r'^sitemap-(?P<section>.+)\.xml', sitemap,
                         {'sitemaps': sitemaps, 'template_name': 'sitemap.html'}),
+
+                       # photo gallery
+                       (r'^photologue/', include('photologue.urls')),
 
                        # okgen_banks
                        url(r'', include('okgen.okgen.okgen_banks.urls')),
