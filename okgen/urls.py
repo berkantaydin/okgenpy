@@ -32,9 +32,6 @@ urlpatterns = patterns('',
                        (r'^sitemap-(?P<section>.+)\.xml', sitemap,
                         {'sitemaps': sitemaps, 'template_name': 'sitemap.html'}),
 
-                       # accounts
-                       (r'^accounts/', include('registration.backends.default.urls')),
-
                        # photo gallery
                        (r'^photologue/', include('photologue.urls')),
 
