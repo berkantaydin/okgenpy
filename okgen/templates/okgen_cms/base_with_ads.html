@@ -67,55 +67,52 @@
 
                 {% load mptt_tags %}
                 <div class="links2">
-                {% recursetree nodes %}
-                    {% if node.children_count > 0 %}
-                        <div class="col-lg-4 pin">
-                            <ul class="nav nav-pills nav-stacked list-group">
-                                <li class="list-group-item active">
-                                    <a href="{% url 'cms_links' node.slug %}">
-                                        <span class="badge pull-right">{{ node.children_count }}</span>
-                                        {{ node.name }}
-                                    </a>
-                                </li>
-                                {% if node.slug == 'bankalar' %}
-                                    {% for link in node.children_five_random %}
-                                        <li class="list-group-item">
-                                            <a href="{% url 'banks_bank' link.slug %}">{{ link.name }}</a>
-                                        </li>
-                                    {% endfor %}
-                                {% elif node.slug == 'ruya-tabirleri' %}
-                                    {% for link in node.children_five_random %}
-                                        <li class="list-group-item">
-                                            <a href="{% url 'dreams_dream' link.slug %}">{{ link.name }}</a>
-                                        </li>
-                                    {% endfor %}
-                                {% else %}
-                                    {% for link in node.children_five_random %}
-                                        <li class="list-group-item">
-                                            <a href="{% url 'cms_link_clicked' link.id %}">{{ link.text }}</a>
-                                        </li>
-                                    {% endfor %}
-                                {% endif %}
-                            </ul>
-                        </div>
-                    {% else %}
-                        <div class="col-lg-4 pin">
-                            <ul class="nav nav-pills nav-stacked">
-                                <li class="active lonely" style="width:100%">
-                                    <a href="{% url 'cms_links' node.slug %}">
-                                        {{ node.name }}
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    {% endif %}
-                {% endrecursetree %}
-
+                    {% recursetree nodes %}
+                        {% if node.children_count > 0 %}
+                            <div class="col-lg-4 pin">
+                                <ul class="nav nav-pills nav-stacked list-group">
+                                    <li class="list-group-item active">
+                                        <a href="{% url 'cms_links' node.slug %}">
+                                            <span class="badge pull-right">{{ node.children_count }}</span>
+                                            {{ node.name }}
+                                        </a>
+                                    </li>
+                                    {% if node.slug == 'bankalar' %}
+                                        {% for link in node.children_five_random %}
+                                            <li class="list-group-item">
+                                                <a href="{% url 'banks_bank' link.slug %}">{{ link.name }}</a>
+                                            </li>
+                                        {% endfor %}
+                                    {% elif node.slug == 'ruya-tabirleri' %}
+                                        {% for link in node.children_five_random %}
+                                            <li class="list-group-item">
+                                                <a href="{% url 'dreams_dream' link.slug %}">{{ link.name }}</a>
+                                            </li>
+                                        {% endfor %}
+                                    {% else %}
+                                        {% for link in node.children_five_random %}
+                                            <li class="list-group-item">
+                                                <a href="{% url 'cms_link_clicked' link.id %}">{{ link.text }}</a>
+                                            </li>
+                                        {% endfor %}
+                                    {% endif %}
+                                </ul>
+                            </div>
+                        {% else %}
+                            <div class="col-lg-4 pin">
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li class="active lonely" style="width:100%">
+                                        <a href="{% url 'cms_links' node.slug %}">
+                                            {{ node.name }}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        {% endif %}
+                    {% endrecursetree %}
+                </div>
 
             {% endblock %}
-            </div>
-
-
         </div>
         <div class="col-lg-2 visible-lg">
             <h6>ADVERSITEMENTS</h6>
