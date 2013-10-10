@@ -64,6 +64,12 @@
 
             {% load mptt_tags %}
             <div class="links2">
+                <div class="col-lg-4 pin" style="height: 244px">
+                    <ul class="nav nav-pills nav-stacked list-group">
+                        <li class="list-group-item active">ADVERSITEMENTS</li>
+                        {{ ads200x200 }}
+                        <ul>
+                </div>
                 {% recursetree nodes %}
                     {% if node.children_count > 0 %}
                         <div class="col-lg-4 pin">
