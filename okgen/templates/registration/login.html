@@ -1,0 +1,47 @@
+{% extends 'okgen_cms/base_with_ads.html' %}
+{% load i18n %}
+
+{% block content %}
+    <div class="content">
+        {% if form.errors %}
+            <div class="alert alert-block fade in">
+                <a class="close" data-dismiss="alert" href="#">×</a>
+
+                <p>
+                    <strong>{% trans "Oh snap!" %}</strong> {% trans "Please enter a correct email and password. Note that both fields are case-sensitive." %}
+                </p>
+            </div>
+        {% endif %}
+        <form action="{% url django.contrib.auth.views.login %}" method="post" id="login-form">{% csrf_token %}
+            <fieldset>
+                <legend>{% trans 'Log in' %}</legend>
+                <div class="fieldWrapper">
+                    {{ form.username.errors }}
+                    <label for="id_username">Email</label><br/>
+                    {{ form.username }}
+                </div>
+                <div class="fieldWrapper">
+                    {{ form.password.errors }}
+                    {{ form.password.label_tag }}<br/>
+                    {{ form.password }}
+                </div>
+                <br/>
+
+                <div class="actions">
+                    <input type="submit" class="btn primary" value="{% trans 'Log in' %}">&nbsp;
+                    <button type="reset" class="btn">{% trans 'Cancel' %}</button>
+                </div>
+            </fieldset>
+        </form>
+        <p><a href="{% url django.contrib.auth.views.password_reset %}">{% trans "Reset my password" %}</a></p>
+        <script type="text/javascript">
+            $(function () {
+                $(".alert-message").alert();
+                $('#mainForm').submit(function () {
+                    $('#submit').button('loading');
+                })
+            });
+            document.forms[1].elements[2].focus();
+        </script>
+    </div>
+{% endblock %}

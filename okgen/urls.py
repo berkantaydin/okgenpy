@@ -34,7 +34,7 @@ urlpatterns = patterns('',
 
                        # photo gallery
                        (r'^photologue/', include('photologue.urls')),
-
+                       (r'^accounts/', include('registration.backends.default.urls')),
                        # okgen_banks
                        url(r'', include('okgen.okgen.okgen_banks.urls')),
                        # okgen_dreams
@@ -42,8 +42,7 @@ urlpatterns = patterns('',
                        # okgen_cms
                        url(r'', include('okgen.okgen.okgen_cms.urls')),
 
-
-)
+                       )
 
 if settings.DEBUG:
     urlpatterns += staticfiles_urlpatterns()

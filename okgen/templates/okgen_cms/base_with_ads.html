@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+{% load url from future %}
+{% block title %}Türkiye'nin açılış sayfası{% endblock title %}
+{% block container %}
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-lg-2 visible-lg">
+            <h6>ADVERSITEMENTS</h6>
+            {{ ads160x600 }}
+        </div>
+        <div class="col-lg-8 centerarea">
+            {% block content %}
+                <div style="margin-top: 20px;">
+                    <center><a href="http://okgen.com"><img src="{{ STATIC_URL }}img/yandex.png"/></a></center>
+                </div>
+                <h5>Web Arama</h5>
+
+                <div class="searchbar">
+                    <div class="ya-site-form ya-site-form_inited_no"
+                         onclick="return {'bg': 'transparent', 'publicname': 'Ara okgen.com', 'target': '_self', 'language': '{{ lang }}', 'suggest': true, 'tld': 'com.tr', 'site_suggest': true, 'action': 'http://okgen.com/', 'webopt': true, 'fontsize': 16, 'arrow': false, 'fg': '#000000', 'searchid': '2068377', 'logo': 'rb', 'websearch': true, 'type': 2}">
+                        <form action="http://yandex.com.tr/sitesearch" method="get" target="_self"><input type="hidden"
+                                                                                                          name="searchid"
+                                                                                                          value="2068377"/><input
+                                type="hidden" name="l10n" value="tr"/><input type="hidden" name="reqenc"
+                                                                             value=""/><input
+                                type="text" name="text" value=""/><input type="submit" value="Bul"/></form>
+                    </div>
+                    <style type="text/css">.ya-page_js_yes .ya-site-form_inited_no {
+                        display: none;
+                    }</style>
+                    <script type="text/javascript">(function (w, d, c) {
+                        var s = d.createElement('script'), h = d.getElementsByTagName('script')[0], e = d.documentElement;
+                        (' ' + e.className + ' ').indexOf(' ya-page_js_yes ') === -1 && (e.className += ' ya-page_js_yes');
+                        s.type = 'text/javascript';
+                        s.async = true;
+                        s.charset = 'utf-8';
+                        s.src = (d.location.protocol === 'https:' ? 'https:' : 'http:') + '//site.yandex.net/v2.0/js/all.js';
+                        h.parentNode.insertBefore(s, h);
+                        (w[c] || (w[c] = [])).push(function () {
+                            Ya.Site.Form.init()
+                        })
+                    })(window, document, 'yandex_site_callbacks');</script>
+                </div>
+
+                <div id="scrollDivBuyTr">
+                    <ul>
+                        <li>
+                            <a href="https://docs.google.com/spreadsheet/embeddedform?formkey=dGtwRHdUVnN0UW8yVk5TZUtCeXBGQ2c6MA">Okgen'i
+                                geliştirmemize yardımcı olmak ister misiniz?</a></li>
+                        <li><a href="http://www.okgen.com/links/ruya-tabirleri/">Rüyalarınızın sırlarına erişmek artık
+                            çok
+                            kolay</a></li>
+                        <li><a href="http://youtubemp3donusturucu.com">Youtube videolarını ücretsiz MP3 formatına
+                            çevirin.</a></li>
+                        <li><a href="http://www.okgen.com/links/bankalar/">Yeni banka modülümüzü deneyin.</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h6>ADVERSITEMENTS</h6>
+
+                    <div class="ads">
+                        {{ ads728x90 }}
+                    </div>
+                </div>
+                <br/>
+
+                {% load mptt_tags %}
+                <div class="links2">
+                {% recursetree nodes %}
+                    {% if node.children_count > 0 %}
+                        <div class="col-lg-4 pin">
+                            <ul class="nav nav-pills nav-stacked list-group">
+                                <li class="list-group-item active">
+                                    <a href="{% url 'cms_links' node.slug %}">
+                                        <span class="badge pull-right">{{ node.children_count }}</span>
+                                        {{ node.name }}
+                                    </a>
+                                </li>
+                                {% if node.slug == 'bankalar' %}
+                                    {% for link in node.children_five_random %}
+                                        <li class="list-group-item">
+                                            <a href="{% url 'banks_bank' link.slug %}">{{ link.name }}</a>
+                                        </li>
+                                    {% endfor %}
+                                {% elif node.slug == 'ruya-tabirleri' %}
+                                    {% for link in node.children_five_random %}
+                                        <li class="list-group-item">
+                                            <a href="{% url 'dreams_dream' link.slug %}">{{ link.name }}</a>
+                                        </li>
+                                    {% endfor %}
+                                {% else %}
+                                    {% for link in node.children_five_random %}
+                                        <li class="list-group-item">
+                                            <a href="{% url 'cms_link_clicked' link.id %}">{{ link.text }}</a>
+                                        </li>
+                                    {% endfor %}
+                                {% endif %}
+                            </ul>
+                        </div>
+                    {% else %}
+                        <div class="col-lg-4 pin">
+                            <ul class="nav nav-pills nav-stacked">
+                                <li class="active lonely" style="width:100%">
+                                    <a href="{% url 'cms_links' node.slug %}">
+                                        {{ node.name }}
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    {% endif %}
+                {% endrecursetree %}
+
+
+            {% endblock %}
+            </div>
+
+
+        </div>
+        <div class="col-lg-2 visible-lg">
+            <h6>ADVERSITEMENTS</h6>
+            {{ ads160x600 }}
+        </div>
+    </div>
+    <hr>
+
+{% endblock container %}

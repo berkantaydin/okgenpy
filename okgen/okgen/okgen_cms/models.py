@@ -8,7 +8,7 @@ from okgen.okgen.okgen_dreams.models import Dreams
 
 
 class Words(models.Model):
-    word = models.CharField(max_length=255)
+    word = models.TextField()
     viewed = models.IntegerField(default=0)
     hidden = models.BooleanField(default=False)
 

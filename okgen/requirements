@@ -1,11 +1,11 @@
+MySQL-python
 Django==1.4.6
 django_extensions
 gunicorn
 south
 django_suit
 django_mptt
-django-allauth
 django-avatar
 django-photologue
 django-tagging
-django-userena
+django-registration
