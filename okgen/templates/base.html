@@ -124,11 +124,7 @@
     <script src="{{ STATIC_URL }}js/vendor/LAB.min.js"></script>
     <script>
         $LAB
-            //.script("
-                {{ STATIC_URL }}js/vendor/modernizr-2.6.2-respond-1.1.0.min.js")
                 .script("//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js")
-            //.script("
-                {{ STATIC_URL }}js/vendor/jquery-1.10.1.min.js").wait(function () {
                 .script("//code.jquery.com/jquery-2.0.3.min.js").wait(function () {
                     jQuery(document).ready(function () {
 
@@ -147,14 +143,8 @@
 
                     });
                 })
-            //.script("
-                {{ STATIC_URL }}js/vendor/bootstrap.min.js")
                 .script("//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js")
-            //.script("
-                {{ STATIC_URL }}js/vendor/masonry.pkgd.min.js")
                 .script("//cdnjs.cloudflare.com/ajax/libs/masonry/3.1.1/masonry.pkgd.js")
-            //.script("
-                {{ STATIC_URL }}js/vendor/jquery.cookie.js").wait()
                 .script("//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.min.js").wait()
                 .script("{{ STATIC_URL }}js/main.js?v=42").wait()
                 .script("http://www.microsofttranslator.com/ajax/v3/WidgetV3.ashx?siteData=UQ_o4DpgG-__8m_Z11ZE6GlyEFaKiPmzd0uTyq-W7hJ73vWf5r_6_R703TsfSkplhIB6881q1P6atZyMbw8Z9vPWm7H2vruYxbVJbg4SeOZXiJnr4c_yTxO_r1jzoid2&ctf=True&ui=true&settings=Auto&from=tr")
