@@ -23,11 +23,6 @@
 
         <link rel="chrome-webstore-item"
               href="https://chrome.google.com/webstore/detail/lhffdghomhagfkackmjajfjnpbfnhbcc">
-
-        <!-- <link rel="stylesheet" href="{{ STATIC_URL }}css/cosmo.css">-->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.0.0/cosmo/bootstrap.min.css">
-        <link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="{{ STATIC_URL }}css/main.css?v=42">
         <script>
             var _prum = [
                 ['id', '5253d0e5abe53da817000000'],
@@ -66,20 +61,14 @@
                     <li class="active"><a href="#" id="currency_dolar">&nbsp;</a></li>
                     <li class="active"><a href="#" id="currency_euro">&nbsp;</a></li>
                     <li><a href="{% url 'cms_searched_words' 1 %}" target="_blank">En çok aratılanlar</a></li>
-                    <li>
-                        <a href="https://docs.google.com/spreadsheet/embeddedform?formkey=dGtwRHdUVnN0UW8yVk5TZUtCeXBGQ2c6MA"
-                           target="_blank">İletişim</a>
-                    </li>
-                    {% if not user.is_authenticated %}
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                     {% if not user.is_authenticated %}
                     <li><a href="/accounts/register">Kayıt Ol</a></li>
                     <li><a href="/accounts/login">Giriş</a></li>
                     {% else %}
                         <!-- <li><a href="/accounts/profile">Profile</a></li> -->
                     {% endif %}
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <div id='MicrosoftTranslatorWidget' class='Dark'
-                         style='color:white;background-color:#555555;margin-top: -8px;'></div>
                 </ul>
             </div>
             <!--/.navbar-collapse -->
@@ -146,7 +135,6 @@
                 .script("//cdnjs.cloudflare.com/ajax/libs/masonry/3.1.1/masonry.pkgd.js")
                 .script("//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.min.js").wait()
                 .script("{{ STATIC_URL }}js/main.js?v=42").wait()
-                .script("http://www.microsofttranslator.com/ajax/v3/WidgetV3.ashx?siteData=UQ_o4DpgG-__8m_Z11ZE6GlyEFaKiPmzd0uTyq-W7hJ73vWf5r_6_R703TsfSkplhIB6881q1P6atZyMbw8Z9vPWm7H2vruYxbVJbg4SeOZXiJnr4c_yTxO_r1jzoid2&ctf=True&ui=true&settings=Auto&from=tr")
     </script>
 
     <script>
