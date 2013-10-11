@@ -65,16 +65,10 @@
                     <li class="active"><a href="#" id="weather">&nbsp;</a></li>
                     <li class="active"><a href="#" id="currency_dolar">&nbsp;</a></li>
                     <li class="active"><a href="#" id="currency_euro">&nbsp;</a></li>
-                    <li class="active" style="padding-top: 20px;">
-                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- okgen468x15 -->
-                        <ins class="adsbygoogle"
-                             style="display:inline-block;width:468px;height:15px"
-                             data-ad-client="ca-pub-9516652609628392"
-                             data-ad-slot="8198414388"></ins>
-                        <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>
+                    <li><a href="{% url 'cms_searched_words' 1 %}" target="_blank">En çok aratılanlar</a></li>
+                    <li>
+                        <a href="https://docs.google.com/spreadsheet/embeddedform?formkey=dGtwRHdUVnN0UW8yVk5TZUtCeXBGQ2c6MA"
+                           target="_blank">İletişim</a>
                     </li>
                     {% if not user.is_authenticated %}
                     <li><a href="/accounts/register">Kayıt Ol</a></li>
