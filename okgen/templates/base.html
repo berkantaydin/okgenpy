@@ -130,7 +130,11 @@
                                 event.preventDefault(); // don't open the link yet
                                 ga('send', 'event', 'link', href, text);
                                 setTimeout(function () { // now wait 300 milliseconds...
-                                    window.open(href, (!target ? "_self" : target)); // ...and open the link as usual
+                                    if (href.indexOf("okgen") != -1) {
+                                        window.open("http://okgen.com/link_clicked/0/?url=" + href, (!target ? "_self" : target));
+                                    } else {
+                                        window.open(href, (!target ? "_self" : target)); // ...and open the link as usual
+                                    }
                                 }, 300);
                             });
                         });
@@ -140,7 +144,7 @@
                 .script("//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js")
                 .script("//cdnjs.cloudflare.com/ajax/libs/masonry/3.1.1/masonry.pkgd.js")
                 .script("//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.min.js").wait()
-                .script("{{ STATIC_URL }}js/main.js?v=42").wait()
+                .script("{{ STATIC_URL }}js/main.js?v=43").wait()
     </script>
 
     <script>

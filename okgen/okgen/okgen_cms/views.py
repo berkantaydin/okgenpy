@@ -69,11 +69,14 @@ def landing(request):
 
 
 def link_clicked(request, id):
-    link = get_object_or_404(Links, pk=id)
-    link.clicked += 1
-    link.save()
-    #return redirect(link.link)
-    return render(request, 'okgen_cms/iframe.html', dict(link=link.link))
+    link = request.GET.get('url', None)
+    if link is None:
+        link = get_object_or_404(Links, pk=id)
+        link.clicked += 1
+        link.save()
+        #return redirect(link.link)
+        link = link.link
+    return render(request, 'okgen_cms/iframe.html', dict(link=link))
 
 
 def links(request, slug):
