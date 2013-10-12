@@ -99,6 +99,6 @@ $(function () {
         itemSelector: '.pin'
     });
     }catch(e){
-        
+
     }
 });
