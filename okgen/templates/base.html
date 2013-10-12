@@ -133,7 +133,7 @@
                                     if (href[0] == '#')
                                         return
 
-                                    if (href.indexOf("okgen") == -1 || href[0] != '/') {
+                                    if (href.indexOf("okgen") == -1 && href[0] != '/') {
                                         window.open("http://okgen.com/link_clicked/0/?url=" + href, (!target ? "_self" : target));
                                     } else {
                                         window.open(href, (!target ? "_self" : target)); // ...and open the link as usual
