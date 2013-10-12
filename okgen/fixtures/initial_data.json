@@ -18118,7 +18118,7 @@
         "fields": {
             "hidden": false, 
             "word": "facebook", 
-            "viewed": 5194
+            "viewed": 5196
         }
     }, 
     {
@@ -18154,7 +18154,7 @@
         "fields": {
             "hidden": true, 
             "word": "facebook giri\u015f", 
-            "viewed": 1103
+            "viewed": 1104
         }
     }, 
     {
@@ -18406,7 +18406,7 @@
         "fields": {
             "hidden": true, 
             "word": "google.com", 
-            "viewed": 938
+            "viewed": 941
         }
     }, 
     {
@@ -20089,7 +20089,7 @@
         "fields": {
             "hidden": false, 
             "word": "gazeteler", 
-            "viewed": 116
+            "viewed": 117
         }
     }, 
     {
@@ -35110,7 +35110,7 @@
         "fields": {
             "hidden": false, 
             "word": "2 ki\u015filik alt\u0131n avc\u0131s\u0131", 
-            "viewed": 7
+            "viewed": 8
         }
     }, 
     {
@@ -69004,7 +69004,7 @@
         "fields": {
             "hidden": false, 
             "word": "recep ivedik karate sahnesi", 
-            "viewed": 3
+            "viewed": 4
         }
     }, 
     {
@@ -114832,7 +114832,7 @@
         "fields": {
             "hidden": false, 
             "word": "sagopa istisnalar kaideyi bozmaz s\u00f6zleri", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -157465,7 +157465,7 @@
         "fields": {
             "hidden": false, 
             "word": "liseli k\u0131zlar xes", 
-            "viewed": 1
+            "viewed": 2
         }
     }, 
     {
@@ -157510,6 +157510,105 @@
         "fields": {
             "hidden": false, 
             "word": "lc wakiki", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 15494, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "g\u00f6t sikme g\u00f6r", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 15495, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "google", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 15496, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "google", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 15497, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "k\u00f6tebeg\u00fcler", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 15498, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "ford fiesta 2013 kampanya", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 15499, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "pornovideo", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 15500, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "\u00e7om\u00fc yurtlar\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 15501, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "sex manyag\u0131", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 15502, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "k\u00f6tebeg\u00fcler\u00e7izgivilimiyeib\u00f6l\u00fcm\u00fc", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 15503, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "nesine", 
+            "viewed": 1
+        }
+    }, 
+    {
+        "pk": 15504, 
+        "model": "okgen_cms.words", 
+        "fields": {
+            "hidden": false, 
+            "word": "trt \u00e7ocuk oyunlar\u0131", 
             "viewed": 1
         }
     }, 
@@ -157844,7 +157943,7 @@
             "text": "google", 
             "hidden": false, 
             "link": "http://www.google.com.tr", 
-            "clicked": 5018
+            "clicked": 5019
         }
     }, 
     {
@@ -158790,7 +158889,7 @@
             "text": "yandex", 
             "hidden": false, 
             "link": "http://www.yandex.com.tr/", 
-            "clicked": 69
+            "clicked": 72
         }
     }, 
     {
