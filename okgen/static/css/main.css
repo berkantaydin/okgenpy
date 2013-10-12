@@ -179,3 +179,8 @@ body {
 .links2 .lonely{
     padding-bottom: 14px;
 }
+
+.banks .thumbnail h6{
+    white-space: nowrap;
+    overflow: hidden;
+}
