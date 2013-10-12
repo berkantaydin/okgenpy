@@ -3,6 +3,7 @@ Django==1.4.6
 django_extensions
 gunicorn
 south
+django-smuggler
 django_suit
 django_mptt
 django-avatar

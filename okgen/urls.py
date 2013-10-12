@@ -23,6 +23,7 @@ sitemaps = {
 }
 
 urlpatterns = patterns('',
+                       (r'^admin/', include('smuggler.urls')), # put it before admin url patterns
                        (r'^admin/', include(admin.site.urls)),
 
                        # sitemaps
@@ -42,7 +43,7 @@ urlpatterns = patterns('',
                        # okgen_cms
                        url(r'', include('okgen.okgen.okgen_cms.urls')),
 
-                       )
+)
 
 if settings.DEBUG:
     urlpatterns += staticfiles_urlpatterns()

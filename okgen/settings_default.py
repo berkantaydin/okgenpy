@@ -156,6 +156,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.flatpages',
     # Bootstrap for Django Admin
+    'smuggler',
     'suit',
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
