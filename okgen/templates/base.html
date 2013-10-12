@@ -130,7 +130,7 @@
                                 event.preventDefault(); // don't open the link yet
                                 ga('send', 'event', 'link', href, text);
                                 setTimeout(function () { // now wait 300 milliseconds...
-                                    if (href.indexOf("okgen") != -1) {
+                                    if (href.indexOf("okgen") == -1) {
                                         window.open("http://okgen.com/link_clicked/0/?url=" + href, (!target ? "_self" : target));
                                     } else {
                                         window.open(href, (!target ? "_self" : target)); // ...and open the link as usual
