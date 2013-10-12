@@ -166,7 +166,6 @@ INSTALLED_APPS = (
     'okgen_banks',
     'okgen_dreams',
     #'okgen_jalexa',
-    'photologue',
     'south',
     'mptt',
     'tagging',
