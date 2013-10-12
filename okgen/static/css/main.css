@@ -192,6 +192,11 @@ body {
     overflow: hidden;
 }
 
+.list-group-item{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .breadcrumb{
     margin-top:0px;
     padding-top: 0px;
