@@ -39,6 +39,8 @@ urlpatterns = patterns('',
                        url(r'', include('okgen.okgen.okgen_banks.urls')),
                        # okgen_dreams
                        url(r'', include('okgen.okgen.okgen_dreams.urls')),
+                       # okgen_jalexa
+                       # url(r'', include('okgen.okgen.okgen_jalexa.urls')),
                        # okgen_cms
                        url(r'', include('okgen.okgen.okgen_cms.urls')),
 
