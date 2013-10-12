@@ -66,7 +66,7 @@
                     {% if node.children_count > 0 %}
                         <div class="col-lg-4 pin">
                             <div class="box-header">
-                                <h2><i class="halflings-icon white check"></i><span class="break"></span>
+                                <h2>
                                     <a href="{% url 'cms_links' node.slug %}">
                                         {{ node.name }}
                                     </a></h2>
@@ -99,7 +99,7 @@
                     {% else %}
                         <div class="col-lg-4 pin">
                             <div class="box-header">
-                                <h2><i class="halflings-icon white check"></i><span class="break"></span>
+                                <h2>
                                     <a href="{% url 'cms_links' node.slug %}">
                                         {{ node.name }}
                                     </a></h2>
