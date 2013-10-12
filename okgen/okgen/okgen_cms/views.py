@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from math import log
 
 from django.conf import settings
@@ -20,7 +21,7 @@ def landing(request):
         if word.find("facebook") != -1:
             redirect = "http://www.facebook.com"
 
-        if word.find("porno") != -1:
+        if word.find("porno") != -1 or word.find("sikiş") != -1:
             redirect = "http://www.sikisicin.com"
 
     if word is not None and len(word) > 1:
@@ -86,8 +87,10 @@ def links(request, slug):
 def searched_words(request, page=1):
     lang = (request.GET.get('lang', request.LANGUAGE_CODE))
 
-    words = Words.objects.filter(hidden=False).order_by('word').order_by('-viewed').all()
-    paginator = Paginator(words, 50)
+    words = Words.objects.filter(hidden=False).exclude(
+        word__contains='porn').exclude(
+        word__contains='sikiş').order_by('word').order_by('-viewed').all()
+    paginator = Paginator(words, 500)
 
     try:
         words = paginator.page(page)
