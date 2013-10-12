@@ -93,8 +93,12 @@ $(function () {
     $("#scrollDiv").Scroll({line: 1, speed: 300, timer: 2000});
     $("#scrollDivBuyTr").Scroll({line: 1, speed: 300, timer: 2000});
 
+    try{
     var container = document.querySelector('.links2');
     var msnry = new Masonry(container, {
         itemSelector: '.pin'
     });
+    }catch(e){
+        
+    }
 });
