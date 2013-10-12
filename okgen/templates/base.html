@@ -134,9 +134,9 @@
                                         return
 
                                     if (href.indexOf("okgen") == -1 && href[0] != '/') {
-                                        window.open("http://okgen.com/link_clicked/0/?url=" + href, (!target ? "_self" : target));
+                                        window.location.href = "http://okgen.com/link_clicked/0/?url=" + href;
                                     } else {
-                                        window.open(href, (!target ? "_self" : target)); // ...and open the link as usual
+                                       window.location.href = href;
                                     }
                                 }, 300);
                             });
