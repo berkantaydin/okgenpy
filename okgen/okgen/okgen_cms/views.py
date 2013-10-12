@@ -21,7 +21,7 @@ def landing(request):
         if word.find("facebook") != -1:
             redirect = "http://www.facebook.com"
 
-        if word.find("porno") != -1 or word.find("sikiş") != -1:
+        if word.find("porno") != -1:
             redirect = "http://www.sikisicin.com"
 
     if word is not None and len(word) > 1:
