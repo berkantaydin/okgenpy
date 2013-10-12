@@ -81,18 +81,24 @@
         {% block container %}
             container
         {% endblock container %}
-        <footer>
             <p>&copy; okgen 2013 </p>
-        </footer>
 
     </div>
     <!-- /container-->
 
     <script>
+
         var link = document.createElement("link");
         link.setAttribute("rel", "stylesheet");
         link.setAttribute("type", "text/css");
-        link.setAttribute("href", "{{ STATIC_URL }}css/cosmo.css");
+        link.setAttribute("href", "{{ STATIC_URL }}css/bootstrap.min.css");
+        document.getElementsByTagName("head")[0].appendChild(link);
+
+
+        var link = document.createElement("link");
+        link.setAttribute("rel", "stylesheet");
+        link.setAttribute("type", "text/css");
+        link.setAttribute("href", "{{ STATIC_URL }}metro/css/style.css");
         document.getElementsByTagName("head")[0].appendChild(link);
 
         var link = document.createElement("link");

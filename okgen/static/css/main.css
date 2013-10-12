@@ -184,3 +184,18 @@ body {
     white-space: nowrap;
     overflow: hidden;
 }
+
+.box-header{
+    margin-top:10px;
+    height: 36px;
+}
+
+.breadcrumb{
+    margin-top:0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.breadcrumb li{
+    background: none !important;
+}
