@@ -21,9 +21,6 @@ def landing(request):
         if word.find("facebook") != -1:
             redirect = "http://www.facebook.com"
 
-        if word.find("porno") != -1:
-            redirect = "http://www.sikisicin.com"
-
     if word is not None and len(word) > 1:
         try:
             word = Words.objects.filter(word=word.lower()).get(word=word)
