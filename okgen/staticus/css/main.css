@@ -179,3 +179,25 @@ body {
 .links2 .lonely{
     padding-bottom: 14px;
 }
+
+.banks .thumbnail h6{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.box-header{
+    margin-top:10px;
+    height: 36px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.breadcrumb{
+    margin-top:0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.breadcrumb li{
+    background: none !important;
+}
