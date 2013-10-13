@@ -68,11 +68,8 @@ def landing(request):
 def link_clicked(request, id):
     link = request.GET.get('url', None)
     if link:
-        if link.find("google") != -1:
-            redirect = "http://www.google.com.tr"
-
-        if link.find("facebook") != -1:
-            redirect = "http://www.facebook.com"
+        if link.find("google") != -1 or link.find("facebook") != -1:
+            redirect = link
 
 
     if link is None:
