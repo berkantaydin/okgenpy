@@ -206,3 +206,8 @@ body {
 .breadcrumb li{
     background: none !important;
 }
+
+.gsc-results .gsc-webResult{
+    border: none !important;
+    background: #F5F5F5 !important;
+}

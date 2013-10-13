@@ -3,13 +3,7 @@
 {% block container %}
     <!-- Example row of columns -->
     <div class="row">
-        <div class="col-lg-2 visible-lg">
-            <h6>ADVERTISEMENTS</h6>
-            <ul class="nav nav-pills nav-stacked span-most-downloaded">
-                <script language="javascript" src="http://www.cpmfun.com/getad.php?45768;79816;160x600"></script>
-            </ul>
-        </div>
-        <div class="col-lg-8 centerarea">
+        <div class="col-lg-12 centerarea">
             <h5>Web Arama</h5>
 
             <div class="searchbar">
@@ -38,28 +32,21 @@
                 })(window, document, 'yandex_site_callbacks');</script>
             </div>
             <div class="searchresults">
-                <div id="ya-site-results"
-                     onclick="return {'tld': 'com.tr', 'language': '{{ lang }}', 'encoding': '', 'htmlcss': '1.x', 'updatehash': true}"></div>
-                <script type="text/javascript">(function (w, d, c) {
-                    var s = d.createElement('script'), h = d.getElementsByTagName('script')[0];
-                    s.type = 'text/javascript';
-                    s.async = true;
-                    s.charset = 'utf-8';
-                    s.src = 'http://site.yandex.net/v2.0/js/all.js';
-                    h.parentNode.insertBefore(s, h);
-                    (w[c] || (w[c] = [])).push(function () {
-                        Ya.Site.Results.init()
-                    })
-                })(window, document, 'yandex_site_callbacks');</script>
+                <script>
+                    (function () {
+                        var cx = '016233851103050852664:7yw6vjs5r_0';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                '//www.google.com/cse/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                    })();
+                </script>
+                <gcse:searchresults-only></gcse:searchresults-only>
             </div>
             <br/>
-
-        </div>
-        <div class="col-lg-2 visible-lg">
-            <h6>ADVERSITEMENTS</h6>
-            <ul class="nav nav-pills nav-stacked span-most-downloaded">
-                <script language="javascript" src="http://www.cpmfun.com/getad.php?45768;79816;160x600"></script>
-            </ul>
 
         </div>
     </div>
