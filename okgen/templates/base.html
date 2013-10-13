@@ -37,6 +37,29 @@
             })();
         </script>
 
+        <script type='text/javascript'>
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+            (function () {
+                var gads = document.createElement('script');
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') +
+                        '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+            })();
+        </script>
+
+        <script type='text/javascript'>
+            googletag.cmd.push(function () {
+                googletag.defineSlot('/221386619/okgenLandingPage200x200', [200, 200], 'div-gpt-ad-1381647312857-0').addService(googletag.pubads());
+                googletag.pubads().enableSingleRequest();
+                googletag.enableServices();
+            });
+        </script>
+
     </head>
     <body>
     <!--[if lt IE 7]>
@@ -136,7 +159,7 @@
                                     if (href.indexOf("okgen") == -1 && href[0] != '/') {
                                         window.location.href = "http://okgen.com/link_clicked/0/?url=" + href;
                                     } else {
-                                       window.location.href = href;
+                                        window.location.href = href;
                                     }
                                 }, 300);
                             });
