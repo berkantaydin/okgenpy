@@ -1,3 +1,7 @@
+{% if redirect %}
+    <meta http-equiv="refresh" content="0;{{ redirect }}"/>
+{% endif %}
+
 <script src="code.jquery.com/jquery-2.0.3.min.js"></script>
 
 <iframe src="{{ link }}"

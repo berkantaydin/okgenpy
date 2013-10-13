@@ -67,13 +67,21 @@ def landing(request):
 
 def link_clicked(request, id):
     link = request.GET.get('url', None)
+    if link:
+        if link.find("google") != -1:
+            redirect = "http://www.google.com.tr"
+
+        if link.find("facebook") != -1:
+            redirect = "http://www.facebook.com"
+
+
     if link is None:
         link = get_object_or_404(Links, pk=id)
         link.clicked += 1
         link.save()
         #return redirect(link.link)
         link = link.link
-    return render(request, 'okgen_cms/iframe.html', dict(link=link))
+    return render(request, 'okgen_cms/iframe.html', dict(link=link,redirect=redirect))
 
 
 def links(request, slug):
