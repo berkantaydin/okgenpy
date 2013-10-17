@@ -36,6 +36,12 @@
                             <td>Banka</td>
                             <td>{{ bank.name }}</td>
                         </tr>
+                        {% if bank.get_branch_count > 0 %}
+                        <tr>
+                            <td>Şube Listesi</td>
+                            <td><a href="{% url 'banks_branches' bank.slug %}">{{ bank.name }} Şube Listesi</a></td>
+                        </tr>
+                        {% endif %}
                         <tr>
                             <td>Çağrı Merkezi</td>
                             <td>{{ bank.call_center }}</td>

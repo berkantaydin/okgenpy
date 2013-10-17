@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% load url from future %}
-{% block title %}Bankalar > {{ bank.name }} > Şubeler{% endblock title %}
+{% block title %}{{ bank.name }} Şubeleri{% endblock title %}
 {% block container %}
     <!-- Example row of columns -->
     <div class="row">
@@ -9,29 +9,15 @@
             {{ ads160x600 }}
         </div>
         <div class="col-lg-8 centerarea">
-            <h1>Bankalar</h1>
+            <h1>{{ bank.name }} Şubeleri</h1>
 
             <div class="visible-sm">
                 {{ ads728x90 }}
             </div>
 
-            <div class="banks">
-                {% for bank in banks %}
-                    <div class="col-lg-4">
-                        <div class="thumbnail">
-                            <a href="{% url 'banks_bank' bank.slug %}">
-                                <center><img src="{{ MEDIA_URL }}{{ bank.image }}" alt="{{ bank.name }}"></center>
-                            </a>
-
-                            <div class="caption">
-                                <h6>{{ bank.name }}</h6>
-
-                                <p>
-                                    <a href="{% url 'banks_bank' bank.slug %}" class="btn btn-primary">Bilgiler</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="links">
+                {% for branch in branches %}
+                        <a href="{% url 'banks_branch' branch.id %}"><li><b>{{ branch.city }}</b> <br/> {% if branch.name == branch.city %}Merkez{% else %}{{ branch.name }}{% endif %}</li></a>
                 {% endfor %}
             </div>
             <div class="clearfix"></div>

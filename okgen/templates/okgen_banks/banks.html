@@ -28,7 +28,9 @@
 
                                 <p>
                                     <a href="{% url 'banks_bank' bank.slug %}" class="btn btn-primary">Bilgiler</a>
-                                    <!-- <a href="{% url 'banks_branches' bank.slug %}" class="btn btn-default">Şubeler</a>-->
+                                    {% if bank.get_branch_count > 0 %}
+                                        <a href="{% url 'banks_branches' bank.slug %}" class="pull-right btn">Şubeler</a>
+                                    {% endif %}
                                 </p>
                             </div>
                         </div>

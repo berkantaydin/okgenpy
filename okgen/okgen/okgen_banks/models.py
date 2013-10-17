@@ -61,7 +61,7 @@ class Banks(models.Model):
         return self.name
 
     def get_branch_count(self):
-        return 0
+        return Branches.objects.filter(bank=self.id).count()
 
     def get_absolute_url(self):
         return reverse('banks_bank', args={self.slug})
@@ -76,15 +76,13 @@ class Banks(models.Model):
 
 class Branches(models.Model):
     name = models.CharField(max_length=255)
-    slug = AutoSlugField(max_length=50, unique=True, populate_from=('name',))
+    #slug = AutoSlugField(max_length=50, unique=True, populate_from=('name',))
     bank = models.ForeignKey(Banks)
-    city = models.ForeignKey(City)
-    town = models.ForeignKey(Town)
-    branch_code = models.CharField(max_length=20)
-    swift_code = models.CharField(max_length=20)
+    city = models.TextField()
+    town = models.TextField()
     phone = models.CharField(max_length=255)
-    fax = models.CharField(max_length=255)
-    opentime = models.TextField(null=True)
+    pbx = models.CharField(max_length=255)
+    opendate = models.TextField(null=True)
     address = models.TextField(null=True)
     viewed = models.IntegerField(default=0)
 

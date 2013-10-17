@@ -9,14 +9,18 @@ def banks(request):
 
 def bank(request, slug):
     bank = get_object_or_404(Banks, slug=slug)
+    bank.viewed += 1
+    bank.save()
     return render(request, 'okgen_banks/bank.html', dict(bank=bank))
 
 
 def branches(request, slug):
-    branches = Branches.objects.all()
-    return render(request, 'okgen_banks/branches.html', dict(branches=branches))
+    bank = get_object_or_404(Banks, slug=slug)
+    branches = Branches.objects.filter(bank=bank).order_by('city').all()
+    return render(request, 'okgen_banks/branches.html', dict(bank=bank, branches=branches))
 
 
-def branch(request, slug):
-    branch = get_object_or_404(Branches, slug=slug)
-    return render(request, 'okgen_banks/branch.html', dict(banks=branch))
+def branch(request, id):
+    branch = get_object_or_404(Branches, id=id)
+    bank = branch.bank
+    return render(request, 'okgen_banks/branch.html', dict(bank=bank, branch=branch))
