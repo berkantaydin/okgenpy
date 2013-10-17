@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+{% load url from future %}
+{% block title %}Bankalar > {{ bank.name }}{% endblock title %}
+{% block container %}
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-lg-2 visible-lg">
+            <h6>ADVERSITEMENTS</h6>
+            {{ ads160x600 }}
+        </div>
+        <div class="col-lg-8 centerarea">
+
+            <ol class="breadcrumb">
+                <li><a href="{% url 'banks_banks' %}">Bankalar</a></li>
+                <li><a href="{% url 'banks_bank' bank.slug %}">{{ bank.name }}</a></li>
+                <li class="active">{{ bank.name }}</li>
+            </ol>
+
+            <h1>{{ bank.name }} {{ branch.town }} {% if branch.name == branch.city %}Merkez{% else %}{{ branch.name }}{% endif %} Şubesi</h1>
+
+            <div class="visible-sm">
+                {{ ads728x90 }}
+            </div>
+
+            <div class="banks">
+                <div class="panel panel-default">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">{{ bank.name }} Bankası {{ branch.city }} {% if branch.name == branch.city %}Merkez{% else %}{{ branch.name }}{% endif %} Şubesi Bilgileri</div>
+
+                    <!-- Table -->
+                    <table class="table">
+                        <tr>
+                            <td style="width: 140px;">Banka Logosu</td>
+                            <td><img src="{{ MEDIA_URL }}{{ bank.image }}"/></td>
+                        </tr>
+                        <tr>
+                            <td>Banka</td>
+                            <td>{{ bank.name }}</td>
+                        </tr>
+                        <tr>
+                            <td>Şube Adı</td>
+                            <td>{{ branch.name }}</td>
+                        </tr>
+                        <tr>
+                            <td>Telefon</td>
+                            <td>{{ branch.phone }}</td>
+                        </tr>
+                        <tr>
+                            <td>Fax</td>
+                            <td>{{ branch.pbx }}</td>
+                        </tr>
+                        <tr>
+                            <td>Web Adresi</td>
+                            <td><a target="_blank" href="{{ bank.web_url }}">{{ bank.web_url }}</a></td>
+                        </tr>
+                        <tr>
+                            <td>Tarihçe</td>
+                            <td>{{ bank.history }}</td>
+                        </tr>
+                        <tr>
+                            <td>Şube Açılış Zamanı</td>
+                            <td>{{ branch.opendate }}</td>
+                        </tr>
+                        <tr>
+                            <td>Şube Adresi</td>
+                            <td>{{ branch.address }}</td>
+                        </tr>
+                        <tr>
+                            <td>Genel Merkez Bilgileri</td>
+                            <td>{{ bank.general_address }}</td>
+                        </tr>
+                        <tr>
+                            <td>İlçe</td>
+                            <td>{{ branch.town|capfirst }}</td>
+                        </tr>
+                        <tr>
+                            <td>İl</td>
+                            <td>{{ branch.city|capfirst }}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-lg-2 visible-lg">
+            <h6>ADVERSITEMENTS</h6>
+            {{ ads160x600 }}
+        </div>
+    </div>
+    <hr>
+
+{% endblock container %}
