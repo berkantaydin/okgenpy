@@ -192,6 +192,11 @@ body {
     overflow: hidden;
 }
 
+.list-group-item{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .breadcrumb{
     margin-top:0px;
     padding-top: 0px;
@@ -200,4 +205,18 @@ body {
 
 .breadcrumb li{
     background: none !important;
+}
+
+.gsc-results .gsc-webResult{
+    border: none !important;
+    background: #F5F5F5 !important;
+}
+
+.gsc-expansionArea{
+    border: none !important;
+    background: #F5F5F5 !important;
+}
+
+.gsc-tabHeader{
+    height: 30px !important;
 }
