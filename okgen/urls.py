@@ -8,7 +8,6 @@ from django.contrib.sitemaps.views import index as sitemap_index, sitemap
 from okgen.okgen_banks.sitemap import BanksSitemap
 from okgen.okgen_dreams.sitemap import DreamsSitemap
 from okgen.okgen_cms.sitemap import CategoriesSitemap, LinksSitemap, WordsSitemap
-from photologue.sitemaps import GallerySitemap, PhotoSitemap
 
 admin.autodiscover()
 
@@ -21,8 +20,6 @@ sitemaps = {
     "linkcats": CategoriesSitemap,
     "links": LinksSitemap,
     #"words": WordsSitemap,
-    'photologue_galleries': GallerySitemap,
-    'photologue_photos': PhotoSitemap,
 }
 
 urlpatterns = patterns('',
