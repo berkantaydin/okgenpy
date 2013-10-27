@@ -85,7 +85,9 @@
 
     <div class="container">
         {% block container %}
-            container
+            {% block content %}
+                container
+            {% endblock content %}
         {% endblock container %}
         <p>&copy; okgen 2013 </p>
 
