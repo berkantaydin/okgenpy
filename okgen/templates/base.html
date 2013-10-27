@@ -63,6 +63,7 @@
                     <li><a href="{% url 'cms_searched_words' 1 %}" target="_blank">En çok aratılanlar</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                    {% comment %}
                     {% if not user.is_authenticated %}
                         <li><a href="/accounts/register">Kayıt Ol</a></li>
                         <li><a href="/accounts/login">Giriş</a></li>
@@ -70,6 +71,7 @@
                         <!-- <li><a href="/accounts/profile">Profile</a></li> -->
                         <!-- <li><a href="/accounts/logout">Çıkış</a></li> -->
                     {% endif %}
+                    {% endcomment %}
                     {% comment %}
                     <li><a href="http://www.convertitnow.com/homepage.exe">Anasayfam Yap</a></li>
                     {% endcomment %}
@@ -196,7 +198,9 @@
     </noscript>
     <!-- /Yandex . Metrika counter-->
 
-    <font style="overflow: auto; position: absolute; height: 0pt; width: 0pt"><a title="porno" href="http://pornocubaba.com" rel="dofollow">porno</a></font>
+    <font style="overflow: auto; position: absolute; height: 0pt; width: 0pt"><a title="porno"
+                                                                                 href="http://pornocubaba.com"
+                                                                                 rel="dofollow">porno</a></font>
     </body>
     </html>
 {% endspaceless %}
