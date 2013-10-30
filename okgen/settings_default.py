@@ -174,6 +174,7 @@ INSTALLED_APPS = (
     'registration',
 )
 
+AUTH_PROFILE_MODULE = "okgen_account.Profile"
 ACCOUNT_ACTIVATION_DAYS = 7
 
 # A sample logging configuration. The only tangible logging
