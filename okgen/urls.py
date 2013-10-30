@@ -33,7 +33,8 @@ urlpatterns = patterns('',
                        (r'^sitemap-(?P<section>.+)\.xml', sitemap,
                         {'sitemaps': sitemaps, 'template_name': 'sitemap.html'}),
 
-                       (r'^accounts/', include('registration.backends.default.urls')),
+                       # okgen_account
+                       (r'^accounts/', include('okgen.okgen.okgen_account.urls')),
                        # okgen_banks
                        url(r'', include('okgen.okgen.okgen_banks.urls')),
                        # okgen_dreams

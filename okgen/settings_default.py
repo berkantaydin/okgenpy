@@ -163,6 +163,7 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
     'django_extensions',
     'gunicorn',
+    'okgen_account',
     'okgen_cms',
     'okgen_banks',
     'okgen_dreams',
