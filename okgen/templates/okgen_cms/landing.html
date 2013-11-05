@@ -23,28 +23,9 @@
                             type="hidden" name="l10n" value="tr"/><input type="hidden" name="reqenc" value=""/><input
                             type="text" name="text" value=""/><input type="submit" value="Bul"/></form>
                 </div>
-                <style type="text/css">.ya-page_js_yes .ya-site-form_inited_no {
-                    display: none;
-                }</style>
-                <script type="text/javascript">(function (w, d, c) {
-                    var s = d.createElement('script'), h = d.getElementsByTagName('script')[0], e = d.documentElement;
-                    (' ' + e.className + ' ').indexOf(' ya-page_js_yes ') === -1 && (e.className += ' ya-page_js_yes');
-                    s.type = 'text/javascript';
-                    s.async = true;
-                    s.charset = 'utf-8';
-                    s.src = (d.location.protocol === 'https:' ? 'https:' : 'http:') + '//site.yandex.net/v2.0/js/all.js';
-                    h.parentNode.insertBefore(s, h);
-                    (w[c] || (w[c] = [])).push(function () {
-                        Ya.Site.Form.init()
-                    })
-                })(window, document, 'yandex_site_callbacks');</script>
+                <style type="text/css">.ya-page_js_yes .ya-site-form_inited_no {display: none;}</style>
+                <script type="text/javascript">(function (w, d, c) {var s = d.createElement('script'), h = d.getElementsByTagName('script')[0], e = d.documentElement;(' ' + e.className + ' ').indexOf(' ya-page_js_yes ') === -1 && (e.className += ' ya-page_js_yes');s.type = 'text/javascript';s.async = true;s.charset = 'utf-8';s.src = (d.location.protocol === 'https:' ? 'https:' : 'http:') + '//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s, h);(w[c] || (w[c] = [])).push(function () {Ya.Site.Form.init()})})(window, document, 'yandex_site_callbacks');</script>
             </div>
-
-        <!--
-            <div>
-                <a href="http://mediaget.com/torrent.php?r=okgen.com"><img src="{{ STATIC_URL }}tur_728_90.jpg" /></a>
-            </div>
-        -->
 
             <div id="scrollDivBuyTr">
                 <ul>
@@ -65,52 +46,28 @@
                 <div class="col-lg-4 pin" style="height: 222px">
                     <h6>ADVERSITEMENTS</h6>
                     {{ ads200x200 }}
-                    <ul>
                 </div>
 
                 {% recursetree nodes %}
                     {% if node.children_count > 0 %}
-                        <div class="col-lg-4 pin">
-                            <div class="box-header">
-                                <h2>
-                                    <a href="{% url 'cms_links' node.slug %}">
-                                        {{ node.name }}
-                                    </a></h2>
-
-                                <div class="box-icon">
-                                    {{ node.children_count }}
-                                </div>
-                            </div>
+                        <div class="col-lg-4 pin"><div class="box-header"><h2><a href="{% url 'cms_links' node.slug %}">{{ node.name }}</a></h2><div class="box-icon">{{ node.children_count }}</div></div>
                             {% if node.slug == 'bankalar' %}
                                 {% for link in node.children_five_random %}
-                                    <li class="list-group-item">
-                                        <a href="{% url 'banks_bank' link.slug %}">{{ link.name }}</a>
-                                    </li>
+                                    <li class="list-group-item"><a href="{% url 'banks_bank' link.slug %}">{{ link.name }}</a></li>
                                 {% endfor %}
                             {% elif node.slug == 'ruya-tabirleri' %}
                                 {% for link in node.children_five_random %}
-                                    <li class="list-group-item">
-                                        <a href="{% url 'dreams_dream' link.slug %}">{{ link.name }}</a>
-                                    </li>
+                                    <li class="list-group-item"><a href="{% url 'dreams_dream' link.slug %}">{{ link.name }}</a></li>
                                 {% endfor %}
                             {% else %}
                                 {% for link in node.children_five_random %}
-                                    <li class="list-group-item">
-                                        <a href="{% url 'cms_link_clicked' link.id %}">{{ link.text }}</a>
-                                    </li>
+                                    <li class="list-group-item"><a href="{% url 'cms_link_clicked' link.id %}">{{ link.text }}</a></li>
                                 {% endfor %}
                             {% endif %}
                             </ul>
                         </div>
                     {% else %}
-                        <div class="col-lg-4 pin">
-                            <div class="box-header">
-                                <h2>
-                                    <a href="{% url 'cms_links' node.slug %}">
-                                        {{ node.name }}
-                                    </a></h2>
-                            </div>
-                        </div>
+                        <div class="col-lg-4 pin"><div class="box-header"><h2><a href="{% url 'cms_links' node.slug %}">{{ node.name }}</a></h2></div></div>
                     {% endif %}
                 {% endrecursetree %}
             </div>
