@@ -10,3 +10,4 @@ django-avatar
 django-photologue
 django-tagging
 django-registration
+django_redis_cache

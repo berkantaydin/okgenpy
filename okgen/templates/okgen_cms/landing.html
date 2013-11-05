@@ -1,5 +1,12 @@
 {% extends "base.html" %}
+{% load i18n %}
+{% load cache %}
 {% load url from future %}
+
+{% get_current_language as LANGUAGE_CODE %}
+
+{% cache 600 okgen_cms__landing LANGUAGE_CODE %}
+
 {% block title %}Türkiye'nin açılış sayfası{% endblock title %}
 {% block container %}
     <!-- Example row of columns -->
@@ -130,3 +137,5 @@
     <hr>
 
 {% endblock container %}
+
+{% endcache %}
