@@ -4,9 +4,10 @@ from math import log
 from django.conf import settings
 from django.shortcuts import render, get_object_or_404, get_list_or_404, redirect, HttpResponse
 from django.core.paginator import Paginator, InvalidPage, EmptyPage
+from django.views.decorators.cache import cache_page
 from .models import Categories, Links, Words
 
-
+@cache_page(60 * 15, key_prefix="okgen_cms__landing")
 def landing(request):
     lang = (request.GET.get('lang', request.LANGUAGE_CODE))
 
