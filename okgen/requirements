@@ -10,4 +10,7 @@ django-avatar
 django-photologue
 django-tagging
 django-registration
+django-redis
 django_redis_cache
+django-redis-sessions
+hiredis
