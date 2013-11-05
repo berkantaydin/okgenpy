@@ -1,4 +1,5 @@
 $(function () {
+    /*
     $.ajax({
         url: "http://api.openweathermap.org/data/2.5/weather?q=istanbul,tr",
         type: 'GET',
@@ -25,7 +26,8 @@ $(function () {
             $("#currency_euro").text('€' + ' ' + data.rate.toFixed(2) + ' TL');
         }
     });
-
+    */
+    
     if (jQuery.cookie('test_chrome_app_status_new') != '1') {
 
         var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
