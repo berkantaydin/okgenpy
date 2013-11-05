@@ -20,7 +20,7 @@
         {% if redirect %}
             <meta http-equiv="refresh" content="0;{{ redirect }}"/>
         {% endif %}
-        <link rel="icon" type="image/x-icon" href="{{ STATIC_URL }}favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="{{ STATIC_URL }}favicon.ico"/>
         <link rel="chrome-webstore-item"
               href="https://chrome.google.com/webstore/detail/lhffdghomhagfkackmjajfjnpbfnhbcc">
         <script>
@@ -35,6 +35,70 @@
                 p.src = '//rum-static.pingdom.net/prum.min.js';
                 s.parentNode.insertBefore(p, s);
             })();
+        </script>
+
+        <script>
+
+            var link = document.createElement("link");
+            link.setAttribute("rel", "stylesheet");
+            link.setAttribute("type", "text/css");
+            link.setAttribute("href", "{{ STATIC_URL }}css/bootstrap.min.css");
+            document.getElementsByTagName("head")[0].appendChild(link);
+
+
+            var link = document.createElement("link");
+            link.setAttribute("rel", "stylesheet");
+            link.setAttribute("type", "text/css");
+            link.setAttribute("href", "{{ STATIC_URL }}metro/css/style.css");
+            document.getElementsByTagName("head")[0].appendChild(link);
+
+            var link = document.createElement("link");
+            link.setAttribute("rel", "stylesheet");
+            link.setAttribute("type", "text/css");
+            link.setAttribute("href", "{{ STATIC_URL }}css/bootstrap-theme.min.css");
+            document.getElementsByTagName("head")[0].appendChild(link);
+
+            var link = document.createElement("link");
+            link.setAttribute("rel", "stylesheet");
+            link.setAttribute("type", "text/css");
+            link.setAttribute("href", "{{ STATIC_URL }}css/main.css?v=43");
+            document.getElementsByTagName("head")[0].appendChild(link);
+        </script>
+
+
+        <script src="{{ STATIC_URL }}js/vendor/LAB.min.js"></script>
+        <script>
+            $LAB
+                    .script("//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js")
+                    .script("//code.jquery.com/jquery-2.0.3.min.js").wait(function () {
+                        jQuery(document).ready(function () {
+
+                            jQuery("a").each(function () {
+                                var href = jQuery(this).attr("href");
+                                var target = jQuery(this).attr("target");
+                                var text = jQuery(this).text();
+                                jQuery(this).click(function (event) { // when someone clicks these links
+                                    event.preventDefault(); // don't open the link yet
+                                    ga('send', 'event', 'link', href, text);
+                                    setTimeout(function () { // now wait 300 milliseconds...
+                                        if (href[0] == '#')
+                                            return
+
+                                        if (href.indexOf("okgen") == -1 && href[0] != '/') {
+                                            window.location.href = "http://okgen.com/link_clicked/0/?url=" + href;
+                                        } else {
+                                            window.location.href = href;
+                                        }
+                                    }, 300);
+                                });
+                            });
+
+                        });
+                    })
+                    .script("//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js")
+                    .script("//cdnjs.cloudflare.com/ajax/libs/masonry/3.1.1/masonry.pkgd.js")
+                    .script("//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.min.js").wait()
+                    .script("{{ STATIC_URL }}js/main.js?v=45").wait()
         </script>
 
     </head>
@@ -95,70 +159,6 @@
 
     </div>
     <!-- /container-->
-
-    <script>
-
-        var link = document.createElement("link");
-        link.setAttribute("rel", "stylesheet");
-        link.setAttribute("type", "text/css");
-        link.setAttribute("href", "{{ STATIC_URL }}css/bootstrap.min.css");
-        document.getElementsByTagName("head")[0].appendChild(link);
-
-
-        var link = document.createElement("link");
-        link.setAttribute("rel", "stylesheet");
-        link.setAttribute("type", "text/css");
-        link.setAttribute("href", "{{ STATIC_URL }}metro/css/style.css");
-        document.getElementsByTagName("head")[0].appendChild(link);
-
-        var link = document.createElement("link");
-        link.setAttribute("rel", "stylesheet");
-        link.setAttribute("type", "text/css");
-        link.setAttribute("href", "{{ STATIC_URL }}css/bootstrap-theme.min.css");
-        document.getElementsByTagName("head")[0].appendChild(link);
-
-        var link = document.createElement("link");
-        link.setAttribute("rel", "stylesheet");
-        link.setAttribute("type", "text/css");
-        link.setAttribute("href", "{{ STATIC_URL }}css/main.css?v=43");
-        document.getElementsByTagName("head")[0].appendChild(link);
-    </script>
-
-
-    <script src="{{ STATIC_URL }}js/vendor/LAB.min.js"></script>
-    <script>
-        $LAB
-                .script("//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js")
-                .script("//code.jquery.com/jquery-2.0.3.min.js").wait(function () {
-                    jQuery(document).ready(function () {
-
-                        jQuery("a").each(function () {
-                            var href = jQuery(this).attr("href");
-                            var target = jQuery(this).attr("target");
-                            var text = jQuery(this).text();
-                            jQuery(this).click(function (event) { // when someone clicks these links
-                                event.preventDefault(); // don't open the link yet
-                                ga('send', 'event', 'link', href, text);
-                                setTimeout(function () { // now wait 300 milliseconds...
-                                    if (href[0] == '#')
-                                        return
-
-                                    if (href.indexOf("okgen") == -1 && href[0] != '/') {
-                                        window.location.href = "http://okgen.com/link_clicked/0/?url=" + href;
-                                    } else {
-                                        window.location.href = href;
-                                    }
-                                }, 300);
-                            });
-                        });
-
-                    });
-                })
-                .script("//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js")
-                .script("//cdnjs.cloudflare.com/ajax/libs/masonry/3.1.1/masonry.pkgd.js")
-                .script("//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.min.js").wait()
-                .script("{{ STATIC_URL }}js/main.js?v=45").wait()
-    </script>
 
     <script>
         (function (i, s, o, g, r, a, m) {
