@@ -3,9 +3,7 @@
 {% load cache %}
 {% load url from future %}
 
-{% get_current_language as LANGUAGE_CODE %}
-
-{% cache 600 okgen_cms__landing LANGUAGE_CODE %}
+{% cache 600 okgen_cms__landing lang %}
 
 {% block title %}Türkiye'nin açılış sayfası{% endblock title %}
 {% block container %}
