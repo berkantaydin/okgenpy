@@ -14,3 +14,10 @@ INSTALLED_APPS += ('debug_toolbar',)
 
 # For Session on Redis
 SESSION_ENGINE = 'redis_sessions.session'
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
+        'LOCATION': '/var/tmp/django_cache',
+    }
+}

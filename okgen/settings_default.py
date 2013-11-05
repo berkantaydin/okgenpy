@@ -148,7 +148,6 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 )
 
 INSTALLED_APPS = (
-    'redis_cache',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
