@@ -21,3 +21,5 @@ CACHES = {
         'LOCATION': '/var/tmp/django_cache',
     }
 }
+
+SECRET_KEY = ''

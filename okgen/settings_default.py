@@ -221,9 +221,3 @@ EMAIL_HOST = 'localhost'
 # okgen_cms
 TAG_CLOUD_MAX_FONT_SIZE = 22
 TAG_CLOUD_MIN_FONT_SIZE = 12
-
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'bekowebmaster1@gmail.com'
-EMAIL_HOST_PASSWORD = '94649464'
